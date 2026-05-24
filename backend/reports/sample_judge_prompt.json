@@ -1,0 +1,30 @@
+{
+  "summary": {
+    "total": 1,
+    "ok_rate": 1.0,
+    "preference_satisfaction_avg": 0.0,
+    "practicality_avg": 0.0,
+    "grounding_faithfulness_avg": 0.0,
+    "budget_reasonableness_avg": 0.0,
+    "coherence_avg": 0.0,
+    "overall_quality_avg": 0.0
+  },
+  "records": [
+    {
+      "index": 0,
+      "ok": true,
+      "dry_run": true,
+      "scores": {
+        "preference_satisfaction": 0.0,
+        "practicality": 0.0,
+        "grounding_faithfulness": 0.0,
+        "budget_reasonableness": 0.0,
+        "coherence": 0.0,
+        "overall_quality": 0.0
+      },
+      "major_issues": [],
+      "rationale": "Dry run only. LLM was not called.",
+      "prompt_preview": "Evaluate the following generated travel plan.\n\nScoring dimensions:\n- preference_satisfaction: whether the plan satisfies destination, budget, preferences, pace, and special requirements.\n- practicality: whether daily density, route arrangement, hotel placement, and dining choices are realistic.\n- grounding_faithfulness: whether attractions, hotels, dining, weather, and coordinates look factual and tool-grounded.\n- budget_reasonableness: whether budget fields are internally consistent and reasonable.\n- coherence: whether the plan is coherent, specific, and not repetitive.\n- overall_quality: overall quality.\n\nReturn JSON in this exact shape:\n{\n  \"scores\": {\n    \"preference_satisfaction\": 1,\n    \"practicality\": 1,\n    \"grounding_faithfulness\": 1,\n    \"budget_reasonableness\": 1,\n    \"coherence\": 1,\n    \"overall_quality\": 1\n  },\n  \"major_issues\": [\"issue\"],\n  \"rationale\": \"short explanation\"\n}\n\nUser request, if available:\n{}\n\nTripPlan:\n{\"trip_title\": \"桂林山水休闲三日游\", \"total_budget\": {\"transport_cost\": 300, \"dining_cost\": 360, \"hotel_cost\": 600, \"attraction_ticket_cost\": 240, \"total\": 1500}, \"hotels\": [{\"name\": \"桂林中心酒店\", \"address\": \"桂林市中心\", \"location\": {\"lat\": 25.2736, \"lng\": 110.29}, \"price\": 300, \"rating\": 4.6}], \"days\": [{\"day\": 1, \"theme\": \"城市初见与夜景\", \"weather\": {\"date\": \"2026-06-01\", \"day_weather\": \"晴\", \"night_weather\": \"多云\", \"day_temp\": \"28\", \"night_temp\": \"21\"}, \"recommended_hotel\": {\"name\": \"桂林中心酒店\", \"address\": \"桂林市中心\", \"location\": {\"lat\": 25.2736, \"lng\": 110.29}, \"price\": 300, \"rating\": 4.6}, \"attractions\": [{\"name\": \"两江四湖\", \"type\": \"夜景\", \"rating\": 4.7, \"suggested_duration_hours\": 2, \"description\": \"适合夜景和轻松游船体验。\", \"address\": \"桂林市秀峰区\", \"location\": {\"lat\": 25.2797, \"lng\": 110.2902}, \"image_urls\": [], \"ticket_price\": 120}], \"dinings\": [{\"name\": \"桂林米粉店\", \"address\": \"桂林市中心\", \"location\": {\"lat\": 25.274, \"lng\": 110.291}, \"cost_per_person\": 30, \"rating\": 4.5}], \"budget\": {\"transport_cost\": 100, \"dining_cost\": 120, \"hotel_cost\": 300, \"attraction_ticket_cost\": 120, \"total\": 640}}, {\"day\": 2, \"theme\": \"山水玩水体验\", \"weather\": {\"date\": \"2026-06-02\", \"day_weather\": \"多云\", \"night_weather\": \"阴\", \"day_temp\": \"27\", \"night_temp\": \"22\"}, \"recommended_hotel\": {\"name\": \"桂林中心酒店\", \"address\": \"桂林市中心\", \"location\": {\"lat\": 25.2736, \"lng\": 110.29}, \"price\": 300, \"rating\": 4.6}, \"attractions\": [{\"name\": \"遇龙河\", \"type\": \"自然风光\", \"rating\": 4.8, \"suggested_duration_hours\": 3, \"description\": \"适合竹筏和亲水体验。\", \"address\": \"桂林市阳朔县\", \"location\": {\"lat\": 24.7889, \"lng\": 110.496}, \"image_urls\": [], \"ticket"
+    }
+  ]
+}

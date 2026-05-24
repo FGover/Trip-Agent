@@ -1,0 +1,136 @@
+{
+  "trip_title": "桂林山水休闲三日游",
+  "total_budget": {
+    "transport_cost": 300,
+    "dining_cost": 360,
+    "hotel_cost": 600,
+    "attraction_ticket_cost": 240,
+    "total": 1500
+  },
+  "hotels": [
+    {
+      "name": "桂林中心酒店",
+      "address": "桂林市中心",
+      "location": {
+        "lat": 25.2736,
+        "lng": 110.2900
+      },
+      "price": 300,
+      "rating": 4.6
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "城市初见与夜景",
+      "weather": {
+        "date": "2026-06-01",
+        "day_weather": "晴",
+        "night_weather": "多云",
+        "day_temp": "28",
+        "night_temp": "21"
+      },
+      "recommended_hotel": {
+        "name": "桂林中心酒店",
+        "address": "桂林市中心",
+        "location": {
+          "lat": 25.2736,
+          "lng": 110.2900
+        },
+        "price": 300,
+        "rating": 4.6
+      },
+      "attractions": [
+        {
+          "name": "两江四湖",
+          "type": "夜景",
+          "rating": 4.7,
+          "suggested_duration_hours": 2,
+          "description": "适合夜景和轻松游船体验。",
+          "address": "桂林市秀峰区",
+          "location": {
+            "lat": 25.2797,
+            "lng": 110.2902
+          },
+          "image_urls": [],
+          "ticket_price": 120
+        }
+      ],
+      "dinings": [
+        {
+          "name": "桂林米粉店",
+          "address": "桂林市中心",
+          "location": {
+            "lat": 25.2740,
+            "lng": 110.2910
+          },
+          "cost_per_person": 30,
+          "rating": 4.5
+        }
+      ],
+      "budget": {
+        "transport_cost": 100,
+        "dining_cost": 120,
+        "hotel_cost": 300,
+        "attraction_ticket_cost": 120,
+        "total": 640
+      }
+    },
+    {
+      "day": 2,
+      "theme": "山水玩水体验",
+      "weather": {
+        "date": "2026-06-02",
+        "day_weather": "多云",
+        "night_weather": "阴",
+        "day_temp": "27",
+        "night_temp": "22"
+      },
+      "recommended_hotel": {
+        "name": "桂林中心酒店",
+        "address": "桂林市中心",
+        "location": {
+          "lat": 25.2736,
+          "lng": 110.2900
+        },
+        "price": 300,
+        "rating": 4.6
+      },
+      "attractions": [
+        {
+          "name": "遇龙河",
+          "type": "自然风光",
+          "rating": 4.8,
+          "suggested_duration_hours": 3,
+          "description": "适合竹筏和亲水体验。",
+          "address": "桂林市阳朔县",
+          "location": {
+            "lat": 24.7889,
+            "lng": 110.4960
+          },
+          "image_urls": [],
+          "ticket_price": 120
+        }
+      ],
+      "dinings": [
+        {
+          "name": "阳朔本地菜馆",
+          "address": "阳朔县",
+          "location": {
+            "lat": 24.7785,
+            "lng": 110.4965
+          },
+          "cost_per_person": 60,
+          "rating": 4.6
+        }
+      ],
+      "budget": {
+        "transport_cost": 200,
+        "dining_cost": 240,
+        "hotel_cost": 300,
+        "attraction_ticket_cost": 120,
+        "total": 860
+      }
+    }
+  ]
+}

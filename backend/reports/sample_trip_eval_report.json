@@ -1,0 +1,55 @@
+{
+  "summary": {
+    "total": 1,
+    "schema_ok_rate": 1.0,
+    "hard_pass_rate": 1.0,
+    "soft_pass_rate": 1.0,
+    "budget_consistency_rate": 1.0,
+    "daily_budget_rollup_consistency_rate": 1.0,
+    "attraction_location_rate": 1.0,
+    "hotel_location_rate": 1.0,
+    "dining_location_rate": 1.0
+  },
+  "records": [
+    {
+      "index": 0,
+      "schema_ok": true,
+      "hard_pass": true,
+      "soft_pass": true,
+      "metrics": {
+        "has_title": true,
+        "days_count": 2,
+        "days_non_empty": true,
+        "day_index_ok": true,
+        "daily_theme_ok": true,
+        "daily_weather_present": true,
+        "daily_attractions_present": true,
+        "daily_attraction_count_ok": true,
+        "daily_dining_present": true,
+        "hotel_candidates_present": true,
+        "attraction_total": 2,
+        "attraction_location_rate": 1.0,
+        "dining_total": 2,
+        "dining_location_rate": 1.0,
+        "hotel_total": 3,
+        "hotel_location_rate": 1.0,
+        "budget_total": 1500.0,
+        "budget_parts_sum": 1500.0,
+        "budget_delta": 0.0,
+        "budget_consistent": true,
+        "daily_budget_rollup": {
+          "transport_cost": 300.0,
+          "dining_cost": 360.0,
+          "hotel_cost": 600.0,
+          "attraction_ticket_cost": 240.0,
+          "total": 1500.0
+        },
+        "daily_budget_issues": [],
+        "budget_rollup_issues": [],
+        "daily_budget_rollup_consistent": true
+      },
+      "errors": [],
+      "warnings": []
+    }
+  ]
+}

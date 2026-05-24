@@ -1,0 +1,33 @@
+{
+  "summary": {
+    "total": 1,
+    "ok_rate": 1.0,
+    "preference_satisfaction_avg": 2.0,
+    "practicality_avg": 2.0,
+    "grounding_faithfulness_avg": 3.0,
+    "budget_reasonableness_avg": 3.0,
+    "coherence_avg": 4.0,
+    "overall_quality_avg": 3.0
+  },
+  "records": [
+    {
+      "index": 0,
+      "ok": true,
+      "dry_run": false,
+      "scores": {
+        "preference_satisfaction": 2.0,
+        "practicality": 2.0,
+        "grounding_faithfulness": 3.0,
+        "budget_reasonableness": 3.0,
+        "coherence": 4.0,
+        "overall_quality": 3.0
+      },
+      "major_issues": [
+        "Guilin has no operational metro system, making the 'hotel near metro' requirement impossible to satisfy and completely ignored",
+        "Staying in Guilin city for all 3 nights while scheduling full-day Yangshuo itineraries (60km+ away) on Days 2 and 3 is highly inefficient and contradicts the 'relaxed/not too much walking' preference",
+        "Internal budget inconsistency: daily dining costs sum to 280 RMB, but the total budget lists 600 RMB, causing the daily totals (1930) to mismatch the grand total (2250)"
+      ],
+      "rationale": "The plan effectively targets photography, nature, and local cuisine with a light daily schedule and realistic attraction pricing. However, it fails a key hotel preference due to Guilin's lack of a subway system. The routing is impractical, requiring long daily commutes to Yangshuo while maintaining a Guilin city base, which wastes time and contradicts the relaxed pace. While individual attraction and transport costs are grounded, the dining budget and overall totals contain significant arithmetic inconsistencies. The structure, themes, and descriptions are otherwise clear and coherent."
+    }
+  ]
+}
