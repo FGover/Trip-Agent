@@ -37,7 +37,7 @@
       <el-form :model="formData" :rules="rules" ref="formRef" label-width="120px" label-position="top">
         <el-row :gutter="20">
           <!-- 目的地 -->
-          <el-col :span="12">
+          <el-col :xs="24" :sm="24" :md="12">
             <el-form-item label="目的地" prop="destination">
               <el-select
                 v-model="formData.destination"
@@ -63,7 +63,7 @@
           </el-col>
 
           <!-- 日期范围 -->
-          <el-col :span="12">
+          <el-col :xs="24" :sm="24" :md="12">
             <el-form-item label="出行日期" prop="dateRange">
               <el-date-picker
                 v-model="formData.dateRange"
@@ -83,7 +83,7 @@
 
         <el-row :gutter="20">
           <!-- 旅行偏好 -->
-          <el-col :span="12">
+          <el-col :xs="24" :sm="24" :md="12">
             <el-form-item label="旅行偏好" prop="preferences">
               <el-select
                 v-model="formData.preferences"
@@ -106,7 +106,7 @@
           </el-col>
 
           <!-- 酒店偏好 -->
-          <el-col :span="12">
+          <el-col :xs="24" :sm="24" :md="12">
             <el-form-item label="酒店偏好" prop="hotelPreferences">
               <el-select
                 v-model="formData.hotelPreferences"
@@ -191,7 +191,7 @@
         <p>点击卡片快速填充示例数据</p>
       </div>
       <el-row :gutter="24">
-        <el-col :span="8" v-for="example in examples" :key="example.title">
+        <el-col :xs="24" :sm="24" :md="8" v-for="example in examples" :key="example.title">
           <div class="example-card" @click="fillExample(example)">
             <div class="example-icon-wrapper">
               <div class="example-icon">{{ example.icon }}</div>
@@ -517,7 +517,7 @@ onMounted(() => {
 <style scoped lang="scss">
 .home-container {
   position: relative;
-  min-height: 100vh;
+  min-height: 100%;
   padding: 0;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   overflow: hidden;
@@ -617,9 +617,9 @@ onMounted(() => {
   // 表单卡片
   .form-card {
     position: relative;
-    max-width: 900px;
+    width: min(900px, calc(100% - 32px));
     margin: 0 auto 60px;
-    border-radius: 24px;
+    border-radius: 16px;
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
     animation: fadeInUp 0.8s ease 0.6s backwards;
     z-index: 1;
@@ -727,7 +727,7 @@ onMounted(() => {
 
     .example-card {
       background: white;
-      border-radius: 16px;
+      border-radius: 12px;
       padding: 32px 24px;
       cursor: pointer;
       transition: all 0.3s;
@@ -838,38 +838,104 @@ onMounted(() => {
 // 响应式
 @media (max-width: 768px) {
   .home-container {
+    overflow: visible;
+
     .hero-section {
-      padding: 60px 20px 40px;
+      padding: 36px 12px 28px;
 
       .hero-content {
         .hero-title {
-          font-size: 36px;
+          font-size: 30px;
+          line-height: 1.2;
         }
 
         .hero-subtitle {
-          font-size: 16px;
+          font-size: 15px;
+          margin-bottom: 24px;
         }
 
         .hero-features {
-          flex-direction: column;
-          gap: 16px;
+          display: grid;
+          grid-template-columns: 1fr;
+          gap: 10px;
+
+          .feature-item {
+            justify-content: center;
+            font-size: 14px;
+          }
         }
       }
     }
 
     .form-card {
+      width: 100%;
+      margin-bottom: 36px;
+      border-radius: 12px;
+
       :deep(.el-card__body) {
-        padding: 24px;
+        padding: 18px;
+      }
+
+      :deep(.el-form-item) {
+        margin-bottom: 18px;
+      }
+
+      :deep(.el-date-editor) {
+        width: 100% !important;
       }
 
       .budget-group {
         grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+
+        :deep(.el-radio-button__inner) {
+          padding: 12px 8px;
+          min-height: 76px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+
+      .submit-button {
+        height: 48px;
       }
     }
 
     .example-section {
+      padding: 0 0 48px;
+
+      .section-header {
+        margin-bottom: 20px;
+
+        h3 {
+          font-size: 22px;
+        }
+      }
+
       .example-card {
         margin-bottom: 20px;
+        padding: 24px 18px;
+      }
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .home-container {
+    .form-card {
+      .budget-group {
+        grid-template-columns: 1fr 1fr;
+
+        .budget-option {
+          .budget-icon {
+            font-size: 22px;
+          }
+
+          .budget-text {
+            font-size: 13px;
+          }
+        }
       }
     }
   }

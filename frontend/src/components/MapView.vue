@@ -409,6 +409,38 @@ defineExpose({
   }
 }
 
+@media (max-width: 768px) {
+  .map-container {
+    min-height: 320px;
+    border-radius: 6px;
+
+    .map-controls {
+      top: 10px;
+      right: 10px;
+      left: 10px;
+
+      :deep(.el-button-group) {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+
+      :deep(.el-button) {
+        width: 100%;
+        margin-left: 0;
+        padding-left: 8px;
+        padding-right: 8px;
+      }
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .map-container {
+    min-height: 280px;
+  }
+}
+
 :deep(.custom-marker) {
   position: relative;
   width: 48px;

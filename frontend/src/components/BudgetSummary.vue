@@ -14,7 +14,7 @@
       <!-- 预算概览 -->
       <div class="budget-overview">
         <el-row :gutter="16">
-          <el-col :span="6" v-for="category in budgetCategories" :key="category.name">
+          <el-col :xs="12" :sm="12" :md="6" v-for="category in budgetCategories" :key="category.name">
             <div class="category-card">
               <div class="category-icon">{{ category.icon }}</div>
               <div class="category-name">{{ category.name }}</div>
@@ -289,10 +289,15 @@ const budgetTip = computed(() => {
 
 <style scoped lang="scss">
 .budget-summary {
+  :deep(.el-card) {
+    border-radius: 16px;
+  }
+
   .card-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 12px;
 
     h3 {
       margin: 0;
@@ -316,8 +321,8 @@ const budgetTip = computed(() => {
   .budget-overview {
     margin: 20px 0;
 
-    .category-card {
-      text-align: center;
+      .category-card {
+        text-align: center;
       padding: 16px;
       background: #f5f7fa;
       border-radius: 8px;
@@ -374,6 +379,60 @@ const budgetTip = computed(() => {
 
   .budget-tip {
     margin-top: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .budget-summary {
+    :deep(.el-card__header),
+    :deep(.el-card__body) {
+      padding: 14px;
+    }
+
+    .card-header {
+      align-items: flex-start;
+      flex-direction: column;
+
+      h3 {
+        font-size: 18px;
+      }
+
+      .total-budget {
+        .amount {
+          font-size: 22px;
+        }
+      }
+    }
+
+    .budget-overview {
+      margin: 14px 0;
+
+      .category-card {
+        padding: 12px 8px;
+        margin-bottom: 10px;
+
+        .category-icon {
+          font-size: 24px;
+        }
+
+        .category-amount {
+          font-size: 15px;
+          word-break: break-word;
+        }
+      }
+    }
+
+    .budget-details {
+      .collapse-title {
+        gap: 10px;
+        padding-right: 8px;
+
+        .title-text,
+        .title-amount {
+          font-size: 13px;
+        }
+      }
+    }
   }
 }
 </style>

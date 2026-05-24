@@ -74,6 +74,7 @@ onMounted(() => {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 16px;
     height: 70px;
   }
 
@@ -86,7 +87,8 @@ onMounted(() => {
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
-      letter-spacing: 0.5px;
+      letter-spacing: 0;
+      white-space: nowrap;
     }
   }
 
@@ -132,7 +134,7 @@ onMounted(() => {
 
 .main-content {
   flex: 1;
-  padding: 24px 20px;
+  padding: 24px clamp(12px, 3vw, 20px);
   position: relative;
   z-index: 1;
   pointer-events: auto;
@@ -152,22 +154,41 @@ onMounted(() => {
 // 响应式设计
 @media (max-width: 768px) {
   .app-header {
-    padding: 0 15px;
+    padding: 0 12px;
 
     .header-content {
+      height: auto;
+      min-height: 64px;
+      padding: 10px 0;
+      flex-wrap: wrap;
+      gap: 10px;
+
       .logo h1 {
-        font-size: 18px;
+        font-size: 17px;
       }
 
       .nav-menu {
-        gap: 15px;
+        order: 3;
+        width: 100%;
+        gap: 4px;
+        padding: 4px;
 
         .nav-item {
+          flex: 1;
+          justify-content: center;
           padding: 6px 10px;
-          font-size: 14px;
+          font-size: 13px;
         }
       }
+
+      .user-section {
+        margin-left: auto;
+      }
     }
+  }
+
+  .main-content {
+    padding: 12px 10px;
   }
 }
 </style>

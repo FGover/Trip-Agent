@@ -482,9 +482,9 @@ const goEdit = () => {
 
   .result-content {
     position: relative;
-    max-width: 1400px;
+    width: min(1400px, 100%);
     margin: 0 auto;
-    padding: 20px;
+    padding: clamp(12px, 2vw, 20px);
     z-index: 1;
   }
 
@@ -542,6 +542,7 @@ const goEdit = () => {
             h1 {
               margin: 0 0 8px 0;
               font-size: 28px;
+              line-height: 1.25;
               font-weight: 600;
               color: #303133;
               background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -552,6 +553,7 @@ const goEdit = () => {
 
             .header-meta {
               display: flex;
+              flex-wrap: wrap;
               gap: 24px;
 
               .meta-item {
@@ -571,6 +573,7 @@ const goEdit = () => {
 
         .header-actions {
           display: flex;
+          flex-wrap: wrap;
           gap: 12px;
           flex-shrink: 0;
 
@@ -655,6 +658,7 @@ const goEdit = () => {
 
             .weather-info {
               display: flex;
+              flex-wrap: wrap;
               gap: 20px;
 
               .weather-item {
@@ -783,6 +787,7 @@ const goEdit = () => {
 
                 .activity-meta {
                   display: flex;
+                  flex-wrap: wrap;
                   align-items: center;
                   gap: 12px;
 
@@ -872,6 +877,8 @@ const goEdit = () => {
 
             .hotel-meta {
               display: flex;
+              flex-wrap: wrap;
+              gap: 8px;
               justify-content: space-between;
               align-items: center;
 
@@ -968,7 +975,7 @@ const goEdit = () => {
 @media (max-width: 768px) {
   .result-container {
     .result-content {
-      padding: 12px;
+      padding: 10px 0;
     }
 
     .header-section {
@@ -985,7 +992,8 @@ const goEdit = () => {
 
             .header-title {
               h1 {
-                font-size: 22px;
+                font-size: 21px;
+                word-break: break-word;
               }
 
               .header-meta {
@@ -1002,22 +1010,79 @@ const goEdit = () => {
             .action-btn {
               width: 100%;
             }
+
+            :deep(.export-buttons),
+            :deep(.el-button-group) {
+              width: 100%;
+              display: grid;
+              grid-template-columns: 1fr 1fr;
+            }
+
+            :deep(.el-button-group .el-button) {
+              width: 100%;
+              margin-left: 0;
+              min-width: 0;
+            }
           }
         }
       }
     }
 
     .main-content {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+
+      :deep(.el-col) {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+
+      .map-card {
+        :deep(.el-card__body) {
+          padding: 12px;
+        }
+      }
+
       .daily-plan-card {
+        border-radius: 12px;
+
+        :deep(.el-card__header),
+        :deep(.el-card__body) {
+          padding: 14px;
+        }
+
         .day-header {
           .day-info {
             flex-direction: column;
             align-items: flex-start;
             gap: 12px;
+
+            .day-content {
+              width: 100%;
+
+              h3 {
+                font-size: 18px;
+                line-height: 1.35;
+                word-break: break-word;
+              }
+
+              .weather-info {
+                gap: 8px;
+
+                .weather-item {
+                  width: 100%;
+                  align-items: flex-start;
+                }
+              }
+            }
           }
         }
 
         .activity-card {
+          :deep(.el-card__body) {
+            padding: 12px;
+          }
+
           &.has-image {
             .activity-content {
               flex-direction: column;
@@ -1027,9 +1092,107 @@ const goEdit = () => {
           .activity-content {
             .activity-image {
               width: 100%;
+              height: 180px;
+            }
+
+            .activity-main {
+              gap: 10px;
+
+              .activity-icon {
+                display: none;
+              }
+
+              .activity-info {
+                min-width: 0;
+
+                h4 {
+                  font-size: 16px;
+                  line-height: 1.4;
+                  word-break: break-word;
+                }
+
+                .activity-meta {
+                  gap: 8px;
+
+                  .el-tag,
+                  span {
+                    max-width: 100%;
+                    white-space: normal;
+                    line-height: 1.4;
+                  }
+                }
+              }
             }
           }
         }
+
+        .recommended-hotel {
+          .recommended-hotel-content {
+            align-items: flex-start;
+            gap: 10px;
+
+            .hotel-info {
+              min-width: 0;
+
+              h4 {
+                line-height: 1.4;
+                word-break: break-word;
+              }
+            }
+          }
+        }
+
+        .dining-list {
+          .dining-card {
+            :deep(.el-card__body) {
+              padding: 12px;
+            }
+
+            .dining-content {
+              gap: 10px;
+
+              .dining-icon {
+                display: none;
+              }
+
+              .dining-info {
+                min-width: 0;
+
+                h4,
+                .dining-address {
+                  word-break: break-word;
+                }
+
+                .dining-meta {
+                  display: flex;
+                  flex-wrap: wrap;
+                  gap: 8px;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .hotels-card,
+      .tips-card {
+        border-radius: 12px;
+
+        :deep(.el-card__header),
+        :deep(.el-card__body) {
+          padding: 14px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .result-container {
+    .header-section .header-card .trip-header .header-actions {
+      :deep(.export-buttons),
+      :deep(.el-button-group) {
+        grid-template-columns: 1fr;
       }
     }
   }

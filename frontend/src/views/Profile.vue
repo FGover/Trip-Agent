@@ -178,7 +178,7 @@
     <el-dialog
       v-model="showPasswordDialog"
       title="修改密码"
-      width="400px"
+      width="min(400px, calc(100vw - 24px))"
       :close-on-click-modal="false"
     >
       <el-form
@@ -518,9 +518,9 @@ const goBack = () => {
 
   .profile-content {
     position: relative;
-    max-width: 900px;
+    width: min(900px, 100%);
     margin: 0 auto;
-    padding: 80px 20px 40px;
+    padding: 80px clamp(12px, 3vw, 20px) 40px;
     z-index: 1;
   }
 }
@@ -736,9 +736,67 @@ const goBack = () => {
 
 // 响应式设计
 @media (max-width: 768px) {
+  .profile-container {
+    overflow: visible;
+
+    .profile-content {
+      padding-top: 64px;
+    }
+  }
+
+  .profile-header {
+    margin-bottom: 24px;
+
+    .back-button {
+      left: 12px;
+      top: 14px;
+      font-size: 14px;
+    }
+
+    h1 {
+      padding: 0 72px;
+      line-height: 1.25;
+      word-break: keep-all;
+    }
+  }
+
   .profile-header {
     h1 {
       font-size: 28px;
+    }
+  }
+
+  .profile-card,
+  .security-card {
+    border-radius: 12px;
+
+    :deep(.el-card__body) {
+      padding: 16px;
+    }
+  }
+
+  .profile-card {
+    .profile-form {
+      padding: 8px 0;
+    }
+  }
+
+  .security-card {
+    .security-list {
+      .security-item {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 14px;
+
+        .item-left {
+          align-items: flex-start;
+          width: 100%;
+        }
+
+        .el-button {
+          width: 100%;
+        }
+      }
     }
   }
 
@@ -747,6 +805,28 @@ const goBack = () => {
 
     .tip-icon {
       align-self: center;
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .profile-header {
+    h1 {
+      padding: 0 56px;
+      font-size: 24px;
+    }
+  }
+
+  .profile-card {
+    .profile-form {
+      .avatar-section {
+        margin-bottom: 22px;
+
+        .avatar-tip {
+          text-align: center;
+          line-height: 1.5;
+        }
+      }
     }
   }
 }

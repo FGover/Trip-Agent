@@ -225,7 +225,7 @@ const handleRegister = async () => {
 .login-container {
   position: relative;
   min-height: 100vh;
-  padding: 0;
+  padding: 24px;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   display: flex;
   align-items: center;
@@ -277,7 +277,7 @@ const handleRegister = async () => {
     position: relative;
     width: 100%;
     max-width: 400px;
-    border-radius: 24px;
+    border-radius: 16px;
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
     background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
@@ -390,10 +390,27 @@ const handleRegister = async () => {
 // 响应式设计
 @media (max-width: 480px) {
   .login-container {
-    padding: 20px;
+    align-items: flex-start;
+    padding: 24px 12px;
+    overflow: auto;
 
     .login-card {
-      padding: 30px 20px;
+      max-width: 100%;
+      padding: 24px 18px;
+
+      .login-header {
+        margin-bottom: 24px;
+
+        .login-title {
+          font-size: 24px;
+          line-height: 1.25;
+        }
+
+        .login-subtitle {
+          font-size: 14px;
+          line-height: 1.6;
+        }
+      }
     }
   }
 }

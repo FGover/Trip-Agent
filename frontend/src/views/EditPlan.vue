@@ -15,7 +15,7 @@
     <!-- 编辑内容 -->
     <el-row :gutter="20" class="edit-content">
       <!-- 左侧：行程列表编辑 -->
-      <el-col :span="16">
+      <el-col :xs="24" :sm="24" :md="16">
         <el-card>
           <template #header>
             <div class="section-header">
@@ -159,12 +159,12 @@
                   <el-card>
                     <el-form label-width="80px" size="small">
                       <el-row :gutter="16">
-                        <el-col :span="12">
+                        <el-col :xs="24" :sm="12">
                           <el-form-item label="名称">
                             <el-input v-model="dining.name" />
                           </el-form-item>
                         </el-col>
-                        <el-col :span="12">
+                        <el-col :xs="24" :sm="12">
                           <el-form-item label="人均">
                             <el-input-number
                               v-model="(dining.cost_per_person as any)"
@@ -199,7 +199,7 @@
       </el-col>
 
       <!-- 右侧：地图预览和酒店 -->
-      <el-col :span="8">
+      <el-col :xs="24" :sm="24" :md="8">
         <!-- 地图预览 -->
         <el-card class="preview-card">
           <template #header>
@@ -245,7 +245,11 @@
     <el-button type="primary" @click="goBack">返回首页</el-button>
   </el-empty>
 
-  <el-dialog v-model="versionDialogVisible" title="版本历史" width="560px">
+  <el-dialog
+    v-model="versionDialogVisible"
+    title="版本历史"
+    width="min(560px, calc(100vw - 24px))"
+  >
     <el-table :data="versionList" size="small" v-loading="versionLoading">
       <el-table-column prop="version" label="版本" width="90" />
       <el-table-column prop="snapshot_at" label="时间" min-width="200" />
@@ -593,7 +597,7 @@ const rollbackTo = async (version: number) => {
 .edit-plan-container {
   position: relative;
   min-height: 100vh;
-  padding: 32px 20px 40px;
+  padding: clamp(14px, 3vw, 32px) clamp(10px, 2vw, 20px) 40px;
   /* 旅行主题渐变：蓝天到夕阳橙 */
   background: linear-gradient(135deg, #667eea 0%, #764ba2 35%, #f093fb 70%, #f5576c 100%);
   overflow: hidden;
@@ -610,6 +614,7 @@ const rollbackTo = async (version: number) => {
       display: flex;
       justify-content: space-between;
       align-items: center;
+      gap: 16px;
 
       h2 {
         margin: 0;
@@ -624,6 +629,8 @@ const rollbackTo = async (version: number) => {
 
       .actions {
         display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
         gap: 16px;
       }
     }
@@ -645,6 +652,7 @@ const rollbackTo = async (version: number) => {
       display: flex;
       justify-content: space-between;
       align-items: center;
+      gap: 10px;
 
       h4 {
         margin: 0;
@@ -657,7 +665,15 @@ const rollbackTo = async (version: number) => {
       display: flex;
       justify-content: space-between;
       align-items: center;
+      gap: 10px;
       padding-right: 20px;
+
+      span {
+        min-width: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
     }
 
     .activities-section {
@@ -734,6 +750,7 @@ const rollbackTo = async (version: number) => {
 
             .attraction-tags {
               display: flex;
+              flex-wrap: wrap;
               gap: 8px;
               margin-bottom: 8px;
             }
@@ -745,6 +762,7 @@ const rollbackTo = async (version: number) => {
               display: flex;
               align-items: center;
               gap: 4px;
+              word-break: break-word;
             }
           }
 
@@ -782,6 +800,104 @@ const rollbackTo = async (version: number) => {
 
     .hotel-edit-item {
       margin-bottom: 16px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .edit-plan-container {
+    overflow: visible;
+
+    .header-card {
+      margin-bottom: 16px;
+      border-radius: 12px;
+
+      :deep(.el-card__body) {
+        padding: 16px;
+      }
+
+      .header-content {
+        align-items: flex-start;
+        flex-direction: column;
+
+        h2 {
+          font-size: 22px;
+          letter-spacing: 0;
+        }
+
+        .actions {
+          display: grid;
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+          width: 100%;
+          gap: 8px;
+
+          .el-button {
+            width: 100%;
+            margin-left: 0;
+            padding: 8px 10px;
+          }
+        }
+      }
+    }
+
+    .edit-content {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+
+      :deep(.el-col) {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+
+      :deep(.el-card__body) {
+        padding: 14px;
+      }
+
+      .section-header,
+      .section-header-small {
+        align-items: flex-start;
+        flex-direction: column;
+
+        .el-button {
+          width: 100%;
+        }
+      }
+
+      .day-title {
+        padding-right: 8px;
+      }
+
+      .attraction-list {
+        .attraction-card {
+          cursor: default;
+
+          .attraction-item-card {
+            .attraction-actions {
+              justify-content: stretch;
+
+              .el-button {
+                width: 100%;
+              }
+            }
+
+            .personal-settings {
+              padding: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .edit-plan-container {
+    .header-card {
+      .header-content {
+        .actions {
+          grid-template-columns: 1fr;
+        }
+      }
     }
   }
 }

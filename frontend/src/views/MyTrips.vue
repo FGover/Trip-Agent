@@ -241,7 +241,7 @@ onMounted(() => {
 .my-trips-container {
   position: relative;
   min-height: 100vh;
-  padding: 20px;
+  padding: clamp(12px, 3vw, 20px);
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   overflow: hidden;
 
@@ -473,14 +473,63 @@ onMounted(() => {
     }
 
     .trip-card {
-      .trip-actions {
+      border-radius: 12px;
+
+      :deep(.el-card__body) {
+        padding: 16px;
+      }
+
+      .trip-card-header {
+        align-items: stretch;
         flex-direction: column;
+      }
+
+      .trip-destination {
+        align-items: flex-start;
+
+        h3 {
+          white-space: normal;
+          word-break: break-word;
+        }
+      }
+
+      .trip-actions {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 8px;
+
+        .el-button {
+          width: 100%;
+          margin-left: 0;
+          padding: 8px;
+        }
       }
     }
 
     .empty-state {
+      padding: 40px 16px;
+      border-radius: 12px;
+
       .empty-actions {
         flex-direction: column;
+      }
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .my-trips-container {
+    .header-section {
+      margin-bottom: 24px;
+
+      h1 {
+        font-size: 24px;
+      }
+    }
+
+    .trip-card {
+      .trip-actions {
+        grid-template-columns: 1fr;
       }
     }
   }

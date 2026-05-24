@@ -22,7 +22,7 @@
     <el-dialog
       v-model="dialogVisible"
       title="Export Options"
-      width="400px"
+      width="min(400px, calc(100vw - 24px))"
     >
       <el-form label-width="100px">
         <el-form-item label="Include">
@@ -199,8 +199,20 @@ defineExpose({
 
 <style scoped lang="scss">
 .export-buttons {
+  width: 100%;
+
   :deep(.el-button-group) {
     display: flex;
+  }
+}
+
+@media (max-width: 768px) {
+  .export-buttons {
+    :deep(.el-button) {
+      min-width: 0;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
   }
 }
 </style>
