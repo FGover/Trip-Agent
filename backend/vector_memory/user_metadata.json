@@ -1,0 +1,5392 @@
+{
+  "0": {
+    "user_id": "76589421-7776-4230-bee2-c903d48d0ec9",
+    "type": "preference",
+    "preference_type": "trip_planning",
+    "data": {
+      "preference_type": "trip_planning",
+      "destination": "上海",
+      "preferences": [
+        "摄影",
+        "自然"
+      ],
+      "trip_result": "{\n  \"trip_title\": \"魔都光影与自然：上海4日摄影采风之旅\",\n  \"total_budget\": {\n    \"transport_cost\": 230.0,\n    \"dining_cost\": 710.0,\n    \"hotel_cost\": 860.0,\n    \"attraction_ticket_cost\": 165.0,\n    \"total\": 1965.0\n  }"
+    },
+    "text_representation": "偏好类型: trip_planning 目的地: 上海 旅行偏好: 摄影, 自然",
+    "timestamp": "2026-05-23T16:01:39.168001",
+    "similarity_score": 0.5798799395561218
+  },
+  "1": {
+    "user_id": "76589421-7776-4230-bee2-c903d48d0ec9",
+    "type": "preference",
+    "preference_type": "trip_planning",
+    "data": {
+      "preference_type": "trip_planning",
+      "destination": "上海",
+      "preferences": [
+        "摄影"
+      ],
+      "trip_result": "```json\n{\n  \"trip_title\": \"魔都光影纪行·上海摄影经济游\",\n  \"total_budget\": {\n    \"transport_cost\": 240.0,\n    \"dining_cost\": 600.0,\n    \"hotel_cost\": 600.0,\n    \"attraction_ticket_cost\": 180.0,\n    \"total\": 1620.0"
+    },
+    "text_representation": "偏好类型: trip_planning 目的地: 上海 旅行偏好: 摄影",
+    "timestamp": "2026-05-23T16:42:35.374618",
+    "similarity_score": 0.46551254391670227
+  },
+  "2": {
+    "user_id": "76589421-7776-4230-bee2-c903d48d0ec9",
+    "type": "preference",
+    "preference_type": "trip_request",
+    "data": {
+      "destination": "上海",
+      "preferences": [
+        "摄影"
+      ],
+      "hotel_preferences": [
+        "经济型"
+      ],
+      "budget": "经济",
+      "trip_title": "魔都光影纪行·上海摄影经济游"
+    },
+    "text_representation": "偏好类型: trip_request 目的地: 上海 旅行偏好: 摄影 酒店偏好: 经济型 预算水平: 经济",
+    "timestamp": "2026-05-23T16:42:38.910639",
+    "similarity_score": 0.45674046874046326
+  },
+  "3": {
+    "user_id": "76589421-7776-4230-bee2-c903d48d0ec9",
+    "type": "trip",
+    "data": {
+      "destination": "上海",
+      "start_date": "2026-05-23",
+      "end_date": "2026-05-25",
+      "preferences": [
+        "摄影"
+      ],
+      "hotel_preferences": [
+        "经济型"
+      ],
+      "budget": "经济",
+      "trip_title": "魔都光影纪行·上海摄影经济游",
+      "days": [
+        {
+          "day": 1,
+          "theme": "城市天际线与摄影文化探索",
+          "weather": {
+            "date": "2026-05-23",
+            "day_weather": "多云",
+            "night_weather": "小雨",
+            "day_temp": "30",
+            "night_temp": "22",
+            "day_wind": "东风 1-3级",
+            "night_wind": "东风 1-3级"
+          },
+          "recommended_hotel": {
+            "name": "大隐国际青年旅舍(上海陆家嘴滨江道店)",
+            "address": "陆家嘴街道浦东大道834弄-840号甲",
+            "location": {
+              "lat": 31.235,
+              "lng": 121.505
+            },
+            "price": "200元/晚",
+            "rating": "4.2",
+            "distance_to_main_attraction_km": 1.5
+          },
+          "attractions": [
+            {
+              "name": "外滩",
+              "type": "历史建筑",
+              "rating": "4.8",
+              "suggested_duration_hours": 2.5,
+              "description": "上午游览万国建筑群，拍摄黄浦江对岸陆家嘴天际线，多云天气光线柔和适合摄影",
+              "address": "黄浦区中山东一路",
+              "location": {
+                "lat": 31.239,
+                "lng": 121.49
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1714902926881-5cf4044dfd72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTUlQTQlOTYlRTYlQkIlQTklMjAlRTQlQjglOEElRTYlQjUlQjd8ZW58MHx8fHwxNzc5NTI1NzU3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "0"
+            },
+            {
+              "name": "富士胶片影像空间X-SPACE",
+              "type": "摄影文化空间",
+              "rating": "4.6",
+              "suggested_duration_hours": 2.0,
+              "description": "下午参观摄影展览与器材体验，了解影像技术发展",
+              "address": "黄浦区淮海中路398号",
+              "location": {
+                "lat": 31.216,
+                "lng": 121.468
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1622459230688-c2dc02203aa1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTUlQUYlOEMlRTUlQTMlQUIlRTglODMlQjYlRTclODklODclRTUlQkQlQjElRTUlODMlOEYlRTclQTklQkElRTklOTclQjRYLVNQQUNFJTIwJUU0JUI4JThBJUU2JUI1JUI3fGVufDB8fHx8MTc3OTUyNTc1OXww&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "0"
+            },
+            {
+              "name": "陆家嘴滨江公园",
+              "type": "城市公园",
+              "rating": "4.5",
+              "suggested_duration_hours": 1.5,
+              "description": "傍晚拍摄夜景灯光秀，建议携带三脚架",
+              "address": "浦东新区滨江大道",
+              "location": {
+                "lat": 31.235,
+                "lng": 121.505
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1574504500022-de9a6309a501?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTklOTklODYlRTUlQUUlQjYlRTUlOTglQjQlRTYlQkIlQTglRTYlQjElOUYlRTUlODUlQUMlRTUlOUIlQUQlMjAlRTQlQjglOEElRTYlQjUlQjd8ZW58MHx8fHwxNzc5NTI1NzU3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "0"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "老半斋酒楼(福州路店)",
+              "address": "黄浦区福州路600号",
+              "location": {
+                "lat": 31.234,
+                "lng": 121.485
+              },
+              "cost_per_person": "60",
+              "rating": "4.3"
+            },
+            {
+              "name": "滨江咖啡馆",
+              "address": "浦东新区滨江大道528号",
+              "location": {
+                "lat": 31.236,
+                "lng": 121.503
+              },
+              "cost_per_person": "50",
+              "rating": "4.1"
+            }
+          ],
+          "budget": {
+            "transport_cost": 80.0,
+            "dining_cost": 200.0,
+            "hotel_cost": 200.0,
+            "attraction_ticket_cost": 0.0,
+            "total": 480.0
+          }
+        },
+        {
+          "day": 2,
+          "theme": "雨中风情与摄影器材探秘",
+          "weather": {
+            "date": "2026-05-24",
+            "day_weather": "中雨",
+            "night_weather": "小雨",
+            "day_temp": "27",
+            "night_temp": "23",
+            "day_wind": "东风 1-3级",
+            "night_wind": "东风 1-3级"
+          },
+          "recommended_hotel": {
+            "name": "大隐国际青年旅舍(上海陆家嘴滨江道店)",
+            "address": "陆家嘴街道浦东大道834弄-840号甲",
+            "location": {
+              "lat": 31.235,
+              "lng": 121.505
+            },
+            "price": "200元/晚",
+            "rating": "4.2",
+            "distance_to_main_attraction_km": 3.2
+          },
+          "attractions": [
+            {
+              "name": "豫园",
+              "type": "古典园林",
+              "rating": "4.7",
+              "suggested_duration_hours": 2.0,
+              "description": "上午雨中拍摄江南园林景致，注意设备防水",
+              "address": "黄浦区方浜中路265号",
+              "location": {
+                "lat": 31.227,
+                "lng": 121.488
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1714902926881-5cf4044dfd72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTglQjElQUIlRTUlOUIlQUQlMjAlRTQlQjglOEElRTYlQjUlQjd8ZW58MHx8fHwxNzc5NTI1NzU3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "40"
+            },
+            {
+              "name": "星光摄影器材城（A区/C区）",
+              "type": "摄影器材集散地",
+              "rating": "4.4",
+              "suggested_duration_hours": 2.5,
+              "description": "下午选购摄影配件，体验二手器材淘货乐趣",
+              "address": "黄浦区鲁班路300号",
+              "location": {
+                "lat": 31.205,
+                "lng": 121.475
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1714902926881-5cf4044dfd72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTQlQjglOEElRTYlQjUlQjclMjBsYW5kbWFya3xlbnwwfHx8fDE3Nzk1MjU3NTh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "0"
+            },
+            {
+              "name": "田子坊",
+              "type": "艺术街区",
+              "rating": "4.5",
+              "suggested_duration_hours": 1.5,
+              "description": "傍晚拍摄雨中小巷与创意店铺",
+              "address": "黄浦区泰康路210弄",
+              "location": {
+                "lat": 31.218,
+                "lng": 121.468
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1751348867020-3a46e412ef80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTclOTQlQjAlRTUlQUQlOTAlRTUlOUQlOEElMjAlRTQlQjglOEElRTYlQjUlQjd8ZW58MHx8fHwxNzc5NTI1NzU4fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "0"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "南翔馒头店(豫园路店)",
+              "address": "黄浦区豫园路85号",
+              "location": {
+                "lat": 31.228,
+                "lng": 121.49
+              },
+              "cost_per_person": "50",
+              "rating": "4.2"
+            },
+            {
+              "name": "田子坊本帮菜馆",
+              "address": "黄浦区泰康路248弄",
+              "location": {
+                "lat": 31.219,
+                "lng": 121.469
+              },
+              "cost_per_person": "70",
+              "rating": "4.4"
+            }
+          ],
+          "budget": {
+            "transport_cost": 90.0,
+            "dining_cost": 200.0,
+            "hotel_cost": 200.0,
+            "attraction_ticket_cost": 40.0,
+            "total": 530.0
+          }
+        },
+        {
+          "day": 3,
+          "theme": "艺术空间与自然雨景",
+          "weather": {
+            "date": "2026-05-25",
+            "day_weather": "中雨",
+            "night_weather": "中雨",
+            "day_temp": "27",
+            "night_temp": "23",
+            "day_wind": "东南风 1-3级",
+            "night_wind": "东南风 1-3级"
+          },
+          "recommended_hotel": {
+            "name": "大隐国际青年旅舍(上海陆家嘴滨江道店)",
+            "address": "陆家嘴街道浦东大道834弄-840号甲",
+            "location": {
+              "lat": 31.235,
+              "lng": 121.505
+            },
+            "price": "200元/晚",
+            "rating": "4.2",
+            "distance_to_main_attraction_km": 5.0
+          },
+          "attractions": [
+            {
+              "name": "上海当代艺术博物馆",
+              "type": "艺术展览",
+              "rating": "4.6",
+              "suggested_duration_hours": 2.5,
+              "description": "上午参观当代艺术展，室内空间适合雨天创作",
+              "address": "黄浦区花园港路200号",
+              "location": {
+                "lat": 31.207,
+                "lng": 121.487
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1714902926881-5cf4044dfd72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTQlQjglOEElRTYlQjUlQjclMjBsYW5kbWFya3xlbnwwfHx8fDE3Nzk1MjU3NTh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "20"
+            },
+            {
+              "name": "西岸艺术中心",
+              "type": "创意园区",
+              "rating": "4.5",
+              "suggested_duration_hours": 2.0,
+              "description": "下午拍摄工业风建筑与江景，雨中光影独特",
+              "address": "徐汇区龙腾大道2555号",
+              "location": {
+                "lat": 31.19,
+                "lng": 121.44
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1663054332256-250e56da589f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTglQTUlQkYlRTUlQjIlQjglRTglODklQkElRTYlOUMlQUYlRTQlQjglQUQlRTUlQkYlODN8ZW58MHx8fHwxNzc5NTI1NzU4fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "0"
+            },
+            {
+              "name": "龙美术馆(西岸馆)",
+              "type": "美术馆",
+              "rating": "4.7",
+              "suggested_duration_hours": 1.5,
+              "description": "傍晚参观建筑结构与艺术装置",
+              "address": "徐汇区龙腾大道3398号",
+              "location": {
+                "lat": 31.188,
+                "lng": 121.442
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1714902926881-5cf4044dfd72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTQlQjglOEElRTYlQjUlQjclMjBsYW5kbWFya3xlbnwwfHx8fDE3Nzk1MjU3NTh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "120"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "西岸咖啡工坊",
+              "address": "徐汇区龙腾大道2600号",
+              "location": {
+                "lat": 31.189,
+                "lng": 121.441
+              },
+              "cost_per_person": "60",
+              "rating": "4.3"
+            },
+            {
+              "name": "江南造船厂旧址餐厅",
+              "address": "黄浦区中山南路1000号",
+              "location": {
+                "lat": 31.2,
+                "lng": 121.495
+              },
+              "cost_per_person": "80",
+              "rating": "4.5"
+            }
+          ],
+          "budget": {
+            "transport_cost": 70.0,
+            "dining_cost": 200.0,
+            "hotel_cost": 200.0,
+            "attraction_ticket_cost": 140.0,
+            "total": 610.0
+          }
+        }
+      ]
+    },
+    "text_representation": "旅行行程 目的地: 上海 时间: 2026-05-23 到 2026-05-25 偏好: 摄影 行程标题: 魔都光影纪行·上海摄影经济游 景点: 外滩, 富士胶片影像空间X-SPACE, 陆家嘴滨江公园, 豫园, 星光摄影器材城（A区/C区）, 田子坊, 上海当代艺术博物馆, 西岸艺术中心, 龙美术馆(西岸馆)",
+    "timestamp": "2026-05-23T16:42:39.117444",
+    "similarity_score": 0.4990975558757782
+  },
+  "4": {
+    "user_id": "76589421-7776-4230-bee2-c903d48d0ec9",
+    "type": "preference",
+    "preference_type": "trip_preferences",
+    "data": {
+      "destination": "上海",
+      "preferences": [
+        "摄影"
+      ],
+      "hotel_preferences": [
+        "经济型"
+      ],
+      "budget": "经济"
+    },
+    "text_representation": "偏好类型: trip_preferences 目的地: 上海 旅行偏好: 摄影 酒店偏好: 经济型 预算水平: 经济",
+    "timestamp": "2026-05-23T16:42:39.291084",
+    "similarity_score": 0.4648815989494324
+  },
+  "5": {
+    "user_id": "76589421-7776-4230-bee2-c903d48d0ec9",
+    "type": "preference",
+    "preference_type": "trip_request",
+    "data": {
+      "destination": "上海",
+      "preferences": [
+        "购物"
+      ],
+      "hotel_preferences": [
+        "经济型"
+      ],
+      "budget": "中等",
+      "trip_title": "上海4日临时行程"
+    },
+    "text_representation": "偏好类型: trip_request 目的地: 上海 旅行偏好: 购物 酒店偏好: 经济型 预算水平: 中等",
+    "timestamp": "2026-05-24T08:57:17.934083"
+  },
+  "6": {
+    "user_id": "76589421-7776-4230-bee2-c903d48d0ec9",
+    "type": "trip",
+    "data": {
+      "destination": "上海",
+      "start_date": "2026-05-24",
+      "end_date": "2026-05-27",
+      "preferences": [
+        "购物"
+      ],
+      "hotel_preferences": [
+        "经济型"
+      ],
+      "budget": "中等",
+      "trip_title": "上海4日临时行程",
+      "days": [
+        {
+          "day": 1,
+          "theme": "上海第1天轻量行程",
+          "weather": {
+            "date": "2026-05-24",
+            "day_weather": "请以出行当天实时天气为准",
+            "night_weather": "请以出行当天实时天气为准",
+            "day_temp": "N/A",
+            "night_temp": "N/A",
+            "day_wind": null,
+            "night_wind": null
+          },
+          "recommended_hotel": {
+            "name": "上海市中心经济型酒店",
+            "address": "上海市中心",
+            "location": null,
+            "price": "经济型",
+            "rating": "N/A",
+            "distance_to_main_attraction_km": null
+          },
+          "attractions": [
+            {
+              "name": "上海城市核心游览区",
+              "type": "城市游览",
+              "rating": "N/A",
+              "suggested_duration_hours": 3.0,
+              "description": "LangGraph最终规划接口不可用，系统生成临时可测试行程。建议结合地图搜索补充具体景点。",
+              "address": "上海市区",
+              "location": null,
+              "image_urls": [
+                "https://images.unsplash.com/photo-1714902926881-5cf4044dfd72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTQlQjglOEElRTYlQjUlQjclRTUlOUYlOEUlRTUlQjglODIlRTYlQTAlQjglRTUlQkYlODMlRTYlQjglQjglRTglQTclODglRTUlOEMlQkElMjAlRTQlQjglOEElRTYlQjUlQjd8ZW58MHx8fHwxNzc5NTg0MjM5fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "N/A"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "上海本地餐饮推荐",
+              "address": "上海市区",
+              "location": null,
+              "cost_per_person": "按实际消费",
+              "rating": "N/A"
+            }
+          ],
+          "budget": {
+            "transport_cost": 0.0,
+            "dining_cost": 0.0,
+            "hotel_cost": 0.0,
+            "attraction_ticket_cost": 0.0,
+            "total": 0.0
+          }
+        },
+        {
+          "day": 2,
+          "theme": "上海第2天轻量行程",
+          "weather": {
+            "date": "2026-05-25",
+            "day_weather": "请以出行当天实时天气为准",
+            "night_weather": "请以出行当天实时天气为准",
+            "day_temp": "N/A",
+            "night_temp": "N/A",
+            "day_wind": null,
+            "night_wind": null
+          },
+          "recommended_hotel": {
+            "name": "上海市中心经济型酒店",
+            "address": "上海市中心",
+            "location": null,
+            "price": "经济型",
+            "rating": "N/A",
+            "distance_to_main_attraction_km": null
+          },
+          "attractions": [
+            {
+              "name": "上海城市核心游览区",
+              "type": "城市游览",
+              "rating": "N/A",
+              "suggested_duration_hours": 3.0,
+              "description": "LangGraph最终规划接口不可用，系统生成临时可测试行程。建议结合地图搜索补充具体景点。",
+              "address": "上海市区",
+              "location": null,
+              "image_urls": [
+                "https://images.unsplash.com/photo-1714902926881-5cf4044dfd72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTQlQjglOEElRTYlQjUlQjclRTUlOUYlOEUlRTUlQjglODIlRTYlQTAlQjglRTUlQkYlODMlRTYlQjglQjglRTglQTclODglRTUlOEMlQkElMjAlRTQlQjglOEElRTYlQjUlQjd8ZW58MHx8fHwxNzc5NTg0MjM5fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "N/A"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "上海本地餐饮推荐",
+              "address": "上海市区",
+              "location": null,
+              "cost_per_person": "按实际消费",
+              "rating": "N/A"
+            }
+          ],
+          "budget": {
+            "transport_cost": 0.0,
+            "dining_cost": 0.0,
+            "hotel_cost": 0.0,
+            "attraction_ticket_cost": 0.0,
+            "total": 0.0
+          }
+        },
+        {
+          "day": 3,
+          "theme": "上海第3天轻量行程",
+          "weather": {
+            "date": "2026-05-26",
+            "day_weather": "请以出行当天实时天气为准",
+            "night_weather": "请以出行当天实时天气为准",
+            "day_temp": "N/A",
+            "night_temp": "N/A",
+            "day_wind": null,
+            "night_wind": null
+          },
+          "recommended_hotel": {
+            "name": "上海市中心经济型酒店",
+            "address": "上海市中心",
+            "location": null,
+            "price": "经济型",
+            "rating": "N/A",
+            "distance_to_main_attraction_km": null
+          },
+          "attractions": [
+            {
+              "name": "上海城市核心游览区",
+              "type": "城市游览",
+              "rating": "N/A",
+              "suggested_duration_hours": 3.0,
+              "description": "LangGraph最终规划接口不可用，系统生成临时可测试行程。建议结合地图搜索补充具体景点。",
+              "address": "上海市区",
+              "location": null,
+              "image_urls": [
+                "https://images.unsplash.com/photo-1714902926881-5cf4044dfd72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTQlQjglOEElRTYlQjUlQjclRTUlOUYlOEUlRTUlQjglODIlRTYlQTAlQjglRTUlQkYlODMlRTYlQjglQjglRTglQTclODglRTUlOEMlQkElMjAlRTQlQjglOEElRTYlQjUlQjd8ZW58MHx8fHwxNzc5NTg0MjM5fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "N/A"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "上海本地餐饮推荐",
+              "address": "上海市区",
+              "location": null,
+              "cost_per_person": "按实际消费",
+              "rating": "N/A"
+            }
+          ],
+          "budget": {
+            "transport_cost": 0.0,
+            "dining_cost": 0.0,
+            "hotel_cost": 0.0,
+            "attraction_ticket_cost": 0.0,
+            "total": 0.0
+          }
+        },
+        {
+          "day": 4,
+          "theme": "上海第4天轻量行程",
+          "weather": {
+            "date": "2026-05-27",
+            "day_weather": "请以出行当天实时天气为准",
+            "night_weather": "请以出行当天实时天气为准",
+            "day_temp": "N/A",
+            "night_temp": "N/A",
+            "day_wind": null,
+            "night_wind": null
+          },
+          "recommended_hotel": {
+            "name": "上海市中心经济型酒店",
+            "address": "上海市中心",
+            "location": null,
+            "price": "经济型",
+            "rating": "N/A",
+            "distance_to_main_attraction_km": null
+          },
+          "attractions": [
+            {
+              "name": "上海城市核心游览区",
+              "type": "城市游览",
+              "rating": "N/A",
+              "suggested_duration_hours": 3.0,
+              "description": "LangGraph最终规划接口不可用，系统生成临时可测试行程。建议结合地图搜索补充具体景点。",
+              "address": "上海市区",
+              "location": null,
+              "image_urls": [
+                "https://images.unsplash.com/photo-1714902926881-5cf4044dfd72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTQlQjglOEElRTYlQjUlQjclRTUlOUYlOEUlRTUlQjglODIlRTYlQTAlQjglRTUlQkYlODMlRTYlQjglQjglRTglQTclODglRTUlOEMlQkElMjAlRTQlQjglOEElRTYlQjUlQjd8ZW58MHx8fHwxNzc5NTg0MjM5fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "N/A"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "上海本地餐饮推荐",
+              "address": "上海市区",
+              "location": null,
+              "cost_per_person": "按实际消费",
+              "rating": "N/A"
+            }
+          ],
+          "budget": {
+            "transport_cost": 0.0,
+            "dining_cost": 0.0,
+            "hotel_cost": 0.0,
+            "attraction_ticket_cost": 0.0,
+            "total": 0.0
+          }
+        }
+      ]
+    },
+    "text_representation": "旅行行程 目的地: 上海 时间: 2026-05-24 到 2026-05-27 偏好: 购物 行程标题: 上海4日临时行程 景点: 上海城市核心游览区, 上海城市核心游览区, 上海城市核心游览区, 上海城市核心游览区",
+    "timestamp": "2026-05-24T08:57:18.210360"
+  },
+  "7": {
+    "user_id": "76589421-7776-4230-bee2-c903d48d0ec9",
+    "type": "preference",
+    "preference_type": "trip_preferences",
+    "data": {
+      "destination": "上海",
+      "preferences": [
+        "购物"
+      ],
+      "hotel_preferences": [
+        "经济型"
+      ],
+      "budget": "中等"
+    },
+    "text_representation": "偏好类型: trip_preferences 目的地: 上海 旅行偏好: 购物 酒店偏好: 经济型 预算水平: 中等",
+    "timestamp": "2026-05-24T08:57:18.387660"
+  },
+  "8": {
+    "user_id": "5394b652-77f5-4d86-b17c-3ba0c43219ee",
+    "type": "preference",
+    "preference_type": "trip_request",
+    "data": {
+      "destination": "??",
+      "preferences": [
+        "????"
+      ],
+      "hotel_preferences": [
+        "???"
+      ],
+      "budget": "??",
+      "trip_title": "??1日????行程"
+    },
+    "text_representation": "偏好类型: trip_request 目的地: ?? 旅行偏好: ???? 酒店偏好: ??? 预算水平: ??",
+    "timestamp": "2026-05-24T09:16:36.949206"
+  },
+  "9": {
+    "user_id": "5394b652-77f5-4d86-b17c-3ba0c43219ee",
+    "type": "trip",
+    "data": {
+      "destination": "??",
+      "start_date": "2026-06-01",
+      "end_date": "2026-06-01",
+      "preferences": [
+        "????"
+      ],
+      "hotel_preferences": [
+        "???"
+      ],
+      "budget": "??",
+      "trip_title": "??1日????行程",
+      "days": [
+        {
+          "day": 1,
+          "theme": "??精选体验第1天",
+          "weather": {
+            "date": "2026-06-01",
+            "day_weather": "请以实时天气为准",
+            "night_weather": "请以实时天气为准",
+            "day_temp": "N/A",
+            "night_temp": "N/A",
+            "day_wind": "",
+            "night_wind": ""
+          },
+          "recommended_hotel": {
+            "name": "長·安丨Boutique·铁通精品商务酒店(西安小寨电子科技大学店)",
+            "address": "二环南路西段96号",
+            "location": {
+              "lat": 34.231095,
+              "lng": 108.926354
+            },
+            "price": "N/A",
+            "rating": "4.8",
+            "distance_to_main_attraction_km": null
+          },
+          "attractions": [
+            {
+              "name": "??城市核心游览区",
+              "type": "城市游览",
+              "rating": "N/A",
+              "suggested_duration_hours": 3.0,
+              "description": "结合当地交通和实时开放信息安排游览。",
+              "address": "??市区",
+              "location": null,
+              "image_urls": [
+                "https://images.unsplash.com/photo-1630219413409-c0307781c024?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlM0YlM0YlRTUlOUYlOEUlRTUlQjglODIlRTYlQTAlQjglRTUlQkYlODMlRTYlQjglQjglRTglQTclODglRTUlOEMlQkElMjAlM0YlM0Z8ZW58MHx8fHwxNzc5NTg1Mzk4fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "N/A"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "??本地特色餐厅",
+              "address": "??市区",
+              "location": null,
+              "cost_per_person": "60",
+              "rating": "N/A"
+            }
+          ],
+          "budget": {
+            "transport_cost": 80.0,
+            "dining_cost": 120.0,
+            "hotel_cost": 180.0,
+            "attraction_ticket_cost": 0.0,
+            "total": 380.0
+          }
+        }
+      ]
+    },
+    "text_representation": "旅行行程 目的地: ?? 时间: 2026-06-01 到 2026-06-01 偏好: ???? 行程标题: ??1日????行程 景点: ??城市核心游览区",
+    "timestamp": "2026-05-24T09:16:37.118629"
+  },
+  "10": {
+    "user_id": "5394b652-77f5-4d86-b17c-3ba0c43219ee",
+    "type": "preference",
+    "preference_type": "trip_preferences",
+    "data": {
+      "destination": "??",
+      "preferences": [
+        "????"
+      ],
+      "hotel_preferences": [
+        "???"
+      ],
+      "budget": "??"
+    },
+    "text_representation": "偏好类型: trip_preferences 目的地: ?? 旅行偏好: ???? 酒店偏好: ??? 预算水平: ??",
+    "timestamp": "2026-05-24T09:16:37.323260"
+  },
+  "11": {
+    "user_id": "fca260e4-3643-4b82-86e0-4bd9db4a2e33",
+    "type": "preference",
+    "preference_type": "trip_request",
+    "data": {
+      "destination": "北京",
+      "preferences": [
+        "历史文化"
+      ],
+      "hotel_preferences": [
+        "经济型"
+      ],
+      "budget": "经济",
+      "trip_title": "北京一日历史文化精华游"
+    },
+    "text_representation": "偏好类型: trip_request 目的地: 北京 旅行偏好: 历史文化 酒店偏好: 经济型 预算水平: 经济",
+    "timestamp": "2026-05-24T09:17:47.409542"
+  },
+  "12": {
+    "user_id": "fca260e4-3643-4b82-86e0-4bd9db4a2e33",
+    "type": "trip",
+    "data": {
+      "destination": "北京",
+      "start_date": "2026-06-01",
+      "end_date": "2026-06-01",
+      "preferences": [
+        "历史文化"
+      ],
+      "hotel_preferences": [
+        "经济型"
+      ],
+      "budget": "经济",
+      "trip_title": "北京一日历史文化精华游",
+      "days": [
+        {
+          "day": 1,
+          "theme": "皇城根下的历史回响",
+          "weather": {
+            "date": "2026-06-01",
+            "day_weather": "多云",
+            "night_weather": "多云",
+            "day_temp": "28",
+            "night_temp": "18",
+            "day_wind": "南风 1-3级",
+            "night_wind": "南风 1-3级"
+          },
+          "recommended_hotel": {
+            "name": "汉庭酒店(北京天坛店)",
+            "address": "永定门东街2号",
+            "location": {
+              "lat": 39.873481,
+              "lng": 116.4185
+            },
+            "price": "350",
+            "rating": "4.6",
+            "distance_to_main_attraction_km": 2.5
+          },
+          "attractions": [
+            {
+              "name": "故宫博物院",
+              "type": "风景名胜;风景名胜;世界遗产|科教文化服务;博物馆;博物馆",
+              "rating": "4.9",
+              "suggested_duration_hours": 4.0,
+              "description": "上午游览紫禁城，感受明清皇家宫殿的宏伟与历史厚重感。",
+              "address": "景山前街4号",
+              "location": {
+                "lat": 39.917839,
+                "lng": 116.397029
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1599571234909-29ed5d1321d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTYlOTUlODUlRTUlQUUlQUIlRTUlOEQlOUElRTclODklQTklRTklOTklQTIlMjAlRTUlOEMlOTclRTQlQkElQUN8ZW58MHx8fHwxNzc5NTg1NDY2fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "60"
+            },
+            {
+              "name": "中国国家博物馆",
+              "type": "科教文化服务;博物馆;博物馆",
+              "rating": "4.9",
+              "suggested_duration_hours": 3.0,
+              "description": "下午参观国博，欣赏古代中国陈列，深入了解中华文明起源与发展。",
+              "address": "东长安街16号天安门广场东侧",
+              "location": {
+                "lat": 39.905374,
+                "lng": 116.401304
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1636550230446-7632d97d1e77?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTQlQjglQUQlRTUlOUIlQkQlRTUlOUIlQkQlRTUlQUUlQjYlRTUlOEQlOUElRTclODklQTklRTklQTYlODYlMjAlRTUlOEMlOTclRTQlQkElQUN8ZW58MHx8fHwxNzc5NTg1NDY3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "免费"
+            },
+            {
+              "name": "烟袋斜街",
+              "type": "购物服务;特色商业街;特色商业街",
+              "rating": "4.7",
+              "suggested_duration_hours": 1.5,
+              "description": "傍晚漫步烟袋斜街，体验老北京胡同文化与特色小店风情。",
+              "address": "地安门外大街48号(什刹海地铁站A2西北口步行130米)",
+              "location": {
+                "lat": 39.939329,
+                "lng": 116.394748
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1665147007783-2da3130c6841?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTclODMlOUYlRTglQTIlOEIlRTYlOTYlOUMlRTglQTElOTclMjBsYW5kbWFya3xlbnwwfHx8fDE3Nzk1ODU0Njh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "免费"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "四季民福烤鸭店(故宫店)",
+              "address": "南河沿大街普渡寺西巷45号",
+              "location": {
+                "lat": 39.9125,
+                "lng": 116.4065
+              },
+              "cost_per_person": "100",
+              "rating": "4.8"
+            }
+          ],
+          "budget": {
+            "transport_cost": 20.0,
+            "dining_cost": 100.0,
+            "hotel_cost": 350.0,
+            "attraction_ticket_cost": 60.0,
+            "total": 530.0
+          }
+        }
+      ]
+    },
+    "text_representation": "旅行行程 目的地: 北京 时间: 2026-06-01 到 2026-06-01 偏好: 历史文化 行程标题: 北京一日历史文化精华游 景点: 故宫博物院, 中国国家博物馆, 烟袋斜街",
+    "timestamp": "2026-05-24T09:17:47.636035"
+  },
+  "13": {
+    "user_id": "fca260e4-3643-4b82-86e0-4bd9db4a2e33",
+    "type": "preference",
+    "preference_type": "trip_preferences",
+    "data": {
+      "destination": "北京",
+      "preferences": [
+        "历史文化"
+      ],
+      "hotel_preferences": [
+        "经济型"
+      ],
+      "budget": "经济"
+    },
+    "text_representation": "偏好类型: trip_preferences 目的地: 北京 旅行偏好: 历史文化 酒店偏好: 经济型 预算水平: 经济",
+    "timestamp": "2026-05-24T09:17:47.830644"
+  },
+  "14": {
+    "user_id": "aee6a00b-0f30-4ccd-91f2-0675cd01fd41",
+    "type": "preference",
+    "preference_type": "trip_request",
+    "data": {
+      "destination": "北京",
+      "preferences": [
+        "历史文化",
+        "博物馆"
+      ],
+      "hotel_preferences": [
+        "交通便利"
+      ],
+      "budget": "中等",
+      "trip_title": "北京一日历史文化深度游"
+    },
+    "text_representation": "偏好类型: trip_request 目的地: 北京 旅行偏好: 历史文化, 博物馆 酒店偏好: 交通便利 预算水平: 中等",
+    "timestamp": "2026-05-24T09:27:58.683920"
+  },
+  "15": {
+    "user_id": "aee6a00b-0f30-4ccd-91f2-0675cd01fd41",
+    "type": "trip",
+    "data": {
+      "destination": "北京",
+      "start_date": "2026-06-01",
+      "end_date": "2026-06-01",
+      "preferences": [
+        "历史文化",
+        "博物馆"
+      ],
+      "hotel_preferences": [
+        "交通便利"
+      ],
+      "budget": "中等",
+      "trip_title": "北京一日历史文化深度游",
+      "days": [
+        {
+          "day": 1,
+          "theme": "皇城根下的历史回响",
+          "weather": {
+            "date": "2026-06-01",
+            "day_weather": "多云",
+            "night_weather": "多云",
+            "day_temp": "28",
+            "night_temp": "18",
+            "day_wind": "南风 1-3级",
+            "night_wind": "南风 1-3级"
+          },
+          "recommended_hotel": {
+            "name": "北京东方君悦大酒店",
+            "address": "东长安街1号",
+            "location": {
+              "lat": 39.909821,
+              "lng": 116.414464
+            },
+            "price": "800",
+            "rating": "4.8",
+            "distance_to_main_attraction_km": 0.8
+          },
+          "attractions": [
+            {
+              "name": "故宫博物院",
+              "type": "风景名胜;风景名胜;世界遗产|科教文化服务;博物馆;博物馆",
+              "rating": "4.9",
+              "suggested_duration_hours": 4.0,
+              "description": "上午游览紫禁城，感受明清皇家建筑宏伟气势，参观主要宫殿展览。",
+              "address": "景山前街4号",
+              "location": {
+                "lat": 39.917839,
+                "lng": 116.397029
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1599571234909-29ed5d1321d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTYlOTUlODUlRTUlQUUlQUIlRTUlOEQlOUElRTclODklQTklRTklOTklQTIlMjAlRTUlOEMlOTclRTQlQkElQUN8ZW58MHx8fHwxNzc5NTg1NDY2fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "60"
+            },
+            {
+              "name": "中国国家博物馆",
+              "type": "科教文化服务;博物馆;博物馆",
+              "rating": "4.9",
+              "suggested_duration_hours": 3.0,
+              "description": "下午前往天安门广场东侧，欣赏古代中国基本陈列，领略中华文明精髓。",
+              "address": "东长安街16号天安门广场东侧",
+              "location": {
+                "lat": 39.905374,
+                "lng": 116.401304
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1636550230446-7632d97d1e77?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTQlQjglQUQlRTUlOUIlQkQlRTUlOUIlQkQlRTUlQUUlQjYlRTUlOEQlOUElRTclODklQTklRTklQTYlODYlMjAlRTUlOEMlOTclRTQlQkElQUN8ZW58MHx8fHwxNzc5NTg1NDY3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "免费"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "四季民福烤鸭店(故宫店)",
+              "address": "南河沿大街普渡寺西巷23号",
+              "location": {
+                "lat": 39.9125,
+                "lng": 116.4035
+              },
+              "cost_per_person": "150",
+              "rating": "4.8"
+            },
+            {
+              "name": "王府井小吃街",
+              "address": "王府井大街",
+              "location": {
+                "lat": 39.9105,
+                "lng": 116.4135
+              },
+              "cost_per_person": "50",
+              "rating": "4.2"
+            }
+          ],
+          "budget": {
+            "transport_cost": 50.0,
+            "dining_cost": 200.0,
+            "hotel_cost": 800.0,
+            "attraction_ticket_cost": 60.0,
+            "total": 1110.0
+          }
+        }
+      ]
+    },
+    "text_representation": "旅行行程 目的地: 北京 时间: 2026-06-01 到 2026-06-01 偏好: 历史文化, 博物馆 行程标题: 北京一日历史文化深度游 景点: 故宫博物院, 中国国家博物馆",
+    "timestamp": "2026-05-24T09:27:58.857620"
+  },
+  "16": {
+    "user_id": "aee6a00b-0f30-4ccd-91f2-0675cd01fd41",
+    "type": "preference",
+    "preference_type": "trip_preferences",
+    "data": {
+      "destination": "北京",
+      "preferences": [
+        "历史文化",
+        "博物馆"
+      ],
+      "hotel_preferences": [
+        "交通便利"
+      ],
+      "budget": "中等"
+    },
+    "text_representation": "偏好类型: trip_preferences 目的地: 北京 旅行偏好: 历史文化, 博物馆 酒店偏好: 交通便利 预算水平: 中等",
+    "timestamp": "2026-05-24T09:27:59.041779"
+  },
+  "17": {
+    "user_id": "3a434410-a3a8-4066-89cd-7f4f1c3310e9",
+    "type": "preference",
+    "preference_type": "trip_request",
+    "data": {
+      "destination": "北京",
+      "preferences": [
+        "历史文化",
+        "博物馆"
+      ],
+      "hotel_preferences": [
+        "交通便利"
+      ],
+      "budget": "中等",
+      "trip_title": "北京一日历史文化深度游"
+    },
+    "text_representation": "偏好类型: trip_request 目的地: 北京 旅行偏好: 历史文化, 博物馆 酒店偏好: 交通便利 预算水平: 中等",
+    "timestamp": "2026-05-24T09:30:38.644509"
+  },
+  "18": {
+    "user_id": "3a434410-a3a8-4066-89cd-7f4f1c3310e9",
+    "type": "trip",
+    "data": {
+      "destination": "北京",
+      "start_date": "2026-06-01",
+      "end_date": "2026-06-01",
+      "preferences": [
+        "历史文化",
+        "博物馆"
+      ],
+      "hotel_preferences": [
+        "交通便利"
+      ],
+      "budget": "中等",
+      "trip_title": "北京一日历史文化深度游",
+      "days": [
+        {
+          "day": 1,
+          "theme": "皇城根下的历史回响",
+          "weather": {
+            "date": "2026-06-01",
+            "day_weather": "多云",
+            "night_weather": "多云",
+            "day_temp": "28",
+            "night_temp": "18",
+            "day_wind": "南风 1-3级",
+            "night_wind": "南风 1-3级"
+          },
+          "recommended_hotel": {
+            "name": "北京东方君悦大酒店",
+            "address": "东长安街1号",
+            "location": {
+              "lat": 39.909821,
+              "lng": 116.414464
+            },
+            "price": "800",
+            "rating": "4.8",
+            "distance_to_main_attraction_km": 0.8
+          },
+          "attractions": [
+            {
+              "name": "故宫博物院",
+              "type": "风景名胜;风景名胜;世界遗产|科教文化服务;博物馆;博物馆",
+              "rating": "4.9",
+              "suggested_duration_hours": 4.0,
+              "description": "上午游览紫禁城，感受明清皇家建筑宏伟气势与深厚历史底蕴。",
+              "address": "景山前街4号",
+              "location": {
+                "lat": 39.917839,
+                "lng": 116.397029
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1599571234909-29ed5d1321d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTYlOTUlODUlRTUlQUUlQUIlRTUlOEQlOUElRTclODklQTklRTklOTklQTIlMjAlRTUlOEMlOTclRTQlQkElQUN8ZW58MHx8fHwxNzc5NTg1NDY2fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "60"
+            },
+            {
+              "name": "中国国家博物馆",
+              "type": "科教文化服务;博物馆;博物馆",
+              "rating": "4.9",
+              "suggested_duration_hours": 3.0,
+              "description": "下午参观国博，欣赏古代中国展览，领略中华文明五千年辉煌历程。",
+              "address": "东长安街16号天安门广场东侧",
+              "location": {
+                "lat": 39.905374,
+                "lng": 116.401304
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1636550230446-7632d97d1e77?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTQlQjglQUQlRTUlOUIlQkQlRTUlOUIlQkQlRTUlQUUlQjYlRTUlOEQlOUElRTclODklQTklRTklQTYlODYlMjAlRTUlOEMlOTclRTQlQkElQUN8ZW58MHx8fHwxNzc5NTg1NDY3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "免费"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "四季民福烤鸭店(故宫店)",
+              "address": "南河沿大街普渡寺西巷3号",
+              "location": {
+                "lat": 39.9125,
+                "lng": 116.4035
+              },
+              "cost_per_person": "160",
+              "rating": "4.8"
+            }
+          ],
+          "budget": {
+            "transport_cost": 50.0,
+            "dining_cost": 160.0,
+            "hotel_cost": 800.0,
+            "attraction_ticket_cost": 60.0,
+            "total": 1070.0
+          }
+        }
+      ]
+    },
+    "text_representation": "旅行行程 目的地: 北京 时间: 2026-06-01 到 2026-06-01 偏好: 历史文化, 博物馆 行程标题: 北京一日历史文化深度游 景点: 故宫博物院, 中国国家博物馆",
+    "timestamp": "2026-05-24T09:30:38.840668"
+  },
+  "19": {
+    "user_id": "3a434410-a3a8-4066-89cd-7f4f1c3310e9",
+    "type": "preference",
+    "preference_type": "trip_preferences",
+    "data": {
+      "destination": "北京",
+      "preferences": [
+        "历史文化",
+        "博物馆"
+      ],
+      "hotel_preferences": [
+        "交通便利"
+      ],
+      "budget": "中等"
+    },
+    "text_representation": "偏好类型: trip_preferences 目的地: 北京 旅行偏好: 历史文化, 博物馆 酒店偏好: 交通便利 预算水平: 中等",
+    "timestamp": "2026-05-24T09:30:39.026901"
+  },
+  "20": {
+    "user_id": "76589421-7776-4230-bee2-c903d48d0ec9",
+    "type": "preference",
+    "preference_type": "trip_request",
+    "data": {
+      "destination": "乌鲁木齐",
+      "preferences": [
+        "摄影",
+        "自然"
+      ],
+      "hotel_preferences": [
+        "经济型"
+      ],
+      "budget": "中等",
+      "trip_title": "天山脚下·乌鲁木齐初夏光影之旅"
+    },
+    "text_representation": "偏好类型: trip_request 目的地: 乌鲁木齐 旅行偏好: 摄影, 自然 酒店偏好: 经济型 预算水平: 中等",
+    "timestamp": "2026-05-24T09:33:57.702041"
+  },
+  "21": {
+    "user_id": "76589421-7776-4230-bee2-c903d48d0ec9",
+    "type": "trip",
+    "data": {
+      "destination": "乌鲁木齐",
+      "start_date": "2026-05-24",
+      "end_date": "2026-05-25",
+      "preferences": [
+        "摄影",
+        "自然"
+      ],
+      "hotel_preferences": [
+        "经济型"
+      ],
+      "budget": "中等",
+      "trip_title": "天山脚下·乌鲁木齐初夏光影之旅",
+      "days": [
+        {
+          "day": 1,
+          "theme": "城市人文与建筑摄影",
+          "weather": {
+            "date": "2026-05-24",
+            "day_weather": "晴",
+            "night_weather": "晴",
+            "day_temp": "21",
+            "night_temp": "10",
+            "day_wind": "西北风 1-3级",
+            "night_wind": "西北风 1-3级"
+          },
+          "recommended_hotel": {
+            "name": "如家酒店·neo(乌鲁木齐南湖北路地铁站店)",
+            "address": "南湖西路北三巷24号",
+            "location": {
+              "lat": 43.828994,
+              "lng": 87.612141
+            },
+            "price": "350",
+            "rating": "4.6",
+            "distance_to_main_attraction_km": 2.5
+          },
+          "attractions": [
+            {
+              "name": "新疆国际大巴扎",
+              "type": "购物;特色商业街",
+              "rating": "4.7",
+              "suggested_duration_hours": 3.0,
+              "description": "上午拍摄伊斯兰风格建筑群，捕捉集市人文光影，体验浓郁西域风情。",
+              "address": "天山区解放南路8号",
+              "location": {
+                "lat": 43.7835,
+                "lng": 87.6215
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1699868789807-1b276746b439?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTYlOTYlQjAlRTclOTYlODYlRTUlOUIlQkQlRTklOTklODUlRTUlQTQlQTclRTUlQjclQjQlRTYlODklOEUlMjAlRTQlQjklOEMlRTklQjIlODElRTYlOUMlQTglRTklQkQlOTB8ZW58MHx8fHwxNzc5NTg2NDM3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "免费"
+            },
+            {
+              "name": "红山公园",
+              "type": "风景名胜;公园",
+              "rating": "4.6",
+              "suggested_duration_hours": 2.5,
+              "description": "傍晚登高红山塔，俯瞰乌鲁木齐全城日落，拍摄城市天际线与晚霞。",
+              "address": "水磨沟区红山路北一巷40号",
+              "location": {
+                "lat": 43.8058,
+                "lng": 87.6035
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1696513778713-6f00226ba810?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTclQkElQTIlRTUlQjElQjElRTUlODUlQUMlRTUlOUIlQUQlMjBsYW5kbWFya3xlbnwwfHx8fDE3Nzk1ODY0Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "免费"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "楼兰秘烤",
+              "address": "天山区民主路101号",
+              "location": {
+                "lat": 43.795,
+                "lng": 87.615
+              },
+              "cost_per_person": "120",
+              "rating": "4.7"
+            }
+          ],
+          "budget": {
+            "transport_cost": 50.0,
+            "dining_cost": 120.0,
+            "hotel_cost": 350.0,
+            "attraction_ticket_cost": 0.0,
+            "total": 520.0
+          }
+        },
+        {
+          "day": 2,
+          "theme": "自然生态与湿地风光",
+          "weather": {
+            "date": "2026-05-25",
+            "day_weather": "多云",
+            "night_weather": "晴",
+            "day_temp": "22",
+            "night_temp": "10",
+            "day_wind": "西北风 4级",
+            "night_wind": "西北风 4级"
+          },
+          "recommended_hotel": {
+            "name": "如家酒店·neo(乌鲁木齐南湖北路地铁站店)",
+            "address": "南湖西路北三巷24号",
+            "location": {
+              "lat": 43.828994,
+              "lng": 87.612141
+            },
+            "price": "350",
+            "rating": "4.6",
+            "distance_to_main_attraction_km": 2.5
+          },
+          "attractions": [
+            {
+              "name": "乌鲁木齐植物园",
+              "type": "风景名胜;公园",
+              "rating": "4.5",
+              "suggested_duration_hours": 3.0,
+              "description": "上午拍摄初夏繁花与绿植，利用自然光拍摄微距植物摄影，享受清新空气。",
+              "address": "新市区北京中路916号",
+              "location": {
+                "lat": 43.865,
+                "lng": 87.565
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1685974657644-33e9e9a00f1f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTQlQjklOEMlRTklQjIlODElRTYlOUMlQTglRTklQkQlOTAlRTYlQTQlOEQlRTclODklQTklRTUlOUIlQUR8ZW58MHx8fHwxNzc5NTg2NDM3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "5元"
+            },
+            {
+              "name": "乌鲁木齐水上乐园",
+              "type": "休闲娱乐;公园",
+              "rating": "4.4",
+              "suggested_duration_hours": 2.5,
+              "description": "下午拍摄湖面波光与园林倒影，捕捉水鸟动态，适合自然风光爱好者。",
+              "address": "天山区燕儿窝路1号",
+              "location": {
+                "lat": 43.765,
+                "lng": 87.635
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1584872589930-e99fe5bf4408?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTQlQjklOEMlRTklQjIlODElRTYlOUMlQTglRTklQkQlOTAlRTYlQjAlQjQlRTQlQjglOEElRTQlQjklOTAlRTUlOUIlQUQlMjBsYW5kbWFya3xlbnwwfHx8fDE3Nzk1ODY0Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "10元"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "丝路有约",
+              "address": "沙依巴克区友好北路568号",
+              "location": {
+                "lat": 43.835,
+                "lng": 87.595
+              },
+              "cost_per_person": "100",
+              "rating": "4.6"
+            }
+          ],
+          "budget": {
+            "transport_cost": 50.0,
+            "dining_cost": 100.0,
+            "hotel_cost": 0.0,
+            "attraction_ticket_cost": 15.0,
+            "total": 165.0
+          }
+        }
+      ]
+    },
+    "text_representation": "旅行行程 目的地: 乌鲁木齐 时间: 2026-05-24 到 2026-05-25 偏好: 摄影, 自然 行程标题: 天山脚下·乌鲁木齐初夏光影之旅 景点: 新疆国际大巴扎, 红山公园, 乌鲁木齐植物园, 乌鲁木齐水上乐园",
+    "timestamp": "2026-05-24T09:33:57.915314"
+  },
+  "22": {
+    "user_id": "76589421-7776-4230-bee2-c903d48d0ec9",
+    "type": "preference",
+    "preference_type": "trip_preferences",
+    "data": {
+      "destination": "乌鲁木齐",
+      "preferences": [
+        "摄影",
+        "自然"
+      ],
+      "hotel_preferences": [
+        "经济型"
+      ],
+      "budget": "中等"
+    },
+    "text_representation": "偏好类型: trip_preferences 目的地: 乌鲁木齐 旅行偏好: 摄影, 自然 酒店偏好: 经济型 预算水平: 中等",
+    "timestamp": "2026-05-24T09:33:58.116094"
+  },
+  "23": {
+    "user_id": "9827509b-85e4-4126-888e-9bee6e92a874",
+    "type": "preference",
+    "preference_type": "trip_request",
+    "data": {
+      "destination": "北京",
+      "preferences": [
+        "历史文化",
+        "博物馆"
+      ],
+      "hotel_preferences": [
+        "交通便利"
+      ],
+      "budget": "中等",
+      "trip_title": "北京一日历史文化探索之旅"
+    },
+    "text_representation": "偏好类型: trip_request 目的地: 北京 旅行偏好: 历史文化, 博物馆 酒店偏好: 交通便利 预算水平: 中等",
+    "timestamp": "2026-05-24T09:55:15.648587"
+  },
+  "24": {
+    "user_id": "9827509b-85e4-4126-888e-9bee6e92a874",
+    "type": "trip",
+    "data": {
+      "destination": "北京",
+      "start_date": "2026-06-01",
+      "end_date": "2026-06-01",
+      "preferences": [
+        "历史文化",
+        "博物馆"
+      ],
+      "hotel_preferences": [
+        "交通便利"
+      ],
+      "budget": "中等",
+      "trip_title": "北京一日历史文化探索之旅",
+      "days": [
+        {
+          "day": 1,
+          "theme": "皇城根下的历史与国宝",
+          "weather": {
+            "date": "2026-06-01",
+            "day_weather": "多云",
+            "night_weather": "多云",
+            "day_temp": "28",
+            "night_temp": "18",
+            "day_wind": "南风 1-3级",
+            "night_wind": "南风 1-3级"
+          },
+          "recommended_hotel": {
+            "name": "北京东方君悦大酒店",
+            "address": "东长安街1号",
+            "location": {
+              "lat": 39.909821,
+              "lng": 116.414464
+            },
+            "price": "800",
+            "rating": "4.8",
+            "distance_to_main_attraction_km": 0.8
+          },
+          "attractions": [
+            {
+              "name": "故宫博物院",
+              "type": "风景名胜;风景名胜;世界遗产|科教文化服务;博物馆;博物馆",
+              "rating": "4.9",
+              "suggested_duration_hours": 4.0,
+              "description": "上午游览紫禁城，感受明清皇家宫殿的宏伟气势与深厚历史底蕴。",
+              "address": "景山前街4号",
+              "location": {
+                "lat": 39.917839,
+                "lng": 116.397029
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1599571234909-29ed5d1321d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTYlOTUlODUlRTUlQUUlQUIlRTUlOEQlOUElRTclODklQTklRTklOTklQTIlMjAlRTUlOEMlOTclRTQlQkElQUN8ZW58MHx8fHwxNzc5NTg1NDY2fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "60"
+            },
+            {
+              "name": "中国国家博物馆",
+              "type": "科教文化服务;博物馆;博物馆",
+              "rating": "4.9",
+              "suggested_duration_hours": 3.0,
+              "description": "下午参观国博，欣赏古代中国陈列，领略中华文明五千年辉煌历程。",
+              "address": "东长安街16号天安门广场东侧",
+              "location": {
+                "lat": 39.905374,
+                "lng": 116.401304
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1636550230446-7632d97d1e77?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTQlQjglQUQlRTUlOUIlQkQlRTUlOUIlQkQlRTUlQUUlQjYlRTUlOEQlOUElRTclODklQTklRTklQTYlODYlMjAlRTUlOEMlOTclRTQlQkElQUN8ZW58MHx8fHwxNzc5NTg1NDY3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "免费"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "四季民福烤鸭店(故宫店)",
+              "address": "南河沿大街普渡寺西巷",
+              "location": {
+                "lat": 39.912,
+                "lng": 116.405
+              },
+              "cost_per_person": "150",
+              "rating": "4.7"
+            },
+            {
+              "name": "局气(王府井店)",
+              "address": "王府井大街218号",
+              "location": {
+                "lat": 39.915,
+                "lng": 116.411
+              },
+              "cost_per_person": "100",
+              "rating": "4.6"
+            }
+          ],
+          "budget": {
+            "transport_cost": 50.0,
+            "dining_cost": 200.0,
+            "hotel_cost": 800.0,
+            "attraction_ticket_cost": 60.0,
+            "total": 1110.0
+          }
+        }
+      ]
+    },
+    "text_representation": "旅行行程 目的地: 北京 时间: 2026-06-01 到 2026-06-01 偏好: 历史文化, 博物馆 行程标题: 北京一日历史文化探索之旅 景点: 故宫博物院, 中国国家博物馆",
+    "timestamp": "2026-05-24T09:55:15.834633"
+  },
+  "25": {
+    "user_id": "9827509b-85e4-4126-888e-9bee6e92a874",
+    "type": "preference",
+    "preference_type": "trip_preferences",
+    "data": {
+      "destination": "北京",
+      "preferences": [
+        "历史文化",
+        "博物馆"
+      ],
+      "hotel_preferences": [
+        "交通便利"
+      ],
+      "budget": "中等"
+    },
+    "text_representation": "偏好类型: trip_preferences 目的地: 北京 旅行偏好: 历史文化, 博物馆 酒店偏好: 交通便利 预算水平: 中等",
+    "timestamp": "2026-05-24T09:55:16.021199"
+  },
+  "26": {
+    "user_id": "a8bd2388-0033-4857-8854-5ecd542b8689",
+    "type": "preference",
+    "preference_type": "trip_request",
+    "data": {
+      "destination": "北京",
+      "preferences": [
+        "历史文化",
+        "摄影打卡"
+      ],
+      "hotel_preferences": [
+        "舒适型"
+      ],
+      "budget": "中等",
+      "special_requirements": "想去故宫和国博，不想走太多路，酒店尽量靠近地铁",
+      "trip_title": "北京中轴历史摄影一日精华游"
+    },
+    "text_representation": "偏好类型: trip_request 目的地: 北京 旅行偏好: 历史文化, 摄影打卡 酒店偏好: 舒适型 预算水平: 中等 补充需求: 想去故宫和国博，不想走太多路，酒店尽量靠近地铁",
+    "timestamp": "2026-05-24T10:32:25.315003"
+  },
+  "27": {
+    "user_id": "a8bd2388-0033-4857-8854-5ecd542b8689",
+    "type": "trip",
+    "data": {
+      "destination": "北京",
+      "start_date": "2026-06-01",
+      "end_date": "2026-06-01",
+      "preferences": [
+        "历史文化",
+        "摄影打卡"
+      ],
+      "hotel_preferences": [
+        "舒适型"
+      ],
+      "budget": "中等",
+      "special_requirements": "想去故宫和国博，不想走太多路，酒店尽量靠近地铁",
+      "trip_title": "北京中轴历史摄影一日精华游",
+      "days": [
+        {
+          "day": 1,
+          "theme": "紫禁城与国宝巡礼",
+          "weather": {
+            "date": "2026-06-01",
+            "day_weather": "多云",
+            "night_weather": "多云",
+            "day_temp": "28",
+            "night_temp": "18",
+            "day_wind": "南风 1-3级",
+            "night_wind": "南风 1-3级"
+          },
+          "recommended_hotel": {
+            "name": "全季酒店(朝阳门店)",
+            "address": "朝阳门内大街130号2号楼",
+            "location": {
+              "lat": 39.924062,
+              "lng": 116.428357
+            },
+            "price": "450",
+            "rating": "4.3",
+            "distance_to_main_attraction_km": 2.5
+          },
+          "attractions": [
+            {
+              "name": "故宫博物院",
+              "type": "风景名胜;风景名胜;世界遗产|科教文化服务;博物馆;博物馆",
+              "rating": "4.9",
+              "suggested_duration_hours": 4.0,
+              "description": "上午游览，拍摄红墙黄瓦与宏伟宫殿，建议从午门进神武门出，减少步行。",
+              "address": "景山前街4号",
+              "location": {
+                "lat": 39.917839,
+                "lng": 116.397029
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1599571234909-29ed5d1321d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTYlOTUlODUlRTUlQUUlQUIlRTUlOEQlOUElRTclODklQTklRTklOTklQTIlMjAlRTUlOEMlOTclRTQlQkElQUN8ZW58MHx8fHwxNzc5NTg1NDY2fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "60"
+            },
+            {
+              "name": "中国国家博物馆",
+              "type": "科教文化服务;博物馆;博物馆",
+              "rating": "4.9",
+              "suggested_duration_hours": 3.0,
+              "description": "下午参观，欣赏古代中国陈列，馆内空调舒适，适合避暑且无需大量户外行走。",
+              "address": "东长安街16号天安门广场东侧",
+              "location": {
+                "lat": 39.905374,
+                "lng": 116.401304
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1636550230446-7632d97d1e77?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTQlQjglQUQlRTUlOUIlQkQlRTUlOUIlQkQlRTUlQUUlQjYlRTUlOEQlOUElRTclODklQTklRTklQTYlODYlMjAlRTUlOEMlOTclRTQlQkElQUN8ZW58MHx8fHwxNzc5NTg1NDY3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "免费"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "四季民福烤鸭店(故宫店)",
+              "address": "南池子大街11号",
+              "location": {
+                "lat": 39.9125,
+                "lng": 116.4015
+              },
+              "cost_per_person": "150",
+              "rating": "4.8"
+            },
+            {
+              "name": "局气(崇文门新世界店)",
+              "address": "崇文门外大街3-5号",
+              "location": {
+                "lat": 39.8995,
+                "lng": 116.4185
+              },
+              "cost_per_person": "50",
+              "rating": "4.5"
+            }
+          ],
+          "budget": {
+            "transport_cost": 50.0,
+            "dining_cost": 200.0,
+            "hotel_cost": 450.0,
+            "attraction_ticket_cost": 60.0,
+            "total": 760.0
+          }
+        }
+      ]
+    },
+    "text_representation": "旅行行程 目的地: 北京 时间: 2026-06-01 到 2026-06-01 偏好: 历史文化, 摄影打卡 行程标题: 北京中轴历史摄影一日精华游 补充需求: 想去故宫和国博，不想走太多路，酒店尽量靠近地铁 景点: 故宫博物院, 中国国家博物馆",
+    "timestamp": "2026-05-24T10:32:25.518885"
+  },
+  "28": {
+    "user_id": "a8bd2388-0033-4857-8854-5ecd542b8689",
+    "type": "preference",
+    "preference_type": "trip_preferences",
+    "data": {
+      "destination": "北京",
+      "preferences": [
+        "历史文化",
+        "摄影打卡"
+      ],
+      "hotel_preferences": [
+        "舒适型"
+      ],
+      "budget": "中等",
+      "special_requirements": "想去故宫和国博，不想走太多路，酒店尽量靠近地铁"
+    },
+    "text_representation": "偏好类型: trip_preferences 目的地: 北京 旅行偏好: 历史文化, 摄影打卡 酒店偏好: 舒适型 预算水平: 中等 补充需求: 想去故宫和国博，不想走太多路，酒店尽量靠近地铁",
+    "timestamp": "2026-05-24T10:32:25.711071"
+  },
+  "29": {
+    "user_id": "5196345c-a0e2-4811-9cd2-2f7469233a40",
+    "type": "preference",
+    "preference_type": "trip_request",
+    "data": {
+      "destination": "北京",
+      "preferences": [
+        "历史文化",
+        "摄影打卡"
+      ],
+      "hotel_preferences": [
+        "舒适型"
+      ],
+      "budget": "中等",
+      "special_requirements": "想去故宫和国博，不想走太多路，酒店尽量靠近地铁",
+      "trip_title": "北京中轴古韵：故宫国博一日精华游"
+    },
+    "text_representation": "偏好类型: trip_request 目的地: 北京 旅行偏好: 历史文化, 摄影打卡 酒店偏好: 舒适型 预算水平: 中等 补充需求: 想去故宫和国博，不想走太多路，酒店尽量靠近地铁",
+    "timestamp": "2026-05-24T10:43:59.212925"
+  },
+  "30": {
+    "user_id": "5196345c-a0e2-4811-9cd2-2f7469233a40",
+    "type": "trip",
+    "data": {
+      "destination": "北京",
+      "start_date": "2026-06-01",
+      "end_date": "2026-06-01",
+      "preferences": [
+        "历史文化",
+        "摄影打卡"
+      ],
+      "hotel_preferences": [
+        "舒适型"
+      ],
+      "budget": "中等",
+      "special_requirements": "想去故宫和国博，不想走太多路，酒店尽量靠近地铁",
+      "trip_title": "北京中轴古韵：故宫国博一日精华游",
+      "days": [
+        {
+          "day": 1,
+          "theme": "皇城根下的历史与摄影",
+          "weather": {
+            "date": "2026-06-01",
+            "day_weather": "多云",
+            "night_weather": "多云",
+            "day_temp": "28",
+            "night_temp": "18",
+            "day_wind": "南风 1-3级",
+            "night_wind": "南风 1-3级"
+          },
+          "recommended_hotel": {
+            "name": "全季酒店(朝阳门店)",
+            "address": "朝阳门内大街130号2号楼",
+            "location": {
+              "lat": 39.924062,
+              "lng": 116.428357
+            },
+            "price": "450",
+            "rating": "4.3",
+            "distance_to_main_attraction_km": 2.5
+          },
+          "attractions": [
+            {
+              "name": "故宫博物院",
+              "type": "风景名胜;风景名胜;世界遗产|科教文化服务;博物馆;博物馆",
+              "rating": "4.9",
+              "suggested_duration_hours": 4.0,
+              "description": "上午游览紫禁城，拍摄太和殿等宏伟建筑，感受皇家历史底蕴。",
+              "address": "景山前街4号",
+              "location": {
+                "lat": 39.917839,
+                "lng": 116.397029
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1599571234909-29ed5d1321d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTYlOTUlODUlRTUlQUUlQUIlRTUlOEQlOUElRTclODklQTklRTklOTklQTIlMjAlRTUlOEMlOTclRTQlQkElQUN8ZW58MHx8fHwxNzc5NTg1NDY2fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "60"
+            },
+            {
+              "name": "中国国家博物馆",
+              "type": "科教文化服务;博物馆;博物馆",
+              "rating": "4.9",
+              "suggested_duration_hours": 3.0,
+              "description": "下午参观国博，欣赏古代中国陈列，近距离接触国宝文物。",
+              "address": "东长安街16号天安门广场东侧",
+              "location": {
+                "lat": 39.905374,
+                "lng": 116.401304
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1636550230446-7632d97d1e77?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTQlQjglQUQlRTUlOUIlQkQlRTUlOUIlQkQlRTUlQUUlQjYlRTUlOEQlOUElRTclODklQTklRTklQTYlODYlMjAlRTUlOEMlOTclRTQlQkElQUN8ZW58MHx8fHwxNzc5NTg1NDY3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "免费"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "四季民福烤鸭店(故宫店)",
+              "address": "南池子大街11号",
+              "location": {
+                "lat": 39.912,
+                "lng": 116.405
+              },
+              "cost_per_person": "150",
+              "rating": "4.8"
+            },
+            {
+              "name": "老北京炸酱面大王(崇文门店)",
+              "address": "幸福大街59号",
+              "location": {
+                "lat": 39.895,
+                "lng": 116.435
+              },
+              "cost_per_person": "50",
+              "rating": "4.5"
+            }
+          ],
+          "budget": {
+            "transport_cost": 50.0,
+            "dining_cost": 200.0,
+            "hotel_cost": 450.0,
+            "attraction_ticket_cost": 60.0,
+            "total": 760.0
+          }
+        }
+      ]
+    },
+    "text_representation": "旅行行程 目的地: 北京 时间: 2026-06-01 到 2026-06-01 偏好: 历史文化, 摄影打卡 行程标题: 北京中轴古韵：故宫国博一日精华游 补充需求: 想去故宫和国博，不想走太多路，酒店尽量靠近地铁 景点: 故宫博物院, 中国国家博物馆",
+    "timestamp": "2026-05-24T10:43:59.962769"
+  },
+  "31": {
+    "user_id": "5196345c-a0e2-4811-9cd2-2f7469233a40",
+    "type": "preference",
+    "preference_type": "trip_preferences",
+    "data": {
+      "destination": "北京",
+      "preferences": [
+        "历史文化",
+        "摄影打卡"
+      ],
+      "hotel_preferences": [
+        "舒适型"
+      ],
+      "budget": "中等",
+      "special_requirements": "想去故宫和国博，不想走太多路，酒店尽量靠近地铁"
+    },
+    "text_representation": "偏好类型: trip_preferences 目的地: 北京 旅行偏好: 历史文化, 摄影打卡 酒店偏好: 舒适型 预算水平: 中等 补充需求: 想去故宫和国博，不想走太多路，酒店尽量靠近地铁",
+    "timestamp": "2026-05-24T10:44:00.183638"
+  },
+  "32": {
+    "user_id": "guest_6977375f-8b19-4b1a-8767-8a9118c45ae0",
+    "type": "preference",
+    "preference_type": "trip_request",
+    "data": {
+      "destination": "??",
+      "preferences": [
+        "????"
+      ],
+      "hotel_preferences": [
+        "????"
+      ],
+      "budget": "??",
+      "special_requirements": "????,??????,????????",
+      "trip_title": "??1日????行程"
+    },
+    "text_representation": "偏好类型: trip_request 目的地: ?? 旅行偏好: ???? 酒店偏好: ???? 预算水平: ?? 补充需求: ????,??????,????????",
+    "timestamp": "2026-05-24T10:57:58.365629"
+  },
+  "33": {
+    "user_id": "guest_6977375f-8b19-4b1a-8767-8a9118c45ae0",
+    "type": "trip",
+    "data": {
+      "destination": "??",
+      "start_date": "2026-06-01",
+      "end_date": "2026-06-01",
+      "preferences": [
+        "????"
+      ],
+      "hotel_preferences": [
+        "????"
+      ],
+      "budget": "??",
+      "special_requirements": "????,??????,????????",
+      "trip_title": "??1日????行程",
+      "days": [
+        {
+          "day": 1,
+          "theme": "??精选体验第1天",
+          "weather": {
+            "date": "2026-06-01",
+            "day_weather": "请以实时天气为准",
+            "night_weather": "请以实时天气为准",
+            "day_temp": "N/A",
+            "night_temp": "N/A",
+            "day_wind": "",
+            "night_wind": ""
+          },
+          "recommended_hotel": {
+            "name": "長·安丨Boutique·铁通精品商务酒店(西安小寨电子科技大学店)",
+            "address": "二环南路西段96号",
+            "location": {
+              "lat": 34.231095,
+              "lng": 108.926354
+            },
+            "price": "N/A",
+            "rating": "4.8",
+            "distance_to_main_attraction_km": null
+          },
+          "attractions": [
+            {
+              "name": "??城市核心游览区",
+              "type": "城市游览",
+              "rating": "N/A",
+              "suggested_duration_hours": 3.0,
+              "description": "结合当地交通和实时开放信息安排游览。",
+              "address": "??市区",
+              "location": null,
+              "image_urls": [
+                "https://images.unsplash.com/photo-1630219413409-c0307781c024?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlM0YlM0YlRTUlOUYlOEUlRTUlQjglODIlRTYlQTAlQjglRTUlQkYlODMlRTYlQjglQjglRTglQTclODglRTUlOEMlQkElMjAlM0YlM0Z8ZW58MHx8fHwxNzc5NTg1Mzk4fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "N/A"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "??本地特色餐厅",
+              "address": "??市区",
+              "location": null,
+              "cost_per_person": "60",
+              "rating": "N/A"
+            }
+          ],
+          "budget": {
+            "transport_cost": 80.0,
+            "dining_cost": 120.0,
+            "hotel_cost": 180.0,
+            "attraction_ticket_cost": 0.0,
+            "total": 380.0
+          }
+        }
+      ]
+    },
+    "text_representation": "旅行行程 目的地: ?? 时间: 2026-06-01 到 2026-06-01 偏好: ???? 行程标题: ??1日????行程 补充需求: ????,??????,???????? 景点: ??城市核心游览区",
+    "timestamp": "2026-05-24T10:57:58.584582"
+  },
+  "34": {
+    "user_id": "guest_6977375f-8b19-4b1a-8767-8a9118c45ae0",
+    "type": "preference",
+    "preference_type": "trip_preferences",
+    "data": {
+      "destination": "??",
+      "preferences": [
+        "????"
+      ],
+      "hotel_preferences": [
+        "????"
+      ],
+      "budget": "??",
+      "special_requirements": "????,??????,????????"
+    },
+    "text_representation": "偏好类型: trip_preferences 目的地: ?? 旅行偏好: ???? 酒店偏好: ???? 预算水平: ?? 补充需求: ????,??????,????????",
+    "timestamp": "2026-05-24T10:57:58.777949"
+  },
+  "35": {
+    "user_id": "guest_codex-conflict-test-guest",
+    "type": "preference",
+    "preference_type": "trip_request",
+    "data": {
+      "destination": "??",
+      "preferences": [
+        "????"
+      ],
+      "hotel_preferences": [
+        "????"
+      ],
+      "budget": "??",
+      "special_requirements": "????,??????,????????",
+      "trip_title": "??1日????行程"
+    },
+    "text_representation": "偏好类型: trip_request 目的地: ?? 旅行偏好: ???? 酒店偏好: ???? 预算水平: ?? 补充需求: ????,??????,????????",
+    "timestamp": "2026-05-24T10:58:46.945919"
+  },
+  "36": {
+    "user_id": "guest_codex-conflict-test-guest",
+    "type": "trip",
+    "data": {
+      "destination": "??",
+      "start_date": "2026-06-01",
+      "end_date": "2026-06-01",
+      "preferences": [
+        "????"
+      ],
+      "hotel_preferences": [
+        "????"
+      ],
+      "budget": "??",
+      "special_requirements": "????,??????,????????",
+      "trip_title": "??1日????行程",
+      "days": [
+        {
+          "day": 1,
+          "theme": "??精选体验第1天",
+          "weather": {
+            "date": "2026-06-01",
+            "day_weather": "请以实时天气为准",
+            "night_weather": "请以实时天气为准",
+            "day_temp": "N/A",
+            "night_temp": "N/A",
+            "day_wind": "",
+            "night_wind": ""
+          },
+          "recommended_hotel": {
+            "name": "長·安丨Boutique·铁通精品商务酒店(西安小寨电子科技大学店)",
+            "address": "二环南路西段96号",
+            "location": {
+              "lat": 34.231095,
+              "lng": 108.926354
+            },
+            "price": "N/A",
+            "rating": "4.8",
+            "distance_to_main_attraction_km": null
+          },
+          "attractions": [
+            {
+              "name": "??城市核心游览区",
+              "type": "城市游览",
+              "rating": "N/A",
+              "suggested_duration_hours": 3.0,
+              "description": "结合当地交通和实时开放信息安排游览。",
+              "address": "??市区",
+              "location": null,
+              "image_urls": [
+                "https://images.unsplash.com/photo-1630219413409-c0307781c024?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlM0YlM0YlRTUlOUYlOEUlRTUlQjglODIlRTYlQTAlQjglRTUlQkYlODMlRTYlQjglQjglRTglQTclODglRTUlOEMlQkElMjAlM0YlM0Z8ZW58MHx8fHwxNzc5NTg1Mzk4fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "N/A"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "??本地特色餐厅",
+              "address": "??市区",
+              "location": null,
+              "cost_per_person": "60",
+              "rating": "N/A"
+            }
+          ],
+          "budget": {
+            "transport_cost": 80.0,
+            "dining_cost": 120.0,
+            "hotel_cost": 180.0,
+            "attraction_ticket_cost": 0.0,
+            "total": 380.0
+          }
+        }
+      ]
+    },
+    "text_representation": "旅行行程 目的地: ?? 时间: 2026-06-01 到 2026-06-01 偏好: ???? 行程标题: ??1日????行程 补充需求: ????,??????,???????? 景点: ??城市核心游览区",
+    "timestamp": "2026-05-24T10:58:47.125312"
+  },
+  "37": {
+    "user_id": "guest_codex-conflict-test-guest",
+    "type": "preference",
+    "preference_type": "trip_preferences",
+    "data": {
+      "destination": "??",
+      "preferences": [
+        "????"
+      ],
+      "hotel_preferences": [
+        "????"
+      ],
+      "budget": "??",
+      "special_requirements": "????,??????,????????"
+    },
+    "text_representation": "偏好类型: trip_preferences 目的地: ?? 旅行偏好: ???? 酒店偏好: ???? 预算水平: ?? 补充需求: ????,??????,????????",
+    "timestamp": "2026-05-24T10:58:47.348432"
+  },
+  "38": {
+    "user_id": "guest_codex-conflict-test-utf8",
+    "type": "preference",
+    "preference_type": "trip_request",
+    "data": {
+      "destination": "??",
+      "preferences": [
+        "????"
+      ],
+      "hotel_preferences": [
+        "????"
+      ],
+      "budget": "??",
+      "special_requirements": "????????????????????",
+      "trip_title": "??1日????行程"
+    },
+    "text_representation": "偏好类型: trip_request 目的地: ?? 旅行偏好: ???? 酒店偏好: ???? 预算水平: ?? 补充需求: ????????????????????",
+    "timestamp": "2026-05-24T11:03:10.711939"
+  },
+  "39": {
+    "user_id": "guest_codex-conflict-test-utf8",
+    "type": "trip",
+    "data": {
+      "destination": "??",
+      "start_date": "2026-06-01",
+      "end_date": "2026-06-01",
+      "preferences": [
+        "????"
+      ],
+      "hotel_preferences": [
+        "????"
+      ],
+      "budget": "??",
+      "special_requirements": "????????????????????",
+      "trip_title": "??1日????行程",
+      "days": [
+        {
+          "day": 1,
+          "theme": "??精选体验第1天",
+          "weather": {
+            "date": "2026-06-01",
+            "day_weather": "请以实时天气为准",
+            "night_weather": "请以实时天气为准",
+            "day_temp": "N/A",
+            "night_temp": "N/A",
+            "day_wind": "",
+            "night_wind": ""
+          },
+          "recommended_hotel": {
+            "name": "長·安丨Boutique·铁通精品商务酒店(西安小寨电子科技大学店)",
+            "address": "二环南路西段96号",
+            "location": {
+              "lat": 34.231095,
+              "lng": 108.926354
+            },
+            "price": "N/A",
+            "rating": "4.8",
+            "distance_to_main_attraction_km": null
+          },
+          "attractions": [
+            {
+              "name": "??城市核心游览区",
+              "type": "城市游览",
+              "rating": "N/A",
+              "suggested_duration_hours": 3.0,
+              "description": "结合当地交通和实时开放信息安排游览。",
+              "address": "??市区",
+              "location": null,
+              "image_urls": [
+                "https://images.unsplash.com/photo-1630219413409-c0307781c024?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlM0YlM0YlRTUlOUYlOEUlRTUlQjglODIlRTYlQTAlQjglRTUlQkYlODMlRTYlQjglQjglRTglQTclODglRTUlOEMlQkElMjAlM0YlM0Z8ZW58MHx8fHwxNzc5NTg1Mzk4fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "N/A"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "??本地特色餐厅",
+              "address": "??市区",
+              "location": null,
+              "cost_per_person": "60",
+              "rating": "N/A"
+            }
+          ],
+          "budget": {
+            "transport_cost": 80.0,
+            "dining_cost": 120.0,
+            "hotel_cost": 180.0,
+            "attraction_ticket_cost": 0.0,
+            "total": 380.0
+          }
+        }
+      ]
+    },
+    "text_representation": "旅行行程 目的地: ?? 时间: 2026-06-01 到 2026-06-01 偏好: ???? 行程标题: ??1日????行程 补充需求: ???????????????????? 景点: ??城市核心游览区",
+    "timestamp": "2026-05-24T11:03:10.896102"
+  },
+  "40": {
+    "user_id": "guest_codex-conflict-test-utf8",
+    "type": "preference",
+    "preference_type": "trip_preferences",
+    "data": {
+      "destination": "??",
+      "preferences": [
+        "????"
+      ],
+      "hotel_preferences": [
+        "????"
+      ],
+      "budget": "??",
+      "special_requirements": "????????????????????"
+    },
+    "text_representation": "偏好类型: trip_preferences 目的地: ?? 旅行偏好: ???? 酒店偏好: ???? 预算水平: ?? 补充需求: ????????????????????",
+    "timestamp": "2026-05-24T11:03:11.077378"
+  },
+  "41": {
+    "user_id": "guest_codex-conflict-test-ascii-escapes",
+    "type": "preference",
+    "preference_type": "trip_request",
+    "data": {
+      "destination": "上海",
+      "preferences": [
+        "历史文化"
+      ],
+      "hotel_preferences": [
+        "靠近地铁"
+      ],
+      "budget": "中等",
+      "special_requirements": "想去故宫，不想走太多路，酒店尽量靠近地铁",
+      "trip_title": "上海百年风云：外滩建筑与世博文化一日漫步"
+    },
+    "text_representation": "偏好类型: trip_request 目的地: 上海 旅行偏好: 历史文化 酒店偏好: 靠近地铁 预算水平: 中等 补充需求: 想去故宫，不想走太多路，酒店尽量靠近地铁",
+    "timestamp": "2026-05-24T11:04:14.153168"
+  },
+  "42": {
+    "user_id": "guest_codex-conflict-test-ascii-escapes",
+    "type": "trip",
+    "data": {
+      "destination": "上海",
+      "start_date": "2026-06-01",
+      "end_date": "2026-06-01",
+      "preferences": [
+        "历史文化"
+      ],
+      "hotel_preferences": [
+        "靠近地铁"
+      ],
+      "budget": "中等",
+      "special_requirements": "想去故宫，不想走太多路，酒店尽量靠近地铁",
+      "trip_title": "上海百年风云：外滩建筑与世博文化一日漫步",
+      "days": [
+        {
+          "day": 1,
+          "theme": "万国建筑博览与城市历史记忆",
+          "weather": {
+            "date": "2026-06-01",
+            "day_weather": "小雨",
+            "night_weather": "小雨",
+            "day_temp": "27",
+            "night_temp": "23",
+            "day_wind": "东南风 1-3级",
+            "night_wind": "东南风 1-3级"
+          },
+          "recommended_hotel": {
+            "name": "上海艾迪逊酒店",
+            "address": "南京东路199号(南京东路地铁站7号口步行240米)",
+            "location": {
+              "lat": 31.237567,
+              "lng": 121.485909
+            },
+            "price": "800",
+            "rating": "4.5",
+            "distance_to_main_attraction_km": 0.5
+          },
+          "attractions": [
+            {
+              "name": "万国建筑博览群",
+              "type": "风景名胜;风景名胜;风景名胜",
+              "rating": "4.8",
+              "suggested_duration_hours": 2.0,
+              "description": "上午漫步外滩，欣赏52幢风格迥异的古典复兴大楼，感受上海近代历史变迁。",
+              "address": "滇池路63号",
+              "location": {
+                "lat": 31.237208,
+                "lng": 121.489271
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1545893835-abaa50cbe628?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTQlQjglODclRTUlOUIlQkQlRTUlQkIlQkElRTclQUQlOTElRTUlOEQlOUElRTglQTclODglRTclQkUlQTQlMjAlRTQlQjglOEElRTYlQjUlQjd8ZW58MHx8fHwxNzc5NTkxODU1fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "免费"
+            },
+            {
+              "name": "上海世博会博物馆",
+              "type": "科教文化服务;博物馆;博物馆",
+              "rating": "4.7",
+              "suggested_duration_hours": 2.5,
+              "description": "下午前往蒙自路，参观全球唯一的世博会官方博物馆，了解城市发展与世博文化。",
+              "address": "蒙自路818号(世博会博物馆地铁站2号口步行210米)",
+              "location": {
+                "lat": 31.194391,
+                "lng": 121.482161
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1694168315269-4cfb9f60297a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTQlQjglOEElRTYlQjUlQjclRTQlQjglOTYlRTUlOEQlOUElRTQlQkMlOUElRTUlOEQlOUElRTclODklQTklRTklQTYlODYlMjAlRTQlQjglOEElRTYlQjUlQjd8ZW58MHx8fHwxNzc5NTkxODU0fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "免费"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "外滩源壹号餐厅",
+              "address": "圆明园路97号",
+              "location": {
+                "lat": 31.239615,
+                "lng": 121.487451
+              },
+              "cost_per_person": "120",
+              "rating": "4.6"
+            },
+            {
+              "name": "世博园滨江餐厅",
+              "address": "蒙自路818号附近",
+              "location": {
+                "lat": 31.194391,
+                "lng": 121.482161
+              },
+              "cost_per_person": "80",
+              "rating": "4.5"
+            }
+          ],
+          "budget": {
+            "transport_cost": 50.0,
+            "dining_cost": 200.0,
+            "hotel_cost": 800.0,
+            "attraction_ticket_cost": 0.0,
+            "total": 1050.0
+          }
+        }
+      ]
+    },
+    "text_representation": "旅行行程 目的地: 上海 时间: 2026-06-01 到 2026-06-01 偏好: 历史文化 行程标题: 上海百年风云：外滩建筑与世博文化一日漫步 补充需求: 想去故宫，不想走太多路，酒店尽量靠近地铁 景点: 万国建筑博览群, 上海世博会博物馆",
+    "timestamp": "2026-05-24T11:04:14.354324"
+  },
+  "43": {
+    "user_id": "guest_codex-conflict-test-ascii-escapes",
+    "type": "preference",
+    "preference_type": "trip_preferences",
+    "data": {
+      "destination": "上海",
+      "preferences": [
+        "历史文化"
+      ],
+      "hotel_preferences": [
+        "靠近地铁"
+      ],
+      "budget": "中等",
+      "special_requirements": "想去故宫，不想走太多路，酒店尽量靠近地铁"
+    },
+    "text_representation": "偏好类型: trip_preferences 目的地: 上海 旅行偏好: 历史文化 酒店偏好: 靠近地铁 预算水平: 中等 补充需求: 想去故宫，不想走太多路，酒店尽量靠近地铁",
+    "timestamp": "2026-05-24T11:04:14.534404"
+  },
+  "44": {
+    "user_id": "76589421-7776-4230-bee2-c903d48d0ec9",
+    "type": "preference",
+    "preference_type": "trip_request",
+    "data": {
+      "destination": "深圳",
+      "preferences": [
+        "自然",
+        "摄影",
+        "亲子"
+      ],
+      "hotel_preferences": [
+        "经济型"
+      ],
+      "budget": "中等",
+      "special_requirements": "想去故宫和国博，不想走太多路，酒店尽量靠近地铁",
+      "trip_title": "深圳滨海自然与亲子休闲三日摄影之旅"
+    },
+    "text_representation": "偏好类型: trip_request 目的地: 深圳 旅行偏好: 自然, 摄影, 亲子 酒店偏好: 经济型 预算水平: 中等 补充需求: 想去故宫和国博，不想走太多路，酒店尽量靠近地铁",
+    "timestamp": "2026-05-24T11:10:56.622656"
+  },
+  "45": {
+    "user_id": "76589421-7776-4230-bee2-c903d48d0ec9",
+    "type": "trip",
+    "data": {
+      "destination": "深圳",
+      "start_date": "2026-05-24",
+      "end_date": "2026-05-26",
+      "preferences": [
+        "自然",
+        "摄影",
+        "亲子"
+      ],
+      "hotel_preferences": [
+        "经济型"
+      ],
+      "budget": "中等",
+      "special_requirements": "想去故宫和国博，不想走太多路，酒店尽量靠近地铁",
+      "trip_title": "深圳滨海自然与亲子休闲三日摄影之旅",
+      "days": [
+        {
+          "day": 1,
+          "theme": "红树林生态观察与海滨风光",
+          "weather": {
+            "date": "2026-05-24",
+            "day_weather": "多云",
+            "night_weather": "多云",
+            "day_temp": "32",
+            "night_temp": "27",
+            "day_wind": "南风 1-3级",
+            "night_wind": "南风 1-3级"
+          },
+          "recommended_hotel": {
+            "name": "如家酒店·neo(深圳福田竹子林地铁站店)",
+            "address": "竹子林七路2号益华大厦B1层",
+            "location": {
+              "lat": 22.535524,
+              "lng": 114.013503
+            },
+            "price": "400",
+            "rating": "4.4",
+            "distance_to_main_attraction_km": 2.5
+          },
+          "attractions": [
+            {
+              "name": "红树林海滨生态公园",
+              "type": "风景名胜;公园广场;公园",
+              "rating": "4.7",
+              "suggested_duration_hours": 3.0,
+              "description": "上午漫步红树林，观察候鸟，适合亲子自然教育与摄影。",
+              "address": "滨河大道(深圳湾公园地铁站D2口步行60米)",
+              "location": {
+                "lat": 22.522076,
+                "lng": 113.998082
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1713108351971-e43bef24a87f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTclQkElQTIlRTYlQTAlOTElRTYlOUUlOTclRTYlQjUlQjclRTYlQkIlQTglRTclOTQlOUYlRTYlODAlODElRTUlODUlQUMlRTUlOUIlQUQlMjAlRTYlQjclQjElRTUlOUMlQjN8ZW58MHx8fHwxNzc5NTkyMjU1fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "免费"
+            },
+            {
+              "name": "深圳湾公园",
+              "type": "风景名胜;公园广场;公园",
+              "rating": "4.9",
+              "suggested_duration_hours": 3.0,
+              "description": "下午沿滨海大道骑行或散步，欣赏海景与城市天际线。",
+              "address": "滨海大道",
+              "location": {
+                "lat": 22.518968,
+                "lng": 113.972602
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1651932435281-4567ff0aa9e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTYlQjclQjElRTUlOUMlQjMlRTYlQjklQkUlRTUlODUlQUMlRTUlOUIlQUQlMjAlRTYlQjclQjElRTUlOUMlQjN8ZW58MHx8fHwxNzc5NTkyMjU1fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "免费"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "海岸城购物中心餐饮区",
+              "address": "南山区文心五路33号",
+              "location": {
+                "lat": 22.517,
+                "lng": 113.935
+              },
+              "cost_per_person": "150",
+              "rating": "4.5"
+            }
+          ],
+          "budget": {
+            "transport_cost": 50.0,
+            "dining_cost": 300.0,
+            "hotel_cost": 400.0,
+            "attraction_ticket_cost": 0.0,
+            "total": 750.0
+          }
+        },
+        {
+          "day": 2,
+          "theme": "梧桐山自然风光与登高望远",
+          "weather": {
+            "date": "2026-05-25",
+            "day_weather": "多云",
+            "night_weather": "多云",
+            "day_temp": "32",
+            "night_temp": "27",
+            "day_wind": "西南风 1-3级",
+            "night_wind": "西南风 1-3级"
+          },
+          "recommended_hotel": {
+            "name": "如家酒店·neo(深圳福田竹子林地铁站店)",
+            "address": "竹子林七路2号益华大厦B1层",
+            "location": {
+              "lat": 22.535524,
+              "lng": 114.013503
+            },
+            "price": "400",
+            "rating": "4.4",
+            "distance_to_main_attraction_km": 15.0
+          },
+          "attractions": [
+            {
+              "name": "广东梧桐山风景名胜区",
+              "type": "风景名胜;风景名胜;国家级景点",
+              "rating": "4.7",
+              "suggested_duration_hours": 5.0,
+              "description": "全天游览梧桐山，乘坐索道上山，减少步行，俯瞰深圳全景。",
+              "address": "茂仔村137号梧桐山景区",
+              "location": {
+                "lat": 22.577706,
+                "lng": 114.214689
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1563008393-bcc4d3b93219?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTUlQjklQkYlRTQlQjglOUMlRTYlQTIlQTclRTYlQTElOTAlRTUlQjElQjElRTklQTMlOEUlRTYlOTklQUYlRTUlOTAlOEQlRTglODMlOUMlRTUlOEMlQkElMjAlRTYlQjclQjElRTUlOUMlQjN8ZW58MHx8fHwxNzc5NTkyMjU2fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "免费"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "梧桐山脚下农家菜",
+              "address": "罗湖区梧桐山艺术小镇",
+              "location": {
+                "lat": 22.58,
+                "lng": 114.21
+              },
+              "cost_per_person": "100",
+              "rating": "4.3"
+            },
+            {
+              "name": "福田区中心城餐厅",
+              "address": "福田区福华一路",
+              "location": {
+                "lat": 22.535,
+                "lng": 114.06
+              },
+              "cost_per_person": "150",
+              "rating": "4.6"
+            }
+          ],
+          "budget": {
+            "transport_cost": 50.0,
+            "dining_cost": 300.0,
+            "hotel_cost": 400.0,
+            "attraction_ticket_cost": 0.0,
+            "total": 750.0
+          }
+        },
+        {
+          "day": 3,
+          "theme": "深圳湾湿地探秘与休闲返程",
+          "weather": {
+            "date": "2026-05-26",
+            "day_weather": "多云",
+            "night_weather": "多云",
+            "day_temp": "33",
+            "night_temp": "26",
+            "day_wind": "北风 1-3级",
+            "night_wind": "北风 1-3级"
+          },
+          "recommended_hotel": {
+            "name": "如家酒店·neo(深圳福田竹子林地铁站店)",
+            "address": "竹子林七路2号益华大厦B1层",
+            "location": {
+              "lat": 22.535524,
+              "lng": 114.013503
+            },
+            "price": "400",
+            "rating": "4.4",
+            "distance_to_main_attraction_km": 2.5
+          },
+          "attractions": [
+            {
+              "name": "深圳湾公园潮汐湿地公园",
+              "type": "风景名胜;公园广场;公园",
+              "rating": "4.2",
+              "suggested_duration_hours": 2.5,
+              "description": "上午探访潮汐湿地，观察特有植物与昆虫，适合亲子科普。",
+              "address": "望海路",
+              "location": {
+                "lat": 22.495397,
+                "lng": 113.951704
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1565758039032-84ec33d564b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTYlQjclQjElRTUlOUMlQjMlRTYlQjklQkUlRTUlODUlQUMlRTUlOUIlQUQlRTYlQkQlQUUlRTYlQjElOTAlRTYlQjklQkYlRTUlOUMlQjAlRTUlODUlQUMlRTUlOUIlQUQlMjAlRTYlQjclQjElRTUlOUMlQjN8ZW58MHx8fHwxNzc5NTkyMjU2fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "免费"
+            },
+            {
+              "name": "深圳湾观鸟点B",
+              "type": "风景名胜;风景名胜相关;旅游景点",
+              "rating": "4.2",
+              "suggested_duration_hours": 1.5,
+              "description": "中午前在观鸟点静候鸟类活动，捕捉自然生态精彩瞬间。",
+              "address": "滨海大道深圳湾公园内(西侧)",
+              "location": {
+                "lat": 22.518848,
+                "lng": 113.954839
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1651931583333-43b7d5eea413?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTYlQjclQjElRTUlOUMlQjMlRTYlQjklQkUlRTglQTclODIlRTklQjglOUYlRTclODIlQjlCJTIwJUU2JUI3JUIxJUU1JTlDJUIzfGVufDB8fHx8MTc3OTU5MjI1NXww&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "免费"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "深圳湾万象城餐饮",
+              "address": "南山区科苑南路2888号",
+              "location": {
+                "lat": 22.515,
+                "lng": 113.945
+              },
+              "cost_per_person": "150",
+              "rating": "4.7"
+            }
+          ],
+          "budget": {
+            "transport_cost": 50.0,
+            "dining_cost": 300.0,
+            "hotel_cost": 400.0,
+            "attraction_ticket_cost": 0.0,
+            "total": 750.0
+          }
+        }
+      ]
+    },
+    "text_representation": "旅行行程 目的地: 深圳 时间: 2026-05-24 到 2026-05-26 偏好: 自然, 摄影, 亲子 行程标题: 深圳滨海自然与亲子休闲三日摄影之旅 补充需求: 想去故宫和国博，不想走太多路，酒店尽量靠近地铁 景点: 红树林海滨生态公园, 深圳湾公园, 广东梧桐山风景名胜区, 深圳湾公园潮汐湿地公园, 深圳湾观鸟点B",
+    "timestamp": "2026-05-24T11:10:56.818262"
+  },
+  "46": {
+    "user_id": "76589421-7776-4230-bee2-c903d48d0ec9",
+    "type": "preference",
+    "preference_type": "trip_preferences",
+    "data": {
+      "destination": "深圳",
+      "preferences": [
+        "自然",
+        "摄影",
+        "亲子"
+      ],
+      "hotel_preferences": [
+        "经济型"
+      ],
+      "budget": "中等",
+      "special_requirements": "想去故宫和国博，不想走太多路，酒店尽量靠近地铁"
+    },
+    "text_representation": "偏好类型: trip_preferences 目的地: 深圳 旅行偏好: 自然, 摄影, 亲子 酒店偏好: 经济型 预算水平: 中等 补充需求: 想去故宫和国博，不想走太多路，酒店尽量靠近地铁",
+    "timestamp": "2026-05-24T11:10:56.991072"
+  },
+  "47": {
+    "user_id": "guest_codex-shenzhen-weight-test",
+    "type": "preference",
+    "preference_type": "trip_request",
+    "data": {
+      "destination": "深圳",
+      "preferences": [
+        "摄影打卡",
+        "自然风光",
+        "亲子游玩"
+      ],
+      "hotel_preferences": [
+        "靠近地铁"
+      ],
+      "budget": "中等",
+      "special_requirements": "想去故宫和国博，不想走太多路，酒店尽量靠近地铁",
+      "trip_title": "深圳亲子自然与滨海风光轻松游"
+    },
+    "text_representation": "偏好类型: trip_request 目的地: 深圳 旅行偏好: 摄影打卡, 自然风光, 亲子游玩 酒店偏好: 靠近地铁 预算水平: 中等 补充需求: 想去故宫和国博，不想走太多路，酒店尽量靠近地铁",
+    "timestamp": "2026-05-24T11:23:49.761391"
+  },
+  "48": {
+    "user_id": "guest_codex-shenzhen-weight-test",
+    "type": "trip",
+    "data": {
+      "destination": "深圳",
+      "start_date": "2026-06-01",
+      "end_date": "2026-06-03",
+      "preferences": [
+        "摄影打卡",
+        "自然风光",
+        "亲子游玩"
+      ],
+      "hotel_preferences": [
+        "靠近地铁"
+      ],
+      "budget": "中等",
+      "special_requirements": "想去故宫和国博，不想走太多路，酒店尽量靠近地铁",
+      "trip_title": "深圳亲子自然与滨海风光轻松游",
+      "days": [
+        {
+          "day": 1,
+          "theme": "滨海休闲与摩天轮打卡",
+          "weather": {
+            "date": "2026-06-01",
+            "day_weather": "多云",
+            "night_weather": "多云",
+            "day_temp": "32",
+            "night_temp": "27",
+            "day_wind": "南风 1-3级",
+            "night_wind": "南风 1-3级"
+          },
+          "recommended_hotel": {
+            "name": "深圳福田口岸沙尾地铁站亚朵S酒店",
+            "address": "新洲三街15号(沙尾地铁站C口步行200米)",
+            "location": {
+              "lat": 22.521662,
+              "lng": 114.043552
+            },
+            "price": "500",
+            "rating": "4.5",
+            "distance_to_main_attraction_km": 2.5
+          },
+          "attractions": [
+            {
+              "name": "欢乐港湾-滨海文化公园",
+              "type": "风景名胜",
+              "rating": "4.6",
+              "suggested_duration_hours": 4.0,
+              "description": "下午抵达，漫步海滨，乘坐“湾区之光”摩天轮俯瞰海景，适合摄影打卡，步行强度低。",
+              "address": "欢乐港湾(西北角)",
+              "location": {
+                "lat": 22.54547,
+                "lng": 113.881679
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1645614145206-7852de5b4b21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTYlQUMlQTIlRTQlQjklOTAlRTYlQjglQUYlRTYlQjklQkUtJUU2JUJCJUE4JUU2JUI1JUI3JUU2JTk2JTg3JUU1JThDJTk2JUU1JTg1JUFDJUU1JTlCJUFEJTIwbGFuZG1hcmt8ZW58MHx8fHwxNzc5NTkzMDI4fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "免费"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "欢乐港湾商圈餐厅",
+              "address": "欢乐港湾内",
+              "location": {
+                "lat": 22.54547,
+                "lng": 113.881679
+              },
+              "cost_per_person": "150",
+              "rating": "4.5"
+            }
+          ],
+          "budget": {
+            "transport_cost": 50.0,
+            "dining_cost": 300.0,
+            "hotel_cost": 500.0,
+            "attraction_ticket_cost": 0.0,
+            "total": 850.0
+          }
+        },
+        {
+          "day": 2,
+          "theme": "湿地生态与红树林科普",
+          "weather": {
+            "date": "2026-06-02",
+            "day_weather": "多云",
+            "night_weather": "多云",
+            "day_temp": "32",
+            "night_temp": "27",
+            "day_wind": "西南风 1-3级",
+            "night_wind": "西南风 1-3级"
+          },
+          "recommended_hotel": {
+            "name": "深圳福田口岸沙尾地铁站亚朵S酒店",
+            "address": "新洲三街15号(沙尾地铁站C口步行200米)",
+            "location": {
+              "lat": 22.521662,
+              "lng": 114.043552
+            },
+            "price": "500",
+            "rating": "4.5",
+            "distance_to_main_attraction_km": 1.5
+          },
+          "attractions": [
+            {
+              "name": "福田红树林生态公园",
+              "type": "公园",
+              "rating": "4.6",
+              "suggested_duration_hours": 2.0,
+              "description": "上午参观生态公园，栈道平缓，观察红树林与候鸟，亲子科普佳地，轻松不累。",
+              "address": "新洲路与福荣路交叉口",
+              "location": {
+                "lat": 22.509273,
+                "lng": 114.039644
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1708224001641-deb47a39d543?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTclQTYlOEYlRTclOTQlQjAlRTclQkElQTIlRTYlQTAlOTElRTYlOUUlOTclRTclOTQlOUYlRTYlODAlODElRTUlODUlQUMlRTUlOUIlQUQlMjAlRTYlQjclQjElRTUlOUMlQjN8ZW58MHx8fHwxNzc5NTkzMDI3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "免费"
+            },
+            {
+              "name": "深圳湾公园自然教育中心",
+              "type": "科教文化服务",
+              "rating": "3.9",
+              "suggested_duration_hours": 2.0,
+              "description": "下午前往深圳湾公园，参与自然教育活动，海边散步，视野开阔，适合家庭休闲。",
+              "address": "沙河西路深圳湾公园内(东侧)",
+              "location": {
+                "lat": 22.522038,
+                "lng": 113.997308
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1708224001641-deb47a39d543?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTYlQjclQjElRTUlOUMlQjMlRTYlQjklQkUlRTUlODUlQUMlRTUlOUIlQUQlRTglODclQUElRTclODQlQjYlRTYlOTUlOTklRTglODIlQjIlRTQlQjglQUQlRTUlQkYlODMlMjAlRTYlQjclQjElRTUlOUMlQjN8ZW58MHx8fHwxNzc5NTkzMDI3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "免费"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "福田商圈特色菜",
+              "address": "福田区中心城附近",
+              "location": {
+                "lat": 22.521662,
+                "lng": 114.043552
+              },
+              "cost_per_person": "120",
+              "rating": "4.6"
+            }
+          ],
+          "budget": {
+            "transport_cost": 40.0,
+            "dining_cost": 240.0,
+            "hotel_cost": 500.0,
+            "attraction_ticket_cost": 0.0,
+            "total": 780.0
+          }
+        },
+        {
+          "day": 3,
+          "theme": "儿童乐园欢乐时光",
+          "weather": {
+            "date": "2026-06-03",
+            "day_weather": "多云",
+            "night_weather": "多云",
+            "day_temp": "33",
+            "night_temp": "26",
+            "day_wind": "北风 1-3级",
+            "night_wind": "北风 1-3级"
+          },
+          "recommended_hotel": {
+            "name": "深圳福田口岸沙尾地铁站亚朵S酒店",
+            "address": "新洲三街15号(沙尾地铁站C口步行200米)",
+            "location": {
+              "lat": 22.521662,
+              "lng": 114.043552
+            },
+            "price": "500",
+            "rating": "4.5",
+            "distance_to_main_attraction_km": 15.0
+          },
+          "attractions": [
+            {
+              "name": "星高度魔法村·龙岗儿童公园",
+              "type": "公园",
+              "rating": "4.7",
+              "suggested_duration_hours": 4.0,
+              "description": "全天游玩龙岗儿童公园，设施丰富，魔法村主题梦幻，亲子互动性强，注意防晒。",
+              "address": "龙城街道回龙埔社区儿童公园",
+              "location": {
+                "lat": 22.736349,
+                "lng": 114.225165
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1651931583333-43b7d5eea413?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTYlQjclQjElRTUlOUMlQjMlMjBsYW5kbWFya3xlbnwwfHx8fDE3Nzk1OTMwMjl8MA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "149.00"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "龙岗万科广场餐厅",
+              "address": "龙岗区龙城大道附近",
+              "location": {
+                "lat": 22.736349,
+                "lng": 114.225165
+              },
+              "cost_per_person": "100",
+              "rating": "4.5"
+            }
+          ],
+          "budget": {
+            "transport_cost": 60.0,
+            "dining_cost": 200.0,
+            "hotel_cost": 500.0,
+            "attraction_ticket_cost": 298.0,
+            "total": 1058.0
+          }
+        }
+      ]
+    },
+    "text_representation": "旅行行程 目的地: 深圳 时间: 2026-06-01 到 2026-06-03 偏好: 摄影打卡, 自然风光, 亲子游玩 行程标题: 深圳亲子自然与滨海风光轻松游 补充需求: 想去故宫和国博，不想走太多路，酒店尽量靠近地铁 景点: 欢乐港湾-滨海文化公园, 福田红树林生态公园, 深圳湾公园自然教育中心, 星高度魔法村·龙岗儿童公园",
+    "timestamp": "2026-05-24T11:23:49.982144"
+  },
+  "49": {
+    "user_id": "guest_codex-shenzhen-weight-test",
+    "type": "preference",
+    "preference_type": "trip_preferences",
+    "data": {
+      "destination": "深圳",
+      "preferences": [
+        "摄影打卡",
+        "自然风光",
+        "亲子游玩"
+      ],
+      "hotel_preferences": [
+        "靠近地铁"
+      ],
+      "budget": "中等",
+      "special_requirements": "想去故宫和国博，不想走太多路，酒店尽量靠近地铁"
+    },
+    "text_representation": "偏好类型: trip_preferences 目的地: 深圳 旅行偏好: 摄影打卡, 自然风光, 亲子游玩 酒店偏好: 靠近地铁 预算水平: 中等 补充需求: 想去故宫和国博，不想走太多路，酒店尽量靠近地铁",
+    "timestamp": "2026-05-24T11:23:50.184659"
+  },
+  "50": {
+    "user_id": "76589421-7776-4230-bee2-c903d48d0ec9",
+    "type": "preference",
+    "preference_type": "trip_request",
+    "data": {
+      "destination": "深圳",
+      "preferences": [
+        "摄影",
+        "自然",
+        "美食"
+      ],
+      "hotel_preferences": [
+        "经济型"
+      ],
+      "budget": "中等",
+      "special_requirements": "想去故宫和国博，不想走太多路，酒店尽量靠近地铁",
+      "trip_title": "深圳滨海自然与城市休闲摄影之旅"
+    },
+    "text_representation": "偏好类型: trip_request 目的地: 深圳 旅行偏好: 摄影, 自然, 美食 酒店偏好: 经济型 预算水平: 中等 补充需求: 想去故宫和国博，不想走太多路，酒店尽量靠近地铁",
+    "timestamp": "2026-05-24T11:54:31.722110"
+  },
+  "51": {
+    "user_id": "76589421-7776-4230-bee2-c903d48d0ec9",
+    "type": "trip",
+    "data": {
+      "destination": "深圳",
+      "start_date": "2026-05-24",
+      "end_date": "2026-05-27",
+      "preferences": [
+        "摄影",
+        "自然",
+        "美食"
+      ],
+      "hotel_preferences": [
+        "经济型"
+      ],
+      "budget": "中等",
+      "special_requirements": "想去故宫和国博，不想走太多路，酒店尽量靠近地铁",
+      "trip_title": "深圳滨海自然与城市休闲摄影之旅",
+      "days": [
+        {
+          "day": 1,
+          "theme": "红树林生态与海滨风光",
+          "weather": {
+            "date": "2026-05-24",
+            "day_weather": "多云",
+            "night_weather": "多云",
+            "day_temp": "32",
+            "night_temp": "27",
+            "day_wind": "南风 1-3级",
+            "night_wind": "南风 1-3级"
+          },
+          "recommended_hotel": {
+            "name": "如家酒店·neo(深圳福田竹子林地铁站店)",
+            "address": "竹子林七路2号益华大厦B1层",
+            "location": {
+              "lat": 22.535524,
+              "lng": 114.013503
+            },
+            "price": "400",
+            "rating": "4.4",
+            "distance_to_main_attraction_km": 2.5
+          },
+          "attractions": [
+            {
+              "name": "红树林海滨生态公园",
+              "type": "风景名胜;公园广场;公园",
+              "rating": "4.7",
+              "suggested_duration_hours": 3.0,
+              "description": "上午漫步海滨栈道，拍摄红树林生态与候鸟，地铁直达，轻松不累。",
+              "address": "滨河大道(深圳湾公园地铁站D2口步行60米)",
+              "location": {
+                "lat": 22.522076,
+                "lng": 113.998082
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1713108351971-e43bef24a87f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTclQkElQTIlRTYlQTAlOTElRTYlOUUlOTclRTYlQjUlQjclRTYlQkIlQTglRTclOTQlOUYlRTYlODAlODElRTUlODUlQUMlRTUlOUIlQUQlMjAlRTYlQjclQjElRTUlOUMlQjN8ZW58MHx8fHwxNzc5NTkyMjU1fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "免费"
+            },
+            {
+              "name": "深圳湾公园自然教育中心",
+              "type": "科教文化服务;培训机构;培训机构",
+              "rating": "3.9",
+              "suggested_duration_hours": 2.0,
+              "description": "下午参观自然教育中心，了解湿地生态，室内空调环境舒适，适合避暑。",
+              "address": "沙河西路深圳湾公园内(东侧)",
+              "location": {
+                "lat": 22.522038,
+                "lng": 113.997308
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1708224001641-deb47a39d543?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTYlQjclQjElRTUlOUMlQjMlRTYlQjklQkUlRTUlODUlQUMlRTUlOUIlQUQlRTglODclQUElRTclODQlQjYlRTYlOTUlOTklRTglODIlQjIlRTQlQjglQUQlRTUlQkYlODMlMjAlRTYlQjclQjElRTUlOUMlQjN8ZW58MHx8fHwxNzc5NTkzMDI3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "免费"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "深圳湾万象城餐厅",
+              "address": "科苑南路2888号深圳湾万象城",
+              "location": {
+                "lat": 22.516,
+                "lng": 113.945
+              },
+              "cost_per_person": "150",
+              "rating": "4.5"
+            }
+          ],
+          "budget": {
+            "transport_cost": 50.0,
+            "dining_cost": 150.0,
+            "hotel_cost": 400.0,
+            "attraction_ticket_cost": 0.0,
+            "total": 600.0
+          }
+        },
+        {
+          "day": 2,
+          "theme": "宝安滨海日落与现代建筑",
+          "weather": {
+            "date": "2026-05-25",
+            "day_weather": "多云",
+            "night_weather": "多云",
+            "day_temp": "32",
+            "night_temp": "27",
+            "day_wind": "西南风 1-3级",
+            "night_wind": "西南风 1-3级"
+          },
+          "recommended_hotel": {
+            "name": "如家酒店·neo(深圳福田竹子林地铁站店)",
+            "address": "竹子林七路2号益华大厦B1层",
+            "location": {
+              "lat": 22.535524,
+              "lng": 114.013503
+            },
+            "price": "400",
+            "rating": "4.4",
+            "distance_to_main_attraction_km": 2.5
+          },
+          "attractions": [
+            {
+              "name": "欢乐港湾-滨海文化公园",
+              "type": "风景名胜;风景名胜;风景名胜",
+              "rating": "4.6",
+              "suggested_duration_hours": 4.0,
+              "description": "下午游览欢乐港湾，拍摄摩天轮与海滨日落，建筑现代感强，适合摄影。",
+              "address": "欢乐港湾(西北角)",
+              "location": {
+                "lat": 22.54547,
+                "lng": 113.881679
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1645614145206-7852de5b4b21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTYlQUMlQTIlRTQlQjklOTAlRTYlQjglQUYlRTYlQjklQkUtJUU2JUJCJUE4JUU2JUI1JUI3JUU2JTk2JTg3JUU1JThDJTk2JUU1JTg1JUFDJUU1JTlCJUFEJTIwbGFuZG1hcmt8ZW58MHx8fHwxNzc5NTkzMDI4fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "免费"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "欢乐港湾美食街",
+              "address": "宝安区宝兴路欢乐港湾内",
+              "location": {
+                "lat": 22.546,
+                "lng": 113.882
+              },
+              "cost_per_person": "120",
+              "rating": "4.3"
+            }
+          ],
+          "budget": {
+            "transport_cost": 50.0,
+            "dining_cost": 120.0,
+            "hotel_cost": 400.0,
+            "attraction_ticket_cost": 0.0,
+            "total": 570.0
+          }
+        },
+        {
+          "day": 3,
+          "theme": "盐田海滨栈道与山海景观",
+          "weather": {
+            "date": "2026-05-26",
+            "day_weather": "多云",
+            "night_weather": "多云",
+            "day_temp": "33",
+            "night_temp": "26",
+            "day_wind": "北风 1-3级",
+            "night_wind": "北风 1-3级"
+          },
+          "recommended_hotel": {
+            "name": "如家酒店·neo(深圳福田竹子林地铁站店)",
+            "address": "竹子林七路2号益华大厦B1层",
+            "location": {
+              "lat": 22.535524,
+              "lng": 114.013503
+            },
+            "price": "400",
+            "rating": "4.4",
+            "distance_to_main_attraction_km": 2.5
+          },
+          "attractions": [
+            {
+              "name": "大梅沙海滨公园",
+              "type": "风景名胜;公园广场;公园",
+              "rating": "4.8",
+              "suggested_duration_hours": 3.0,
+              "description": "上午前往大梅沙，拍摄沙滩与海景，可乘坐地铁8号线直达，交通便利。",
+              "address": "梅沙街道盐梅路105号",
+              "location": {
+                "lat": 22.592429,
+                "lng": 114.307954
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1713108351971-e43bef24a87f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTUlQTQlQTclRTYlQTIlODUlRTYlQjIlOTklRTYlQjUlQjclRTYlQkIlQTglRTUlODUlQUMlRTUlOUIlQUQlMjAlRTYlQjclQjElRTUlOUMlQjN8ZW58MHx8fHwxNzc5NTk0ODcxfDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "免费"
+            },
+            {
+              "name": "海景公园",
+              "type": "风景名胜;公园广场;公园",
+              "rating": "4.6",
+              "suggested_duration_hours": 2.0,
+              "description": "下午漫步海景公园，视野开阔，人少景美，适合安静拍摄山海相连景色。",
+              "address": "海景路与东和路交叉口东北220米",
+              "location": {
+                "lat": 22.551637,
+                "lng": 114.241121
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1705640694078-3c2207c83049?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTYlQjUlQjclRTYlOTklQUYlRTUlODUlQUMlRTUlOUIlQUQlMjAlRTYlQjclQjElRTUlOUMlQjN8ZW58MHx8fHwxNzc5NTk0ODcxfDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "免费"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "盐田海鲜街",
+              "address": "盐田区海景路附近",
+              "location": {
+                "lat": 22.55,
+                "lng": 114.24
+              },
+              "cost_per_person": "180",
+              "rating": "4.4"
+            }
+          ],
+          "budget": {
+            "transport_cost": 50.0,
+            "dining_cost": 180.0,
+            "hotel_cost": 400.0,
+            "attraction_ticket_cost": 0.0,
+            "total": 630.0
+          }
+        },
+        {
+          "day": 4,
+          "theme": "城市绿肺与返程",
+          "weather": {
+            "date": "2026-05-27",
+            "day_weather": "多云",
+            "night_weather": "多云",
+            "day_temp": "33",
+            "night_temp": "26",
+            "day_wind": "北风 1-3级",
+            "night_wind": "北风 1-3级"
+          },
+          "recommended_hotel": {
+            "name": "如家酒店·neo(深圳福田竹子林地铁站店)",
+            "address": "竹子林七路2号益华大厦B1层",
+            "location": {
+              "lat": 22.535524,
+              "lng": 114.013503
+            },
+            "price": "400",
+            "rating": "4.4",
+            "distance_to_main_attraction_km": 2.5
+          },
+          "attractions": [
+            {
+              "name": "西湾滨海公园-西部湾公园",
+              "type": "风景名胜;公园广场;公园",
+              "rating": "4.3",
+              "suggested_duration_hours": 2.5,
+              "description": "上午在西湾红树林公园散步，观看飞机起降与日落余晖，轻松惬意。",
+              "address": "西湾红树林公园",
+              "location": {
+                "lat": 22.59716,
+                "lng": 113.833925
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1705640694078-3c2207c83049?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTglQTUlQkYlRTYlQjklQkUlRTYlQkIlQTglRTYlQjUlQjclRTUlODUlQUMlRTUlOUIlQUQtJUU4JUE1JUJGJUU5JTgzJUE4JUU2JUI5JUJFJUU1JTg1JUFDJUU1JTlCJUFEJTIwJUU2JUI3JUIxJUU1JTlDJUIzfGVufDB8fHx8MTc3OTU5NDg3MXww&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "免费"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "前海壹方城餐厅",
+              "address": "宝安区新湖路99号壹方城",
+              "location": {
+                "lat": 22.552,
+                "lng": 113.886
+              },
+              "cost_per_person": "100",
+              "rating": "4.5"
+            }
+          ],
+          "budget": {
+            "transport_cost": 50.0,
+            "dining_cost": 100.0,
+            "hotel_cost": 400.0,
+            "attraction_ticket_cost": 0.0,
+            "total": 550.0
+          }
+        }
+      ]
+    },
+    "text_representation": "旅行行程 目的地: 深圳 时间: 2026-05-24 到 2026-05-27 偏好: 摄影, 自然, 美食 行程标题: 深圳滨海自然与城市休闲摄影之旅 补充需求: 想去故宫和国博，不想走太多路，酒店尽量靠近地铁 景点: 红树林海滨生态公园, 深圳湾公园自然教育中心, 欢乐港湾-滨海文化公园, 大梅沙海滨公园, 海景公园, 西湾滨海公园-西部湾公园",
+    "timestamp": "2026-05-24T11:54:31.925322"
+  },
+  "52": {
+    "user_id": "76589421-7776-4230-bee2-c903d48d0ec9",
+    "type": "preference",
+    "preference_type": "trip_preferences",
+    "data": {
+      "destination": "深圳",
+      "preferences": [
+        "摄影",
+        "自然",
+        "美食"
+      ],
+      "hotel_preferences": [
+        "经济型"
+      ],
+      "budget": "中等",
+      "special_requirements": "想去故宫和国博，不想走太多路，酒店尽量靠近地铁"
+    },
+    "text_representation": "偏好类型: trip_preferences 目的地: 深圳 旅行偏好: 摄影, 自然, 美食 酒店偏好: 经济型 预算水平: 中等 补充需求: 想去故宫和国博，不想走太多路，酒店尽量靠近地铁",
+    "timestamp": "2026-05-24T11:54:32.153592"
+  },
+  "53": {
+    "user_id": "guest_codex-rerank-full-test",
+    "type": "preference",
+    "preference_type": "trip_request",
+    "data": {
+      "destination": "深圳",
+      "preferences": [
+        "摄影打卡",
+        "自然风光",
+        "亲子游玩"
+      ],
+      "hotel_preferences": [
+        "靠近地铁"
+      ],
+      "budget": "中等",
+      "special_requirements": "想去故宫和国博，不想走太多路，酒店尽量靠近地铁",
+      "trip_title": "深圳亲子自然与滨海风光轻松游"
+    },
+    "text_representation": "偏好类型: trip_request 目的地: 深圳 旅行偏好: 摄影打卡, 自然风光, 亲子游玩 酒店偏好: 靠近地铁 预算水平: 中等 补充需求: 想去故宫和国博，不想走太多路，酒店尽量靠近地铁",
+    "timestamp": "2026-05-24T12:30:52.858369"
+  },
+  "54": {
+    "user_id": "guest_codex-rerank-full-test",
+    "type": "trip",
+    "data": {
+      "destination": "深圳",
+      "start_date": "2026-06-01",
+      "end_date": "2026-06-03",
+      "preferences": [
+        "摄影打卡",
+        "自然风光",
+        "亲子游玩"
+      ],
+      "hotel_preferences": [
+        "靠近地铁"
+      ],
+      "budget": "中等",
+      "special_requirements": "想去故宫和国博，不想走太多路，酒店尽量靠近地铁",
+      "trip_title": "深圳亲子自然与滨海风光轻松游",
+      "days": [
+        {
+          "day": 1,
+          "theme": "滨海休闲与摩天轮打卡",
+          "weather": {
+            "date": "2026-06-01",
+            "day_weather": "多云",
+            "night_weather": "多云",
+            "day_temp": "32",
+            "night_temp": "27",
+            "day_wind": "南风 1-3级",
+            "night_wind": "南风 1-3级"
+          },
+          "recommended_hotel": {
+            "name": "如家酒店·neo(深圳福田竹子林地铁站店)",
+            "address": "竹子林七路2号益华大厦B1层",
+            "location": {
+              "lat": 22.535524,
+              "lng": 114.013503
+            },
+            "price": "400",
+            "rating": "4.4",
+            "distance_to_main_attraction_km": 2.5
+          },
+          "attractions": [
+            {
+              "name": "欢乐港湾-滨海文化公园",
+              "type": "风景名胜",
+              "rating": "4.6",
+              "suggested_duration_hours": 4.0,
+              "description": "下午抵达，漫步海滨栈道，乘坐“湾区之光”摩天轮俯瞰海景，适合摄影打卡，步行强度低。",
+              "address": "欢乐港湾(西北角)",
+              "location": {
+                "lat": 22.54547,
+                "lng": 113.881679
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1645614145206-7852de5b4b21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTYlQUMlQTIlRTQlQjklOTAlRTYlQjglQUYlRTYlQjklQkUtJUU2JUJCJUE4JUU2JUI1JUI3JUU2JTk2JTg3JUU1JThDJTk2JUU1JTg1JUFDJUU1JTlCJUFEJTIwbGFuZG1hcmt8ZW58MHx8fHwxNzc5NTkzMDI4fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "免费"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "欢乐港湾商圈餐厅",
+              "address": "欢乐港湾内",
+              "location": {
+                "lat": 22.54547,
+                "lng": 113.881679
+              },
+              "cost_per_person": "150",
+              "rating": "4.5"
+            }
+          ],
+          "budget": {
+            "transport_cost": 50.0,
+            "dining_cost": 300.0,
+            "hotel_cost": 400.0,
+            "attraction_ticket_cost": 0.0,
+            "total": 750.0
+          }
+        },
+        {
+          "day": 2,
+          "theme": "红树林生态科普与自然教育",
+          "weather": {
+            "date": "2026-06-02",
+            "day_weather": "多云",
+            "night_weather": "多云",
+            "day_temp": "32",
+            "night_temp": "27",
+            "day_wind": "西南风 1-3级",
+            "night_wind": "西南风 1-3级"
+          },
+          "recommended_hotel": {
+            "name": "如家酒店·neo(深圳福田竹子林地铁站店)",
+            "address": "竹子林七路2号益华大厦B1层",
+            "location": {
+              "lat": 22.535524,
+              "lng": 114.013503
+            },
+            "price": "400",
+            "rating": "4.4",
+            "distance_to_main_attraction_km": 2.5
+          },
+          "attractions": [
+            {
+              "name": "深圳湾公园自然教育中心",
+              "type": "科教文化服务",
+              "rating": "3.9",
+              "suggested_duration_hours": 2.0,
+              "description": "上午参观自然教育中心，了解湿地生态，适合亲子科普，室内为主，避免暴晒。",
+              "address": "沙河西路深圳湾公园内(东侧)",
+              "location": {
+                "lat": 22.522038,
+                "lng": 113.997308
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1708224001641-deb47a39d543?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTYlQjclQjElRTUlOUMlQjMlRTYlQjklQkUlRTUlODUlQUMlRTUlOUIlQUQlRTglODclQUElRTclODQlQjYlRTYlOTUlOTklRTglODIlQjIlRTQlQjglQUQlRTUlQkYlODMlMjAlRTYlQjclQjElRTUlOUMlQjN8ZW58MHx8fHwxNzc5NTkzMDI3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "免费"
+            },
+            {
+              "name": "福田红树林生态公园",
+              "type": "公园",
+              "rating": "4.6",
+              "suggested_duration_hours": 2.0,
+              "description": "下午沿木栈道轻徒步，观赏红树林与候鸟，平路为主，轻松惬意，自然风光极佳。",
+              "address": "新洲路与福荣路交叉口",
+              "location": {
+                "lat": 22.509273,
+                "lng": 114.039644
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1708224001641-deb47a39d543?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTclQTYlOEYlRTclOTQlQjAlRTclQkElQTIlRTYlQTAlOTElRTYlOUUlOTclRTclOTQlOUYlRTYlODAlODElRTUlODUlQUMlRTUlOUIlQUQlMjAlRTYlQjclQjElRTUlOUMlQjN8ZW58MHx8fHwxNzc5NTkzMDI3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "免费"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "福田商圈粤菜馆",
+              "address": "福田区中心城附近",
+              "location": {
+                "lat": 22.522038,
+                "lng": 113.997308
+              },
+              "cost_per_person": "120",
+              "rating": "4.6"
+            }
+          ],
+          "budget": {
+            "transport_cost": 30.0,
+            "dining_cost": 240.0,
+            "hotel_cost": 400.0,
+            "attraction_ticket_cost": 0.0,
+            "total": 670.0
+          }
+        },
+        {
+          "day": 3,
+          "theme": "仙湖植物园林木探索",
+          "weather": {
+            "date": "2026-06-03",
+            "day_weather": "多云",
+            "night_weather": "多云",
+            "day_temp": "33",
+            "night_temp": "26",
+            "day_wind": "北风 1-3级",
+            "night_wind": "北风 1-3级"
+          },
+          "recommended_hotel": {
+            "name": "如家酒店·neo(深圳福田竹子林地铁站店)",
+            "address": "竹子林七路2号益华大厦B1层",
+            "location": {
+              "lat": 22.535524,
+              "lng": 114.013503
+            },
+            "price": "400",
+            "rating": "4.4",
+            "distance_to_main_attraction_km": 2.5
+          },
+          "attractions": [
+            {
+              "name": "深圳仙湖植物园",
+              "type": "植物园",
+              "rating": "4.7",
+              "suggested_duration_hours": 4.0,
+              "description": "上午入园，乘坐大巴直达天上人间区域，游览多肉植物区与化石森林，拍照出片，减少步行。",
+              "address": "莲塘街道仙湖社区仙湖路160号",
+              "location": {
+                "lat": 22.576476,
+                "lng": 114.174834
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1708224001641-deb47a39d543?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTYlQjclQjElRTUlOUMlQjMlRTQlQkIlOTklRTYlQjklOTYlRTYlQTQlOEQlRTclODklQTklRTUlOUIlQUQlMjAlRTYlQjclQjElRTUlOUMlQjN8ZW58MHx8fHwxNzc5NTk3MDUyfDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "15"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "仙湖景区内素斋",
+              "address": "仙湖植物园内",
+              "location": {
+                "lat": 22.576476,
+                "lng": 114.174834
+              },
+              "cost_per_person": "80",
+              "rating": "4.3"
+            },
+            {
+              "name": "罗湖商圈午餐",
+              "address": "罗湖区万象城附近",
+              "location": {
+                "lat": 22.54547,
+                "lng": 113.881679
+              },
+              "cost_per_person": "100",
+              "rating": "4.5"
+            }
+          ],
+          "budget": {
+            "transport_cost": 70.0,
+            "dining_cost": 360.0,
+            "hotel_cost": 400.0,
+            "attraction_ticket_cost": 60.0,
+            "total": 890.0
+          }
+        }
+      ]
+    },
+    "text_representation": "旅行行程 目的地: 深圳 时间: 2026-06-01 到 2026-06-03 偏好: 摄影打卡, 自然风光, 亲子游玩 行程标题: 深圳亲子自然与滨海风光轻松游 补充需求: 想去故宫和国博，不想走太多路，酒店尽量靠近地铁 景点: 欢乐港湾-滨海文化公园, 深圳湾公园自然教育中心, 福田红树林生态公园, 深圳仙湖植物园",
+    "timestamp": "2026-05-24T12:30:53.052056"
+  },
+  "55": {
+    "user_id": "guest_codex-rerank-full-test",
+    "type": "preference",
+    "preference_type": "trip_preferences",
+    "data": {
+      "destination": "深圳",
+      "preferences": [
+        "摄影打卡",
+        "自然风光",
+        "亲子游玩"
+      ],
+      "hotel_preferences": [
+        "靠近地铁"
+      ],
+      "budget": "中等",
+      "special_requirements": "想去故宫和国博，不想走太多路，酒店尽量靠近地铁"
+    },
+    "text_representation": "偏好类型: trip_preferences 目的地: 深圳 旅行偏好: 摄影打卡, 自然风光, 亲子游玩 酒店偏好: 靠近地铁 预算水平: 中等 补充需求: 想去故宫和国博，不想走太多路，酒店尽量靠近地铁",
+    "timestamp": "2026-05-24T12:30:53.241208"
+  },
+  "56": {
+    "user_id": "guest_codex-rerank-only-test",
+    "type": "preference",
+    "preference_type": "trip_request",
+    "data": {
+      "destination": "深圳",
+      "preferences": [
+        "摄影打卡",
+        "自然风光",
+        "亲子游玩"
+      ],
+      "hotel_preferences": [
+        "靠近地铁"
+      ],
+      "budget": "中等",
+      "special_requirements": "想去故宫和国博，不想走太多路，酒店尽量靠近地铁",
+      "trip_title": "深圳亲子自然与光影打卡轻松游"
+    },
+    "text_representation": "偏好类型: trip_request 目的地: 深圳 旅行偏好: 摄影打卡, 自然风光, 亲子游玩 酒店偏好: 靠近地铁 预算水平: 中等 补充需求: 想去故宫和国博，不想走太多路，酒店尽量靠近地铁",
+    "timestamp": "2026-05-24T12:37:28.794284"
+  },
+  "57": {
+    "user_id": "guest_codex-rerank-only-test",
+    "type": "trip",
+    "data": {
+      "destination": "深圳",
+      "start_date": "2026-06-01",
+      "end_date": "2026-06-03",
+      "preferences": [
+        "摄影打卡",
+        "自然风光",
+        "亲子游玩"
+      ],
+      "hotel_preferences": [
+        "靠近地铁"
+      ],
+      "budget": "中等",
+      "special_requirements": "想去故宫和国博，不想走太多路，酒店尽量靠近地铁",
+      "trip_title": "深圳亲子自然与光影打卡轻松游",
+      "days": [
+        {
+          "day": 1,
+          "theme": "滨海风光与摩天轮打卡",
+          "weather": {
+            "date": "2026-06-01",
+            "day_weather": "多云",
+            "night_weather": "多云",
+            "day_temp": "32",
+            "night_temp": "27",
+            "day_wind": "南风 1-3级",
+            "night_wind": "南风 1-3级"
+          },
+          "recommended_hotel": {
+            "name": "如家酒店·neo(深圳福田竹子林地铁站店)",
+            "address": "竹子林七路2号益华大厦B1层",
+            "location": {
+              "lat": 22.535524,
+              "lng": 114.013503
+            },
+            "price": "400",
+            "rating": "4.4",
+            "distance_to_main_attraction_km": 8.5
+          },
+          "attractions": [
+            {
+              "name": "欢乐港湾-滨海文化公园",
+              "type": "风景名胜",
+              "rating": "4.6",
+              "suggested_duration_hours": 3.0,
+              "description": "下午游览滨海公园，乘坐“湾区之光”摩天轮，俯瞰前海美景，适合摄影打卡。",
+              "address": "欢乐港湾(西北角)",
+              "location": {
+                "lat": 22.54547,
+                "lng": 113.881679
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1645614145206-7852de5b4b21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTYlQUMlQTIlRTQlQjklOTAlRTYlQjglQUYlRTYlQjklQkUtJUU2JUJCJUE4JUU2JUI1JUI3JUU2JTk2JTg3JUU1JThDJTk2JUU1JTg1JUFDJUU1JTlCJUFEJTIwbGFuZG1hcmt8ZW58MHx8fHwxNzc5NTkzMDI4fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "免费"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "欢乐港湾商圈餐厅",
+              "address": "欢乐港湾内",
+              "location": {
+                "lat": 22.54547,
+                "lng": 113.881679
+              },
+              "cost_per_person": "150",
+              "rating": "4.5"
+            }
+          ],
+          "budget": {
+            "transport_cost": 50.0,
+            "dining_cost": 300.0,
+            "hotel_cost": 400.0,
+            "attraction_ticket_cost": 0.0,
+            "total": 750.0
+          }
+        },
+        {
+          "day": 2,
+          "theme": "红树林生态与城市绿肺",
+          "weather": {
+            "date": "2026-06-02",
+            "day_weather": "多云",
+            "night_weather": "多云",
+            "day_temp": "32",
+            "night_temp": "27",
+            "day_wind": "西南风 1-3级",
+            "night_wind": "西南风 1-3级"
+          },
+          "recommended_hotel": {
+            "name": "如家酒店·neo(深圳福田竹子林地铁站店)",
+            "address": "竹子林七路2号益华大厦B1层",
+            "location": {
+              "lat": 22.535524,
+              "lng": 114.013503
+            },
+            "price": "400",
+            "rating": "4.4",
+            "distance_to_main_attraction_km": 1.5
+          },
+          "attractions": [
+            {
+              "name": "福田红树林自然保护区",
+              "type": "风景名胜",
+              "rating": "4.6",
+              "suggested_duration_hours": 2.0,
+              "description": "上午漫步红树林栈道，观察候鸟与自然生态，路程平缓，适合亲子自然教育。",
+              "address": "滨海大道华侨城路段",
+              "location": {
+                "lat": 22.519196,
+                "lng": 114.023921
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1708224001641-deb47a39d543?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTclQTYlOEYlRTclOTQlQjAlRTclQkElQTIlRTYlQTAlOTElRTYlOUUlOTclRTglODclQUElRTclODQlQjYlRTQlQkYlOUQlRTYlOEElQTQlRTUlOEMlQkElMjAlRTYlQjclQjElRTUlOUMlQjN8ZW58MHx8fHwxNzc5NTk3NDQ3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "免费"
+            },
+            {
+              "name": "漾日湖",
+              "type": "旅游景点",
+              "rating": "4.3",
+              "suggested_duration_hours": 1.5,
+              "description": "下午前往莲花山公园漾日湖，湖面平静如镜，可拍摄城市天际线倒影，轻松惬意。",
+              "address": "红荔路6030号莲花山公园内(儿童医院对面)",
+              "location": {
+                "lat": 22.550565,
+                "lng": 114.066252
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1626145971972-8a72db872638?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTYlQkMlQkUlRTYlOTclQTUlRTYlQjklOTYlMjAlRTYlQjclQjElRTUlOUMlQjN8ZW58MHx8fHwxNzc5NTk3NDQ3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "免费"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "福田中心区粤菜馆",
+              "address": "福田区中心城附近",
+              "location": {
+                "lat": 22.543,
+                "lng": 114.058
+              },
+              "cost_per_person": "120",
+              "rating": "4.6"
+            }
+          ],
+          "budget": {
+            "transport_cost": 30.0,
+            "dining_cost": 240.0,
+            "hotel_cost": 400.0,
+            "attraction_ticket_cost": 0.0,
+            "total": 670.0
+          }
+        },
+        {
+          "day": 3,
+          "theme": "室内光影艺术与休闲",
+          "weather": {
+            "date": "2026-06-03",
+            "day_weather": "多云",
+            "night_weather": "多云",
+            "day_temp": "33",
+            "night_temp": "26",
+            "day_wind": "北风 1-3级",
+            "night_wind": "北风 1-3级"
+          },
+          "recommended_hotel": {
+            "name": "如家酒店·neo(深圳福田竹子林地铁站店)",
+            "address": "竹子林七路2号益华大厦B1层",
+            "location": {
+              "lat": 22.535524,
+              "lng": 114.013503
+            },
+            "price": "400",
+            "rating": "4.4",
+            "distance_to_main_attraction_km": 15.0
+          },
+          "attractions": [
+            {
+              "name": "nicemini网红打卡·光影艺术馆",
+              "type": "旅游景点",
+              "rating": "4.3",
+              "suggested_duration_hours": 2.0,
+              "description": "上午参观室内光影艺术馆，避开高温，沉浸式体验光影艺术，极易出片，替代博物馆需求。",
+              "address": "观澜街道桂花路与企坪西巷交叉口南140米鸿鹄时代产业园4楼401",
+              "location": {
+                "lat": 22.747457,
+                "lng": 114.058516
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1615414046707-3d7d91938aa4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHxuaWNlbWluaSVFNyVCRCU5MSVFNyVCQSVBMiVFNiU4OSU5MyVFNSU4RCVBMSVDMiVCNyVFNSU4NSU4OSVFNSVCRCVCMSVFOCU4OSVCQSVFNiU5QyVBRiVFOSVBNiU4NiUyMGxhbmRtYXJrfGVufDB8fHx8MTc3OTU5NzQ0OHww&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "69.00"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "龙华区特色料理",
+              "address": "观澜湖附近",
+              "location": {
+                "lat": 22.72,
+                "lng": 114.08
+              },
+              "cost_per_person": "100",
+              "rating": "4.4"
+            }
+          ],
+          "budget": {
+            "transport_cost": 70.0,
+            "dining_cost": 200.0,
+            "hotel_cost": 400.0,
+            "attraction_ticket_cost": 69.0,
+            "total": 739.0
+          }
+        }
+      ]
+    },
+    "text_representation": "旅行行程 目的地: 深圳 时间: 2026-06-01 到 2026-06-03 偏好: 摄影打卡, 自然风光, 亲子游玩 行程标题: 深圳亲子自然与光影打卡轻松游 补充需求: 想去故宫和国博，不想走太多路，酒店尽量靠近地铁 景点: 欢乐港湾-滨海文化公园, 福田红树林自然保护区, 漾日湖, nicemini网红打卡·光影艺术馆",
+    "timestamp": "2026-05-24T12:37:29.012882"
+  },
+  "58": {
+    "user_id": "guest_codex-rerank-only-test",
+    "type": "preference",
+    "preference_type": "trip_preferences",
+    "data": {
+      "destination": "深圳",
+      "preferences": [
+        "摄影打卡",
+        "自然风光",
+        "亲子游玩"
+      ],
+      "hotel_preferences": [
+        "靠近地铁"
+      ],
+      "budget": "中等",
+      "special_requirements": "想去故宫和国博，不想走太多路，酒店尽量靠近地铁"
+    },
+    "text_representation": "偏好类型: trip_preferences 目的地: 深圳 旅行偏好: 摄影打卡, 自然风光, 亲子游玩 酒店偏好: 靠近地铁 预算水平: 中等 补充需求: 想去故宫和国博，不想走太多路，酒店尽量靠近地铁",
+    "timestamp": "2026-05-24T12:37:29.199535"
+  },
+  "59": {
+    "user_id": "76589421-7776-4230-bee2-c903d48d0ec9",
+    "type": "preference",
+    "preference_type": "trip_request",
+    "data": {
+      "destination": "桂林",
+      "preferences": [
+        "美食",
+        "自然"
+      ],
+      "hotel_preferences": [
+        "经济型"
+      ],
+      "budget": "经济",
+      "special_requirements": "想去玩水，看夜景",
+      "trip_title": "桂林山水与夜景美食三日经济游"
+    },
+    "text_representation": "偏好类型: trip_request 目的地: 桂林 旅行偏好: 美食, 自然 酒店偏好: 经济型 预算水平: 经济 补充需求: 想去玩水，看夜景",
+    "timestamp": "2026-05-24T14:04:21.970084"
+  },
+  "60": {
+    "user_id": "76589421-7776-4230-bee2-c903d48d0ec9",
+    "type": "trip",
+    "data": {
+      "destination": "桂林",
+      "start_date": "2026-05-24",
+      "end_date": "2026-05-26",
+      "preferences": [
+        "美食",
+        "自然"
+      ],
+      "hotel_preferences": [
+        "经济型"
+      ],
+      "budget": "经济",
+      "special_requirements": "想去玩水，看夜景",
+      "trip_title": "桂林山水与夜景美食三日经济游",
+      "days": [
+        {
+          "day": 1,
+          "theme": "桂林市区经典与夜景",
+          "weather": {
+            "date": "2026-05-24",
+            "day_weather": "阵雨",
+            "night_weather": "多云",
+            "day_temp": "32",
+            "night_temp": "25",
+            "day_wind": "南风 1-3级",
+            "night_wind": "南风 1-3级"
+          },
+          "recommended_hotel": {
+            "name": "汉庭酒店(桂林象山公园店)",
+            "address": "中山南路可成里2号",
+            "location": {
+              "lat": 25.268245,
+              "lng": 110.28574
+            },
+            "price": "200",
+            "rating": "4.6",
+            "distance_to_main_attraction_km": 0.5
+          },
+          "attractions": [
+            {
+              "name": "象鼻山景区",
+              "type": "风景名胜;风景名胜;国家级景点",
+              "rating": "4.8",
+              "suggested_duration_hours": 2.0,
+              "description": "上午游览桂林城徽象鼻山，打卡拍照，感受喀斯特地貌奇观。",
+              "address": "民主路1号",
+              "location": {
+                "lat": 25.267579,
+                "lng": 110.296573
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1556880003-4fcd06418af3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTglQjElQTElRTklQkMlQkIlRTUlQjElQjElRTYlOTklQUYlRTUlOEMlQkElMjAlRTYlQTElODIlRTYlOUUlOTd8ZW58MHx8fHwxNzc5NjAyNjYxfDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "免费"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "椿记烧鹅(中山路店)",
+              "address": "中山中路附近",
+              "location": {
+                "lat": 25.275,
+                "lng": 110.295
+              },
+              "cost_per_person": "80",
+              "rating": "4.5"
+            }
+          ],
+          "budget": {
+            "transport_cost": 30.0,
+            "dining_cost": 80.0,
+            "hotel_cost": 200.0,
+            "attraction_ticket_cost": 0.0,
+            "total": 310.0
+          }
+        },
+        {
+          "day": 2,
+          "theme": "阳朔遇龙河玩水漂流",
+          "weather": {
+            "date": "2026-05-25",
+            "day_weather": "阵雨",
+            "night_weather": "多云",
+            "day_temp": "35",
+            "night_temp": "27",
+            "day_wind": "南风 1-3级",
+            "night_wind": "南风 1-3级"
+          },
+          "recommended_hotel": null,
+          "attractions": [],
+          "dinings": [],
+          "budget": {
+            "transport_cost": 50.0,
+            "dining_cost": 70.0,
+            "hotel_cost": 200.0,
+            "attraction_ticket_cost": 160.0,
+            "total": 480.0
+          }
+        },
+        {
+          "day": 3,
+          "theme": "漓江精华与返程",
+          "weather": {
+            "date": "2026-05-26",
+            "day_weather": "阵雨",
+            "night_weather": "多云",
+            "day_temp": "34",
+            "night_temp": "24",
+            "day_wind": "南风 1-3级",
+            "night_wind": "南风 1-3级"
+          },
+          "recommended_hotel": null,
+          "attractions": [],
+          "dinings": [],
+          "budget": {
+            "transport_cost": 70.0,
+            "dining_cost": 75.0,
+            "hotel_cost": 0.0,
+            "attraction_ticket_cost": 100.0,
+            "total": 245.0
+          }
+        }
+      ]
+    },
+    "text_representation": "旅行行程 目的地: 桂林 时间: 2026-05-24 到 2026-05-26 偏好: 美食, 自然 行程标题: 桂林山水与夜景美食三日经济游 补充需求: 想去玩水，看夜景 景点: 象鼻山景区",
+    "timestamp": "2026-05-24T14:04:22.180321"
+  },
+  "61": {
+    "user_id": "76589421-7776-4230-bee2-c903d48d0ec9",
+    "type": "preference",
+    "preference_type": "trip_preferences",
+    "data": {
+      "destination": "桂林",
+      "preferences": [
+        "美食",
+        "自然"
+      ],
+      "hotel_preferences": [
+        "经济型"
+      ],
+      "budget": "经济",
+      "special_requirements": "想去玩水，看夜景"
+    },
+    "text_representation": "偏好类型: trip_preferences 目的地: 桂林 旅行偏好: 美食, 自然 酒店偏好: 经济型 预算水平: 经济 补充需求: 想去玩水，看夜景",
+    "timestamp": "2026-05-24T14:04:22.374730"
+  },
+  "62": {
+    "user_id": "guest_codex-guilin-water-night-test",
+    "type": "preference",
+    "preference_type": "trip_request",
+    "data": {
+      "destination": "桂林",
+      "preferences": [
+        "美食体验",
+        "自然风光"
+      ],
+      "hotel_preferences": [],
+      "budget": "经济",
+      "special_requirements": "想玩水、看夜景",
+      "trip_title": "桂林山水亲水夜游三日经济行"
+    },
+    "text_representation": "偏好类型: trip_request 目的地: 桂林 旅行偏好: 美食体验, 自然风光 酒店偏好:  预算水平: 经济 补充需求: 想玩水、看夜景",
+    "timestamp": "2026-05-24T14:15:04.591296"
+  },
+  "63": {
+    "user_id": "guest_codex-guilin-water-night-test",
+    "type": "trip",
+    "data": {
+      "destination": "桂林",
+      "start_date": "2026-06-01",
+      "end_date": "2026-06-03",
+      "preferences": [
+        "美食体验",
+        "自然风光"
+      ],
+      "hotel_preferences": [],
+      "budget": "经济",
+      "special_requirements": "想玩水、看夜景",
+      "trip_title": "桂林山水亲水夜游三日经济行",
+      "days": [
+        {
+          "day": 1,
+          "theme": "城徽打卡与两江四湖夜景",
+          "weather": {
+            "date": "2026-06-01",
+            "day_weather": "阵雨",
+            "night_weather": "多云",
+            "day_temp": "32",
+            "night_temp": "25",
+            "day_wind": "南风 1-3级",
+            "night_wind": "南风 1-3级"
+          },
+          "recommended_hotel": {
+            "name": "景瑞时尚酒店(桂林甲天下会展中心店)",
+            "address": "江东村69号(近象鼻山、两江四湖)",
+            "location": {
+              "lat": 25.258813,
+              "lng": 110.304441
+            },
+            "price": "150",
+            "rating": "4.8",
+            "distance_to_main_attraction_km": 1.5
+          },
+          "attractions": [
+            {
+              "name": "象鼻山景区",
+              "type": "风景名胜;风景名胜;国家级景点",
+              "rating": "4.8",
+              "suggested_duration_hours": 2.0,
+              "description": "上午游览桂林城徽，雨后空气清新，拍照打卡必去之地。",
+              "address": "民主路1号",
+              "location": {
+                "lat": 25.267579,
+                "lng": 110.296573
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1556880003-4fcd06418af3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTglQjElQTElRTklQkMlQkIlRTUlQjElQjElRTYlOTklQUYlRTUlOEMlQkElMjAlRTYlQTElODIlRTYlOUUlOTd8ZW58MHx8fHwxNzc5NjAyNjYxfDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "免费"
+            },
+            {
+              "name": "桂林市两江四湖景区",
+              "type": "风景名胜;风景名胜;国家级景点",
+              "rating": "4.7",
+              "suggested_duration_hours": 2.5,
+              "description": "晚上乘船或步行欣赏日月双塔灯光秀，体验桂林迷人夜景。",
+              "address": "杉湖北路",
+              "location": {
+                "lat": 25.27269,
+                "lng": 110.295526
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1659233326823-98758cc47b1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTYlQTElODIlRTYlOUUlOTclRTUlQjglODIlRTQlQjglQTQlRTYlQjElOUYlRTUlOUIlOUIlRTYlQjklOTYlRTYlOTklQUYlRTUlOEMlQkElMjAlRTYlQTElODIlRTYlOUUlOTd8ZW58MHx8fHwxNzc5NjAzMzAyfDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "免费"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "崇善米粉馆",
+              "address": "秀峰区中山中路附近",
+              "location": {
+                "lat": 25.275,
+                "lng": 110.295
+              },
+              "cost_per_person": "20",
+              "rating": "4.5"
+            },
+            {
+              "name": "小南国餐厅",
+              "address": "秀峰区解放西路",
+              "location": {
+                "lat": 25.278,
+                "lng": 110.292
+              },
+              "cost_per_person": "60",
+              "rating": "4.6"
+            }
+          ],
+          "budget": {
+            "transport_cost": 30.0,
+            "dining_cost": 80.0,
+            "hotel_cost": 150.0,
+            "attraction_ticket_cost": 0.0,
+            "total": 260.0
+          }
+        },
+        {
+          "day": 2,
+          "theme": "漓江竹筏与兴坪古镇",
+          "weather": {
+            "date": "2026-06-02",
+            "day_weather": "阵雨",
+            "night_weather": "多云",
+            "day_temp": "35",
+            "night_temp": "27",
+            "day_wind": "南风 1-3级",
+            "night_wind": "南风 1-3级"
+          },
+          "recommended_hotel": {
+            "name": "阳朔华源旅店(20元人民币风景区店)",
+            "address": "兴坪镇画山厄根底村漓江风景区内",
+            "location": {
+              "lat": 24.924422,
+              "lng": 110.512547
+            },
+            "price": "150",
+            "rating": "4.8",
+            "distance_to_main_attraction_km": 0.5
+          },
+          "attractions": [
+            {
+              "name": "漓江全程竹筏漂流",
+              "type": "风景名胜;风景名胜;国家级景点|体育休闲服务;休闲场所;水上活动中心",
+              "rating": "4.5",
+              "suggested_duration_hours": 3.0,
+              "description": "下午体验兴坪段竹筏漂流，亲近漓江水，欣赏九马画山美景。",
+              "address": "兴坪古镇兴坪码头内",
+              "location": {
+                "lat": 24.922688,
+                "lng": 110.520203
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1556880003-4fcd06418af3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTYlQkMlOTMlRTYlQjElOUYlRTUlODUlQTglRTclQTglOEIlRTclQUIlQjklRTclQUQlOEYlRTYlQkMlODIlRTYlQjUlODElMjAlRTYlQTElODIlRTYlOUUlOTd8ZW58MHx8fHwxNzc5NjAzMzAyfDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "180"
+            },
+            {
+              "name": "兴坪古镇",
+              "type": "风景名胜;古镇古村",
+              "rating": "4.6",
+              "suggested_duration_hours": 2.0,
+              "description": "傍晚漫步千年古镇，拍摄20元人民币背景图，感受古朴风情。",
+              "address": "阳朔县兴坪镇",
+              "location": {
+                "lat": 24.918,
+                "lng": 110.525
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1556880003-4fcd06418af3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTUlODUlQjQlRTUlOUQlQUElRTUlOEYlQTQlRTklOTUlODclMjAlRTYlQTElODIlRTYlOUUlOTd8ZW58MHx8fHwxNzc5NjAzMzAyfDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "免费"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "兴坪啤酒鱼",
+              "address": "兴坪古镇新街",
+              "location": {
+                "lat": 24.92,
+                "lng": 110.522
+              },
+              "cost_per_person": "70",
+              "rating": "4.4"
+            }
+          ],
+          "budget": {
+            "transport_cost": 50.0,
+            "dining_cost": 70.0,
+            "hotel_cost": 150.0,
+            "attraction_ticket_cost": 180.0,
+            "total": 450.0
+          }
+        },
+        {
+          "day": 3,
+          "theme": "遇龙河田园风光与返程",
+          "weather": {
+            "date": "2026-06-03",
+            "day_weather": "阵雨",
+            "night_weather": "多云",
+            "day_temp": "34",
+            "night_temp": "24",
+            "day_wind": "南风 1-3级",
+            "night_wind": "南风 1-3级"
+          },
+          "recommended_hotel": {
+            "name": "景瑞时尚酒店(桂林甲天下会展中心店)",
+            "address": "江东村69号(近象鼻山、两江四湖)",
+            "location": {
+              "lat": 25.258813,
+              "lng": 110.304441
+            },
+            "price": "150",
+            "rating": "4.8",
+            "distance_to_main_attraction_km": 1.5
+          },
+          "attractions": [
+            {
+              "name": "遇龙河景区",
+              "type": "风景名胜;风景名胜;风景名胜",
+              "rating": "4.7",
+              "suggested_duration_hours": 3.0,
+              "description": "上午体验遇龙河人工竹筏，享受宁静田园山水，玩水清凉惬意。",
+              "address": "090乡道",
+              "location": {
+                "lat": 24.77753,
+                "lng": 110.433115
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1556880003-4fcd06418af3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTklODElODclRTklQkUlOTklRTYlQjIlQjMlRTYlOTklQUYlRTUlOEMlQkElMjAlRTYlQTElODIlRTYlOUUlOTd8ZW58MHx8fHwxNzc5NjAzMzAyfDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "160"
+            },
+            {
+              "name": "叠彩山",
+              "type": "风景名胜;风景名胜;国家级景点",
+              "rating": "4.7",
+              "suggested_duration_hours": 1.5,
+              "description": "下午返回市区登高望远，俯瞰桂林全城及漓江蜿蜒景色。",
+              "address": "叠彩街道龙珠路815号",
+              "location": {
+                "lat": 25.289934,
+                "lng": 110.301332
+              },
+              "image_urls": [
+                "https://images.unsplash.com/photo-1556880003-4fcd06418af3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTYlQTElODIlRTYlOUUlOTclMjBsYW5kbWFya3xlbnwwfHx8fDE3Nzk2MDMzMDR8MA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "免费"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "椿记烧鹅",
+              "address": "七星区解放东路",
+              "location": {
+                "lat": 25.272,
+                "lng": 110.305
+              },
+              "cost_per_person": "75",
+              "rating": "4.7"
+            }
+          ],
+          "budget": {
+            "transport_cost": 70.0,
+            "dining_cost": 75.0,
+            "hotel_cost": 150.0,
+            "attraction_ticket_cost": 160.0,
+            "total": 455.0
+          }
+        }
+      ]
+    },
+    "text_representation": "旅行行程 目的地: 桂林 时间: 2026-06-01 到 2026-06-03 偏好: 美食体验, 自然风光 行程标题: 桂林山水亲水夜游三日经济行 补充需求: 想玩水、看夜景 景点: 象鼻山景区, 桂林市两江四湖景区, 漓江全程竹筏漂流, 兴坪古镇, 遇龙河景区, 叠彩山",
+    "timestamp": "2026-05-24T14:15:04.897007"
+  },
+  "64": {
+    "user_id": "guest_codex-guilin-water-night-test",
+    "type": "preference",
+    "preference_type": "trip_preferences",
+    "data": {
+      "destination": "桂林",
+      "preferences": [
+        "美食体验",
+        "自然风光"
+      ],
+      "hotel_preferences": [],
+      "budget": "经济",
+      "special_requirements": "想玩水、看夜景"
+    },
+    "text_representation": "偏好类型: trip_preferences 目的地: 桂林 旅行偏好: 美食体验, 自然风光 酒店偏好:  预算水平: 经济 补充需求: 想玩水、看夜景",
+    "timestamp": "2026-05-24T14:15:05.091196"
+  },
+  "65": {
+    "user_id": "76589421-7776-4230-bee2-c903d48d0ec9",
+    "type": "preference",
+    "preference_type": "trip_request",
+    "data": {
+      "destination": "杭州",
+      "preferences": [
+        "购物",
+        "休闲"
+      ],
+      "hotel_preferences": [
+        "经济型"
+      ],
+      "budget": "中等",
+      "special_requirements": "想看美女，想看夜景，西湖，预算两千左右",
+      "trip_title": "杭州雨中漫步：西湖夜韵与都市购物休闲之旅"
+    },
+    "text_representation": "偏好类型: trip_request 目的地: 杭州 旅行偏好: 购物, 休闲 酒店偏好: 经济型 预算水平: 中等 补充需求: 想看美女，想看夜景，西湖，预算两千左右",
+    "timestamp": "2026-05-24T15:40:20.339977"
+  },
+  "66": {
+    "user_id": "76589421-7776-4230-bee2-c903d48d0ec9",
+    "type": "trip",
+    "data": {
+      "destination": "杭州",
+      "start_date": "2026-05-24",
+      "end_date": "2026-05-26",
+      "preferences": [
+        "购物",
+        "休闲"
+      ],
+      "hotel_preferences": [
+        "经济型"
+      ],
+      "budget": "中等",
+      "special_requirements": "想看美女，想看夜景，西湖，预算两千左右",
+      "trip_title": "杭州雨中漫步：西湖夜韵与都市购物休闲之旅",
+      "days": [
+        {
+          "day": 1,
+          "theme": "西湖雨景与经典夜游",
+          "weather": {
+            "date": "2026-05-24",
+            "day_weather": "大雨",
+            "night_weather": "小雨",
+            "day_temp": "30",
+            "night_temp": "24",
+            "day_wind": "南风 1-3级",
+            "night_wind": "南风 1-3级"
+          },
+          "recommended_hotel": {
+            "name": "一只柠萌酒店(杭州西湖湖滨解放路店)",
+            "address": "解放路新天工艺苑6楼",
+            "location": {
+              "lat": 30.24997,
+              "lng": 120.178104
+            },
+            "cityname": "杭州市",
+            "adname": "上城区",
+            "adcode": "",
+            "price": "300",
+            "rating": "4.6",
+            "distance_to_main_attraction_km": 0.5
+          },
+          "attractions": [
+            {
+              "name": "西湖外事游船(湖滨二公园外事游船码头)",
+              "type": "风景名胜",
+              "rating": "3.8",
+              "suggested_duration_hours": 1.5,
+              "description": "雨中泛舟西湖，欣赏朦胧山水，体验经典亲水乐趣。",
+              "address": "外事游船湖滨二公园码头",
+              "location": {
+                "lat": 30.252266,
+                "lng": 120.162178
+              },
+              "cityname": "杭州市",
+              "adname": "上城区",
+              "adcode": "",
+              "image_urls": [
+                "https://images.unsplash.com/photo-1725879642445-854e1dd30185?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTglQTUlQkYlRTYlQjklOTYlRTUlQTQlOTYlRTQlQkElOEIlRTYlQjglQjglRTglODglQjklMjglRTYlQjklOTYlRTYlQkIlQTglRTQlQkElOEMlRTUlODUlQUMlRTUlOUIlQUQlRTUlQTQlOTYlRTQlQkElOEIlRTYlQjglQjglRTglODglQjklRTclQTAlODElRTUlQTQlQjQlMjklMjAlRTYlOUQlQUQlRTUlQjclOUV8ZW58MHx8fHwxNzc5NjA4NDE4fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "60"
+            },
+            {
+              "name": "吴山夜市",
+              "type": "特色商业街",
+              "rating": "4.5",
+              "suggested_duration_hours": 2.0,
+              "description": "夜晚逛夜市，感受杭州烟火气，品尝小吃，观赏街景人流。",
+              "address": "仁和路(龙翔桥地铁站D口步行490米)",
+              "location": {
+                "lat": 30.252874,
+                "lng": 120.168345
+              },
+              "cityname": "杭州市",
+              "adname": "上城区",
+              "adcode": "",
+              "image_urls": [
+                "https://images.unsplash.com/photo-1644409185027-c46e186c82e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTUlOTAlQjQlRTUlQjElQjElRTUlQTQlOUMlRTUlQjglODIlMjAlRTYlOUQlQUQlRTUlQjclOUV8ZW58MHx8fHwxNzc5NjA4NDE4fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "免费"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "外婆家(湖滨店)",
+              "address": "上城区湖滨路附近",
+              "location": {
+                "lat": 30.253,
+                "lng": 120.165
+              },
+              "cityname": "杭州市",
+              "adname": "上城区",
+              "adcode": "330102",
+              "cost_per_person": "80",
+              "rating": "4.6"
+            }
+          ],
+          "budget": {
+            "transport_cost": 50.0,
+            "dining_cost": 160.0,
+            "hotel_cost": 300.0,
+            "attraction_ticket_cost": 60.0,
+            "total": 570.0
+          }
+        },
+        {
+          "day": 2,
+          "theme": "室内购物与艺术夜景",
+          "weather": {
+            "date": "2026-05-25",
+            "day_weather": "中雨",
+            "night_weather": "小雨",
+            "day_temp": "32",
+            "night_temp": "24",
+            "day_wind": "西风 1-3级",
+            "night_wind": "西风 1-3级"
+          },
+          "recommended_hotel": {
+            "name": "一只柠萌酒店(杭州西湖湖滨解放路店)",
+            "address": "解放路新天工艺苑6楼",
+            "location": {
+              "lat": 30.24997,
+              "lng": 120.178104
+            },
+            "cityname": "杭州市",
+            "adname": "上城区",
+            "adcode": "",
+            "price": "300",
+            "rating": "4.6",
+            "distance_to_main_attraction_km": 0.5
+          },
+          "attractions": [
+            {
+              "name": "杭州万象城",
+              "type": "购物中心",
+              "rating": "4.9",
+              "suggested_duration_hours": 4.0,
+              "description": "高端购物中心，避雨购物首选，品牌齐全，环境舒适。",
+              "address": "富春路701号",
+              "location": {
+                "lat": 30.251753,
+                "lng": 120.215513
+              },
+              "cityname": "杭州市",
+              "adname": "上城区",
+              "adcode": "",
+              "image_urls": [
+                "https://images.unsplash.com/photo-1725878045572-b531e634bad3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTYlOUQlQUQlRTUlQjclOUUlMjBsYW5kbWFya3xlbnwwfHx8fDE3Nzk2MDg0MTl8MA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "免费"
+            },
+            {
+              "name": "落日夜市",
+              "type": "特色商业街",
+              "rating": "4.7",
+              "suggested_duration_hours": 2.0,
+              "description": "东巢艺术公园内的创意夜市，氛围浪漫，适合晚间休闲拍照。",
+              "address": "浙农·东巢艺术公园(东南角)",
+              "location": {
+                "lat": 30.174209,
+                "lng": 120.251175
+              },
+              "cityname": "杭州市",
+              "adname": "萧山区",
+              "adcode": "",
+              "image_urls": [
+                "https://images.unsplash.com/photo-1644409185027-c46e186c82e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTglOTAlQkQlRTYlOTclQTUlRTUlQTQlOUMlRTUlQjglODIlMjAlRTYlOUQlQUQlRTUlQjclOUV8ZW58MHx8fHwxNzc5NjA4NDE4fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "免费"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "绿茶餐厅(万象城店)",
+              "address": "上城区富春路701号万象城内",
+              "location": {
+                "lat": 30.251753,
+                "lng": 120.215513
+              },
+              "cityname": "杭州市",
+              "adname": "上城区",
+              "adcode": "330102",
+              "cost_per_person": "90",
+              "rating": "4.7"
+            }
+          ],
+          "budget": {
+            "transport_cost": 50.0,
+            "dining_cost": 180.0,
+            "hotel_cost": 300.0,
+            "attraction_ticket_cost": 0.0,
+            "total": 530.0
+          }
+        },
+        {
+          "day": 3,
+          "theme": "径溪竹筏与返程",
+          "weather": {
+            "date": "2026-05-26",
+            "day_weather": "中雨",
+            "night_weather": "小雨",
+            "day_temp": "30",
+            "night_temp": "23",
+            "day_wind": "北风 1-3级",
+            "night_wind": "北风 1-3级"
+          },
+          "recommended_hotel": {
+            "name": "一只柠萌酒店(杭州西湖湖滨解放路店)",
+            "address": "解放路新天工艺苑6楼",
+            "location": {
+              "lat": 30.24997,
+              "lng": 120.178104
+            },
+            "cityname": "杭州市",
+            "adname": "上城区",
+            "adcode": "",
+            "price": "300",
+            "rating": "4.6",
+            "distance_to_main_attraction_km": 0.5
+          },
+          "attractions": [
+            {
+              "name": "竹筏漂流",
+              "type": "旅游景点",
+              "rating": "3.8",
+              "suggested_duration_hours": 2.5,
+              "description": "体验双溪竹海漂流，雨中更显清幽，享受亲水自然乐趣。",
+              "address": "径山镇双溪竹海路7号",
+              "location": {
+                "lat": 30.410323,
+                "lng": 119.834023
+              },
+              "cityname": "杭州市",
+              "adname": "余杭区",
+              "adcode": "",
+              "image_urls": [
+                "https://images.unsplash.com/photo-1725879642445-854e1dd30185?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTclQUIlQjklRTclQUQlOEYlRTYlQkMlODIlRTYlQjUlODElMjAlRTYlOUQlQUQlRTUlQjclOUV8ZW58MHx8fHwxNzc5NjA4NDE4fDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "190"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "农家土菜馆",
+              "address": "余杭区径山镇附近",
+              "location": {
+                "lat": 30.41,
+                "lng": 119.83
+              },
+              "cityname": "杭州市",
+              "adname": "余杭区",
+              "adcode": "330110",
+              "cost_per_person": "70",
+              "rating": "4.3"
+            }
+          ],
+          "budget": {
+            "transport_cost": 50.0,
+            "dining_cost": 140.0,
+            "hotel_cost": 300.0,
+            "attraction_ticket_cost": 190.0,
+            "total": 680.0
+          }
+        }
+      ]
+    },
+    "text_representation": "旅行行程 目的地: 杭州 时间: 2026-05-24 到 2026-05-26 偏好: 购物, 休闲 行程标题: 杭州雨中漫步：西湖夜韵与都市购物休闲之旅 补充需求: 想看美女，想看夜景，西湖，预算两千左右 景点: 西湖外事游船(湖滨二公园外事游船码头), 吴山夜市, 杭州万象城, 落日夜市, 竹筏漂流",
+    "timestamp": "2026-05-24T15:40:20.591507"
+  },
+  "67": {
+    "user_id": "76589421-7776-4230-bee2-c903d48d0ec9",
+    "type": "preference",
+    "preference_type": "trip_preferences",
+    "data": {
+      "destination": "杭州",
+      "preferences": [
+        "购物",
+        "休闲"
+      ],
+      "hotel_preferences": [
+        "经济型"
+      ],
+      "budget": "中等",
+      "special_requirements": "想看美女，想看夜景，西湖，预算两千左右"
+    },
+    "text_representation": "偏好类型: trip_preferences 目的地: 杭州 旅行偏好: 购物, 休闲 酒店偏好: 经济型 预算水平: 中等 补充需求: 想看美女，想看夜景，西湖，预算两千左右",
+    "timestamp": "2026-05-24T15:40:20.856102"
+  },
+  "68": {
+    "user_id": "76589421-7776-4230-bee2-c903d48d0ec9",
+    "type": "preference",
+    "preference_type": "trip_request",
+    "source_trip_id": null,
+    "source_event": "trip_created",
+    "is_active": true,
+    "data": {
+      "destination": "重庆",
+      "preferences": [
+        "摄影",
+        "美食"
+      ],
+      "hotel_preferences": [
+        "经济型"
+      ],
+      "budget": "中等",
+      "special_requirements": "可以去美食街、商品购物街",
+      "trip_title": "重庆3日摄影行程"
+    },
+    "text_representation": "偏好类型: trip_request 目的地: 重庆 旅行偏好: 摄影, 美食 酒店偏好: 经济型 预算水平: 中等 补充需求: 可以去美食街、商品购物街",
+    "timestamp": "2026-05-24T16:42:44.540811"
+  },
+  "69": {
+    "user_id": "76589421-7776-4230-bee2-c903d48d0ec9",
+    "type": "trip",
+    "trip_id": "2077ea4d-c5a7-43f5-8b86-08511ac4a331",
+    "source_event": "trip_created",
+    "version": 1,
+    "is_active": true,
+    "data": {
+      "id": "2077ea4d-c5a7-43f5-8b86-08511ac4a331",
+      "created_at": "2026-05-24T16:42:44.610845",
+      "updated_at": "2026-05-24T16:42:44.610845",
+      "version": 1,
+      "city_support_level": "supported",
+      "city_support_message": "该城市支持精细规划，可提供较高准确度的景点与路线建议。",
+      "trip_title": "重庆3日摄影行程",
+      "total_budget": {
+        "transport_cost": 240.0,
+        "dining_cost": 540.0,
+        "hotel_cost": 900.0,
+        "attraction_ticket_cost": 0.0,
+        "total": 1680.0
+      },
+      "hotels": [
+        {
+          "name": "青柚共享酒店(解放碑步行街店)",
+          "address": "解放碑街道鲁祖庙47号4栋四贤巷附28号",
+          "location": {
+            "lat": 29.555177,
+            "lng": 106.572297
+          },
+          "cityname": "重庆市",
+          "adname": "渝中区",
+          "adcode": "",
+          "price": "N/A",
+          "rating": "4.6",
+          "distance_to_main_attraction_km": null
+        },
+        {
+          "name": "沃林净旅酒店(解放碑洪崖洞店)",
+          "address": "临江路66号(临江门地铁站2号口步行220米)",
+          "location": {
+            "lat": 29.560275,
+            "lng": 106.575725
+          },
+          "cityname": "重庆市",
+          "adname": "渝中区",
+          "adcode": "",
+          "price": "N/A",
+          "rating": "4.8",
+          "distance_to_main_attraction_km": null
+        },
+        {
+          "name": "汉庭酒店(重庆李子坝牛角沱地铁站店)",
+          "address": "嘉陵桥西村2号(牛角沱地铁站4号口A1通道出口步行150米)",
+          "location": {
+            "lat": 29.560278,
+            "lng": 106.545762
+          },
+          "cityname": "重庆市",
+          "adname": "渝中区",
+          "adcode": "",
+          "price": "N/A",
+          "rating": "4.6",
+          "distance_to_main_attraction_km": null
+        }
+      ],
+      "days": [
+        {
+          "day": 1,
+          "theme": "重庆精选体验第1天",
+          "weather": {
+            "date": "2026-05-24",
+            "day_weather": "小雨",
+            "night_weather": "中雨",
+            "day_temp": "32",
+            "night_temp": "23",
+            "day_wind": "东北风 1-3级",
+            "night_wind": "东北风 1-3级"
+          },
+          "recommended_hotel": {
+            "name": "青柚共享酒店(解放碑步行街店)",
+            "address": "解放碑街道鲁祖庙47号4栋四贤巷附28号",
+            "location": {
+              "lat": 29.555177,
+              "lng": 106.572297
+            },
+            "cityname": "重庆市",
+            "adname": "渝中区",
+            "adcode": "",
+            "price": "N/A",
+            "rating": "4.6",
+            "distance_to_main_attraction_km": null
+          },
+          "attractions": [
+            {
+              "name": "重庆叁城影像婚纱摄影(石坪桥店)",
+              "type": "生活服务;摄影冲印店;摄影冲印",
+              "rating": "4.6",
+              "suggested_duration_hours": 2.0,
+              "description": "根据偏好和地理位置安排游览，建议提前确认开放时间和交通。",
+              "address": "石坪桥横街3号中辅西引力3楼",
+              "location": {
+                "lat": 29.517379,
+                "lng": 106.502713
+              },
+              "cityname": "重庆市",
+              "adname": "九龙坡区",
+              "adcode": "",
+              "image_urls": [
+                "https://images.unsplash.com/photo-1567014688543-cc4abffb061a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTklODclOEQlRTUlQkElODYlRTUlOEYlODElRTUlOUYlOEUlRTUlQkQlQjElRTUlODMlOEYlRTUlQTklOUElRTclQkElQjElRTYlOTElODQlRTUlQkQlQjElMjglRTclOUYlQjMlRTUlOUQlQUElRTYlQTElQTUlRTUlQkElOTclMjklMjAlRTklODclOEQlRTUlQkElODZ8ZW58MHx8fHwxNzc5NjEyMTYyfDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "N/A",
+              "distance_from_previous_km": 9.65,
+              "duration_from_previous_minutes": 128.6,
+              "route_mode": "walking"
+            },
+            {
+              "name": "焦外摄影(轻奢定制)",
+              "type": "生活服务;摄影冲印店;摄影冲印",
+              "rating": "4.6",
+              "suggested_duration_hours": 2.0,
+              "description": "根据偏好和地理位置安排游览，建议提前确认开放时间和交通。",
+              "address": "观音桥CIC天和里购物中心5楼(5-20)",
+              "location": {
+                "lat": 29.574034,
+                "lng": 106.534388
+              },
+              "cityname": "重庆市",
+              "adname": "两江新区",
+              "adcode": "",
+              "image_urls": [
+                "https://images.unsplash.com/photo-1567014688543-cc4abffb061a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTklODclOEQlRTUlQkElODYlMjBhdHRyYWN0aW9ufGVufDB8fHx8MTc3OTYxMjE2NHww&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "N/A",
+              "distance_from_previous_km": 8.71,
+              "duration_from_previous_minutes": 116.2,
+              "route_mode": "walking"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "思味鲜蹄花",
+              "address": "渝建村1号(大礼堂地铁站4号口步行170米)",
+              "location": {
+                "lat": 29.563158,
+                "lng": 106.555287
+              },
+              "cityname": "重庆市",
+              "adname": "渝中区",
+              "adcode": "",
+              "cost_per_person": "47.00",
+              "rating": "4.6",
+              "distance_from_previous_km": 3.26,
+              "duration_from_previous_minutes": 43.4,
+              "route_mode": "walking"
+            },
+            {
+              "name": "一品香·江湖菜(大礼堂店)",
+              "address": "枣子岚垭143号(曾家岩地铁站3口步行370米)",
+              "location": {
+                "lat": 29.560112,
+                "lng": 106.553139
+              },
+              "cityname": "重庆市",
+              "adname": "渝中区",
+              "adcode": "",
+              "cost_per_person": "76.00",
+              "rating": "4.6",
+              "distance_from_previous_km": 0.68,
+              "duration_from_previous_minutes": 9.0,
+              "route_mode": "walking"
+            }
+          ],
+          "budget": {
+            "transport_cost": 80.0,
+            "dining_cost": 180.0,
+            "hotel_cost": 300.0,
+            "attraction_ticket_cost": 0.0,
+            "total": 560.0
+          }
+        },
+        {
+          "day": 2,
+          "theme": "重庆精选体验第2天",
+          "weather": {
+            "date": "2026-05-25",
+            "day_weather": "小雨",
+            "night_weather": "小雨",
+            "day_temp": "32",
+            "night_temp": "24",
+            "day_wind": "西风 1-3级",
+            "night_wind": "西风 1-3级"
+          },
+          "recommended_hotel": {
+            "name": "沃林净旅酒店(解放碑洪崖洞店)",
+            "address": "临江路66号(临江门地铁站2号口步行220米)",
+            "location": {
+              "lat": 29.560275,
+              "lng": 106.575725
+            },
+            "cityname": "重庆市",
+            "adname": "渝中区",
+            "adcode": "",
+            "price": "N/A",
+            "rating": "4.8",
+            "distance_to_main_attraction_km": null
+          },
+          "attractions": [
+            {
+              "name": "重庆梵梦婚纱摄影(九龙坡店)",
+              "type": "生活服务;摄影冲印店;摄影冲印",
+              "rating": "4.6",
+              "suggested_duration_hours": 2.0,
+              "description": "根据偏好和地理位置安排游览，建议提前确认开放时间和交通。",
+              "address": "荣鼎新苑商业四楼(高庙村地铁站1号口步行370米)",
+              "location": {
+                "lat": 29.534924,
+                "lng": 106.47123
+              },
+              "cityname": "重庆市",
+              "adname": "九龙坡区",
+              "adcode": "",
+              "image_urls": [
+                "https://images.unsplash.com/photo-1567014688543-cc4abffb061a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTklODclOEQlRTUlQkElODYlMjBhdHRyYWN0aW9ufGVufDB8fHx8MTc3OTYxMjE2NHww&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "N/A",
+              "distance_from_previous_km": 12.32,
+              "duration_from_previous_minutes": 164.2,
+              "route_mode": "walking"
+            },
+            {
+              "name": "金夫人婚纱摄影(观音桥店)",
+              "type": "生活服务;摄影冲印店;摄影冲印|购物服务;服装鞋帽皮具店;服装鞋帽皮具店",
+              "rating": "4.4",
+              "suggested_duration_hours": 2.0,
+              "description": "根据偏好和地理位置安排游览，建议提前确认开放时间和交通。",
+              "address": "观音桥步行街未来国际1F",
+              "location": {
+                "lat": 29.574414,
+                "lng": 106.532537
+              },
+              "cityname": "重庆市",
+              "adname": "两江新区",
+              "adcode": "",
+              "image_urls": [
+                "https://images.unsplash.com/photo-1567014688543-cc4abffb061a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTklODclOEQlRTUlQkElODYlMjBhdHRyYWN0aW9ufGVufDB8fHx8MTc3OTYxMjE2NHww&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "N/A",
+              "distance_from_previous_km": 9.88,
+              "duration_from_previous_minutes": 131.7,
+              "route_mode": "walking"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "一只烧鸡公(大礼堂总店)",
+              "address": "人民路170号2-3(大礼堂地铁站4号口步行160米)",
+              "location": {
+                "lat": 29.563106,
+                "lng": 106.554468
+              },
+              "cityname": "重庆市",
+              "adname": "渝中区",
+              "adcode": "",
+              "cost_per_person": "57.00",
+              "rating": "4.5",
+              "distance_from_previous_km": 3.43,
+              "duration_from_previous_minutes": 45.8,
+              "route_mode": "walking"
+            },
+            {
+              "name": "北步园老火锅(洪崖洞店)",
+              "address": "铁板巷6号(洪崖洞对面,铁板巷对面100米)",
+              "location": {
+                "lat": 29.561089,
+                "lng": 106.57887
+              },
+              "cityname": "重庆市",
+              "adname": "渝中区",
+              "adcode": "",
+              "cost_per_person": "78.00",
+              "rating": "4.7",
+              "distance_from_previous_km": 2.82,
+              "duration_from_previous_minutes": 37.6,
+              "route_mode": "walking"
+            }
+          ],
+          "budget": {
+            "transport_cost": 80.0,
+            "dining_cost": 180.0,
+            "hotel_cost": 300.0,
+            "attraction_ticket_cost": 0.0,
+            "total": 560.0
+          }
+        },
+        {
+          "day": 3,
+          "theme": "重庆精选体验第3天",
+          "weather": {
+            "date": "2026-05-26",
+            "day_weather": "小雨",
+            "night_weather": "小雨",
+            "day_temp": "32",
+            "night_temp": "25",
+            "day_wind": "西风 1-3级",
+            "night_wind": "西风 1-3级"
+          },
+          "recommended_hotel": {
+            "name": "汉庭酒店(重庆李子坝牛角沱地铁站店)",
+            "address": "嘉陵桥西村2号(牛角沱地铁站4号口A1通道出口步行150米)",
+            "location": {
+              "lat": 29.560278,
+              "lng": 106.545762
+            },
+            "cityname": "重庆市",
+            "adname": "渝中区",
+            "adcode": "",
+            "price": "N/A",
+            "rating": "4.6",
+            "distance_to_main_attraction_km": null
+          },
+          "attractions": [
+            {
+              "name": "玖集摄影(协信阿卡迪亚江域二十七峰店)",
+              "type": "生活服务;摄影冲印店;摄影冲印",
+              "rating": "3.9",
+              "suggested_duration_hours": 2.0,
+              "description": "根据偏好和地理位置安排游览，建议提前确认开放时间和交通。",
+              "address": "石油路协信阿卡迪亚19-1-4",
+              "location": {
+                "lat": 29.550767,
+                "lng": 106.491603
+              },
+              "cityname": "重庆市",
+              "adname": "渝中区",
+              "adcode": "",
+              "image_urls": [
+                "https://images.unsplash.com/photo-1567014688543-cc4abffb061a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTclOEUlOTYlRTklOUIlODYlRTYlOTElODQlRTUlQkQlQjElMjglRTUlOEQlOEYlRTQlQkYlQTElRTklOTglQkYlRTUlOEQlQTElRTglQkYlQUElRTQlQkElOUElRTYlQjElOUYlRTUlOUYlOUYlRTQlQkElOEMlRTUlOEQlODElRTQlQjglODMlRTUlQjMlQjAlRTUlQkElOTclMjklMjAlRTklODclOEQlRTUlQkElODZ8ZW58MHx8fHwxNzc5NjEyMTYyfDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "N/A",
+              "distance_from_previous_km": 7.2,
+              "duration_from_previous_minutes": 96.0,
+              "route_mode": "walking"
+            },
+            {
+              "name": "图朵摄影影棚",
+              "type": "生活服务;生活服务场所;生活服务场所",
+              "rating": "4.3",
+              "suggested_duration_hours": 2.0,
+              "description": "根据偏好和地理位置安排游览，建议提前确认开放时间和交通。",
+              "address": "长江一路69号3楼(鹅岭地铁站2B口步行460米)",
+              "location": {
+                "lat": 29.547126,
+                "lng": 106.530948
+              },
+              "cityname": "重庆市",
+              "adname": "渝中区",
+              "adcode": "",
+              "image_urls": [
+                "https://images.unsplash.com/photo-1590556096005-f0df806d7208?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTUlOUIlQkUlRTYlOUMlQjUlRTYlOTElODQlRTUlQkQlQjElRTUlQkQlQjElRTYlQTMlOUElMjAlRTklODclOEQlRTUlQkElODZ8ZW58MHx8fHwxNzc5NjEyMTYyfDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": "N/A",
+              "distance_from_previous_km": 5.39,
+              "duration_from_previous_minutes": 71.8,
+              "route_mode": "walking"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "俏巴渝.特色家宴·生日宴(石桥广场店)",
+              "address": "渝州路石桥广场4楼",
+              "location": {
+                "lat": 29.534678,
+                "lng": 106.491504
+              },
+              "cityname": "重庆市",
+              "adname": "九龙坡区",
+              "adcode": "",
+              "cost_per_person": "98.00",
+              "rating": "4.6",
+              "distance_from_previous_km": 4.42,
+              "duration_from_previous_minutes": 59.0,
+              "route_mode": "walking"
+            },
+            {
+              "name": "观音桥好吃街",
+              "address": "观音桥步行街8号星天广场3楼",
+              "location": {
+                "lat": 29.57644,
+                "lng": 106.533835
+              },
+              "cityname": "重庆市",
+              "adname": "两江新区",
+              "adcode": "",
+              "cost_per_person": "32.00",
+              "rating": "4.8",
+              "distance_from_previous_km": 8.06,
+              "duration_from_previous_minutes": 107.4,
+              "route_mode": "walking"
+            }
+          ],
+          "budget": {
+            "transport_cost": 80.0,
+            "dining_cost": 180.0,
+            "hotel_cost": 300.0,
+            "attraction_ticket_cost": 0.0,
+            "total": 560.0
+          }
+        }
+      ],
+      "destination": "重庆",
+      "start_date": "2026-05-24",
+      "end_date": "2026-05-26",
+      "preferences": [
+        "摄影",
+        "美食"
+      ],
+      "hotel_preferences": [
+        "经济型"
+      ],
+      "budget": "中等",
+      "special_requirements": "可以去美食街、商品购物街",
+      "trip_id": "2077ea4d-c5a7-43f5-8b86-08511ac4a331"
+    },
+    "text_representation": "旅行行程 目的地: 重庆 时间: 2026-05-24 到 2026-05-26 偏好: 摄影, 美食 行程标题: 重庆3日摄影行程 补充需求: 可以去美食街、商品购物街 景点: 重庆叁城影像婚纱摄影(石坪桥店), 焦外摄影(轻奢定制), 重庆梵梦婚纱摄影(九龙坡店), 金夫人婚纱摄影(观音桥店), 玖集摄影(协信阿卡迪亚江域二十七峰店), 图朵摄影影棚",
+    "timestamp": "2026-05-24T16:42:44.912283"
+  },
+  "70": {
+    "user_id": "76589421-7776-4230-bee2-c903d48d0ec9",
+    "type": "preference",
+    "preference_type": "trip_preferences",
+    "source_trip_id": "2077ea4d-c5a7-43f5-8b86-08511ac4a331",
+    "source_event": "trip_created",
+    "is_active": true,
+    "data": {
+      "source_trip_id": "2077ea4d-c5a7-43f5-8b86-08511ac4a331",
+      "destination": "重庆",
+      "preferences": [
+        "摄影",
+        "美食"
+      ],
+      "hotel_preferences": [
+        "经济型"
+      ],
+      "budget": "中等",
+      "special_requirements": "可以去美食街、商品购物街"
+    },
+    "text_representation": "偏好类型: trip_preferences 目的地: 重庆 旅行偏好: 摄影, 美食 酒店偏好: 经济型 预算水平: 中等 补充需求: 可以去美食街、商品购物街",
+    "timestamp": "2026-05-24T16:42:45.170485"
+  },
+  "71": {
+    "user_id": "76589421-7776-4230-bee2-c903d48d0ec9",
+    "type": "preference",
+    "preference_type": "trip_request",
+    "source_trip_id": null,
+    "source_event": "trip_created",
+    "is_active": true,
+    "data": {
+      "destination": "桂林",
+      "preferences": [
+        "摄影",
+        "自然",
+        "美食"
+      ],
+      "hotel_preferences": [
+        "经济型"
+      ],
+      "budget": "中等",
+      "special_requirements": "想玩水、看夜景，不想走太多路，想去网红出片的地方，酒店靠近地铁",
+      "trip_title": "桂林山水休闲摄影三日游"
+    },
+    "text_representation": "偏好类型: trip_request 目的地: 桂林 旅行偏好: 摄影, 自然, 美食 酒店偏好: 经济型 预算水平: 中等 补充需求: 想玩水、看夜景，不想走太多路，想去网红出片的地方，酒店靠近地铁",
+    "timestamp": "2026-05-24T18:49:21.968183"
+  },
+  "72": {
+    "user_id": "76589421-7776-4230-bee2-c903d48d0ec9",
+    "type": "trip",
+    "trip_id": "f9c7f405-065d-4297-a05d-cff9a901f18a",
+    "source_event": "trip_created",
+    "version": 1,
+    "is_active": true,
+    "data": {
+      "id": "f9c7f405-065d-4297-a05d-cff9a901f18a",
+      "created_at": "2026-05-24T18:49:22.022199",
+      "updated_at": "2026-05-24T18:49:22.022199",
+      "version": 1,
+      "city_support_level": "supported",
+      "city_support_message": "该城市支持精细规划，可提供较高准确度的景点与路线建议。",
+      "trip_title": "桂林山水休闲摄影三日游",
+      "total_budget": {
+        "transport_cost": 300.0,
+        "dining_cost": 600.0,
+        "hotel_cost": 900.0,
+        "attraction_ticket_cost": 450.0,
+        "total": 2250.0
+      },
+      "hotels": [
+        {
+          "name": "城市便捷酒店(桂林两江四湖店)",
+          "address": "中山南路96号",
+          "location": {
+            "lat": 25.266224,
+            "lng": 110.286512
+          },
+          "cityname": "",
+          "adname": "",
+          "adcode": "",
+          "price": 300.0,
+          "rating": "4.5",
+          "distance_to_main_attraction_km": 0.5
+        }
+      ],
+      "days": [
+        {
+          "day": 1,
+          "theme": "市区经典与夜景初探",
+          "weather": {
+            "date": "2026-05-24",
+            "day_weather": "阵雨转多云，26-32℃",
+            "night_weather": "多云",
+            "day_temp": "32",
+            "night_temp": "26",
+            "day_wind": "南风 1-3级",
+            "night_wind": "南风 1-3级"
+          },
+          "recommended_hotel": {
+            "name": "城市便捷酒店(桂林两江四湖店)",
+            "address": "中山南路96号",
+            "location": {
+              "lat": 25.266224,
+              "lng": 110.286512
+            },
+            "cityname": "桂林市",
+            "adname": "象山区",
+            "adcode": "",
+            "price": 300.0,
+            "rating": "4.5",
+            "distance_to_main_attraction_km": 0.5
+          },
+          "attractions": [
+            {
+              "name": "桂林市两江四湖景区",
+              "type": "风景名胜;风景名胜;国家级景点",
+              "rating": "4.7",
+              "suggested_duration_hours": 3.0,
+              "description": "乘船夜游或漫步湖边，欣赏日月双塔灯光，轻松出片，适合雨后清新空气。",
+              "address": "杉湖北路",
+              "location": {
+                "lat": 25.27269,
+                "lng": 110.295526
+              },
+              "cityname": "桂林市",
+              "adname": "秀峰区",
+              "adcode": "",
+              "image_urls": [
+                "https://images.unsplash.com/photo-1659233326823-98758cc47b1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTYlQTElODIlRTYlOUUlOTclRTUlQjglODIlRTQlQjglQTQlRTYlQjElOUYlRTUlOUIlOUIlRTYlQjklOTYlRTYlOTklQUYlRTUlOEMlQkElMjAlRTYlQTElODIlRTYlOUUlOTd8ZW58MHx8fHwxNzc5NjAzMzAyfDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": 180.0,
+              "distance_from_previous_km": 1.44,
+              "duration_from_previous_minutes": 19.1,
+              "route_mode": "walking"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "尚水美食街",
+              "address": "依仁路步行街与漓滨路交叉口西160米",
+              "location": {
+                "lat": 25.274923,
+                "lng": 110.298058
+              },
+              "cityname": "桂林市",
+              "adname": "秀峰区",
+              "adcode": "",
+              "cost_per_person": 29.0,
+              "rating": "4.6",
+              "distance_from_previous_km": 0.49,
+              "duration_from_previous_minutes": 6.6,
+              "route_mode": "walking"
+            }
+          ],
+          "budget": {
+            "transport_cost": 50.0,
+            "dining_cost": 60.0,
+            "hotel_cost": 300.0,
+            "attraction_ticket_cost": 180.0,
+            "total": 590.0
+          }
+        },
+        {
+          "day": 2,
+          "theme": "遇龙河竹筏与田园风光",
+          "weather": {
+            "date": "2026-05-25",
+            "day_weather": "多云，27-35℃",
+            "night_weather": "多云",
+            "day_temp": "35",
+            "night_temp": "27",
+            "day_wind": "南风 1-3级",
+            "night_wind": "南风 1-3级"
+          },
+          "recommended_hotel": {
+            "name": "城市便捷酒店(桂林两江四湖店)",
+            "address": "中山南路96号",
+            "location": {
+              "lat": 25.266224,
+              "lng": 110.286512
+            },
+            "cityname": "桂林市",
+            "adname": "象山区",
+            "adcode": "",
+            "price": 300.0,
+            "rating": "4.5",
+            "distance_to_main_attraction_km": 0.5
+          },
+          "attractions": [
+            {
+              "name": "遇龙河竹筏漂流",
+              "type": "体育休闲服务;体育休闲服务场所;体育休闲服务场所",
+              "rating": "4.7",
+              "suggested_duration_hours": 2.0,
+              "description": "人工竹筏漂流，玩水亲水体验佳，沿途山水如画，网红打卡圣地，无需走路。",
+              "address": "遇龙河景区(近朝阳码头)",
+              "location": {
+                "lat": 24.809946,
+                "lng": 110.399652
+              },
+              "cityname": "桂林市",
+              "adname": "阳朔县",
+              "adcode": "",
+              "image_urls": [
+                "https://images.unsplash.com/photo-1556880003-4fcd06418af3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTklODElODclRTklQkUlOTklRTYlQjIlQjMlRTclQUIlQjklRTclQUQlOEYlRTYlQkMlODIlRTYlQjUlODElMjAlRTYlQTElODIlRTYlOUUlOTd8ZW58MHx8fHwxNzc5NjE5NzYxfDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": 200.0,
+              "distance_from_previous_km": 61.13,
+              "duration_from_previous_minutes": 65.7,
+              "route_mode": "driving"
+            },
+            {
+              "name": "阳朔遇龙河国家级旅游度假区",
+              "type": "风景名胜;公园广场;公园|体育休闲服务;度假疗养场所;度假村",
+              "rating": "4.2",
+              "suggested_duration_hours": 2.0,
+              "description": "十里画廊入口，骑行或漫步田园，背景为喀斯特山峰，适合摄影。",
+              "address": "十里画廊北入口旁",
+              "location": {
+                "lat": 24.75383,
+                "lng": 110.490828
+              },
+              "cityname": "桂林市",
+              "adname": "阳朔县",
+              "adcode": "",
+              "image_urls": [
+                "https://images.unsplash.com/photo-1556880003-4fcd06418af3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTklOTglQjMlRTYlOUMlOTQlRTklODElODclRTklQkUlOTklRTYlQjIlQjMlRTUlOUIlQkQlRTUlQUUlQjYlRTclQkElQTclRTYlOTclODUlRTYlQjglQjglRTUlQkElQTYlRTUlODElODclRTUlOEMlQkElMjAlRTYlQTElODIlRTYlOUUlOTd8ZW58MHx8fHwxNzc5NjE5NzYxfDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": 0.0,
+              "distance_from_previous_km": 13.03,
+              "duration_from_previous_minutes": 21.0,
+              "route_mode": "driving"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "刘姐啤酒鱼(桔子店)",
+              "address": "碧莲巷28号",
+              "location": {
+                "lat": 24.774768,
+                "lng": 110.487177
+              },
+              "cityname": "桂林市",
+              "adname": "阳朔县",
+              "adcode": "",
+              "cost_per_person": 61.0,
+              "rating": "4.4",
+              "distance_from_previous_km": 3.38,
+              "duration_from_previous_minutes": 14.0,
+              "route_mode": "driving"
+            }
+          ],
+          "budget": {
+            "transport_cost": 150.0,
+            "dining_cost": 120.0,
+            "hotel_cost": 300.0,
+            "attraction_ticket_cost": 200.0,
+            "total": 770.0
+          }
+        },
+        {
+          "day": 3,
+          "theme": "世外桃源与返程",
+          "weather": {
+            "date": "2026-05-26",
+            "day_weather": "多云转小雨，24-34℃",
+            "night_weather": "小雨",
+            "day_temp": "34",
+            "night_temp": "24",
+            "day_wind": "南风 1-3级",
+            "night_wind": "南风 1-3级"
+          },
+          "recommended_hotel": {
+            "name": "城市便捷酒店(桂林两江四湖店)",
+            "address": "中山南路96号",
+            "location": {
+              "lat": 25.266224,
+              "lng": 110.286512
+            },
+            "cityname": "桂林市",
+            "adname": "象山区",
+            "adcode": "",
+            "price": 300.0,
+            "rating": "4.5",
+            "distance_to_main_attraction_km": 0.5
+          },
+          "attractions": [
+            {
+              "name": "世外桃源",
+              "type": "风景名胜;风景名胜;国家级景点",
+              "rating": "4.6",
+              "suggested_duration_hours": 3.0,
+              "description": "乘船进入洞穴探秘，体验陶渊明笔下意境，景色幽静，适合轻松游览。",
+              "address": "321国道",
+              "location": {
+                "lat": 24.863414,
+                "lng": 110.388372
+              },
+              "cityname": "桂林市",
+              "adname": "阳朔县",
+              "adcode": "",
+              "image_urls": [
+                "https://images.unsplash.com/photo-1556880003-4fcd06418af3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NTU2Mjd8MHwxfHNlYXJjaHwxfHwlRTQlQjglOTYlRTUlQTQlOTYlRTYlQTElODMlRTYlQkElOTAlMjAlRTYlQTElODIlRTYlOUUlOTd8ZW58MHx8fHwxNzc5NjE5NzYxfDA&ixlib=rb-4.1.0&q=80&w=1080"
+              ],
+              "ticket_price": 70.0,
+              "distance_from_previous_km": 49.24,
+              "duration_from_previous_minutes": 66.9,
+              "route_mode": "driving"
+            }
+          ],
+          "dinings": [
+            {
+              "name": "味道制造·桂林菜(七星店)",
+              "address": "漓江路17号凯宁七星大酒店旁1-2层(入口靠近客世界)",
+              "location": {
+                "lat": 25.259667,
+                "lng": 110.314283
+              },
+              "cityname": "桂林市",
+              "adname": "七星区",
+              "adcode": "",
+              "cost_per_person": 51.0,
+              "rating": "4.6",
+              "distance_from_previous_km": 50.48,
+              "duration_from_previous_minutes": 71.2,
+              "route_mode": "driving"
+            }
+          ],
+          "budget": {
+            "transport_cost": 100.0,
+            "dining_cost": 100.0,
+            "hotel_cost": 300.0,
+            "attraction_ticket_cost": 70.0,
+            "total": 570.0
+          }
+        }
+      ],
+      "destination": "桂林",
+      "start_date": "2026-05-24",
+      "end_date": "2026-05-26",
+      "preferences": [
+        "摄影",
+        "自然",
+        "美食"
+      ],
+      "hotel_preferences": [
+        "经济型"
+      ],
+      "budget": "中等",
+      "special_requirements": "想玩水、看夜景，不想走太多路，想去网红出片的地方，酒店靠近地铁",
+      "trip_id": "f9c7f405-065d-4297-a05d-cff9a901f18a"
+    },
+    "text_representation": "旅行行程 目的地: 桂林 时间: 2026-05-24 到 2026-05-26 偏好: 摄影, 自然, 美食 行程标题: 桂林山水休闲摄影三日游 补充需求: 想玩水、看夜景，不想走太多路，想去网红出片的地方，酒店靠近地铁 景点: 桂林市两江四湖景区, 遇龙河竹筏漂流, 阳朔遇龙河国家级旅游度假区, 世外桃源",
+    "timestamp": "2026-05-24T18:49:22.326828"
+  },
+  "73": {
+    "user_id": "76589421-7776-4230-bee2-c903d48d0ec9",
+    "type": "preference",
+    "preference_type": "trip_preferences",
+    "source_trip_id": "f9c7f405-065d-4297-a05d-cff9a901f18a",
+    "source_event": "trip_created",
+    "is_active": true,
+    "data": {
+      "source_trip_id": "f9c7f405-065d-4297-a05d-cff9a901f18a",
+      "destination": "桂林",
+      "preferences": [
+        "摄影",
+        "自然",
+        "美食"
+      ],
+      "hotel_preferences": [
+        "经济型"
+      ],
+      "budget": "中等",
+      "special_requirements": "想玩水、看夜景，不想走太多路，想去网红出片的地方，酒店靠近地铁"
+    },
+    "text_representation": "偏好类型: trip_preferences 目的地: 桂林 旅行偏好: 摄影, 自然, 美食 酒店偏好: 经济型 预算水平: 中等 补充需求: 想玩水、看夜景，不想走太多路，想去网红出片的地方，酒店靠近地铁",
+    "timestamp": "2026-05-24T18:49:22.567140"
+  }
+}
